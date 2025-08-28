@@ -18,10 +18,13 @@
   </head>
   <body class="text-gray-900">
     <div id="root"></div>
+
     <script type="text/babel">
       const { useMemo, useState } = React;
 
-      const chapters = [        {
+      /* ===== این آرایه در سه بخش بعدی کامل می‌شود ===== */
+      const chapters = [
+        {
           id: 5,
           title: "فصل ۵: هوش",
           sections: [
@@ -112,3 +115,318 @@
             }
           ]
         },
+        {
+          id: 7,
+          title: "فصل ۷: یادگیری و حافظه",
+          sections: [
+            {
+              title: "مفهوم یادگیری و نظریه‌های پایه",
+              bullets: [
+                "یادگیری = تغییر نسبتاً پایدار در رفتار/توانایی بر اثر تجربه.",
+                "شرطی‌سازی کلاسیک (پاولف): محرک شرطی، پاسخ شرطی، خاموشی.",
+                "شرطی‌سازی کنش‌گر (اسکینر): تقویت مثبت/منفی، تنبیه، شکل‌دهی.",
+                "یادگیری مشاهده‌ای (باندورا): الگوبرداری، آزمایش بوبودال."
+              ]
+            },
+            {
+              title: "حافظه و انواع آن",
+              bullets: [
+                "سه مرحله: رمزگردانی، ذخیره‌سازی، بازیابی.",
+                "حافظه حسی (لحظه‌ای)، کوتاه‌مدت (۷±۲، ۲۰–۳۰ثانیه)، بلندمدت (تقریباً نامحدود).",
+                "مدل پردازش اطلاعات: سازماندهی و معنا → یادسپاری بهتر."
+              ]
+            },
+            {
+              title: "فراموشی و عوامل مؤثر",
+              bullets: [
+                "علل: محو شدن اثر، تداخل پیش‌گستر/پس‌گستر، مشکل بازیابی، سرکوب.",
+                "عوامل مؤثر: تکرار، سازماندهی، ارتباط معنایی/تصویری، علاقه، خواب/تغذیه."
+              ]
+            },
+            {
+              title: "راهبردهای تقویت حافظه و جمع‌بندی",
+              bullets: [
+                "PQRST، یادسپاری فعال، تصویرسازی، روش مکان‌ها.",
+                "مرور با فاصله (Spaced repetition).",
+                "حافظه سازا: بازسازی ذهنی ممکن است تحریف ایجاد کند.",
+                "جمع‌بندی: یادگیری = تغییر رفتار؛ حافظه = رمزگردانی/ذخیره/بازیابی."
+              ]
+            }
+          ]
+        },
+        {
+          id: 8,
+          title: "فصل ۸: انگیزش و پرخاشگری",
+          sections: [
+            {
+              title: "انگیزش و نظریه‌های آن",
+              bullets: [
+                "انگیزش = نیروی آغاز، جهت‌دهی و تداوم رفتار.",
+                "نظریه‌ها: غرایز؛ کاهش سائق (Hull)؛ برانگیختگی (یرکس–دادسون)؛ مازلو (سلسله‌مراتب)."
+              ]
+            },
+            {
+              title: "پرخاشگری و انواع آن",
+              bullets: [
+                "پرخاشگری = رفتار عمدی آسیب‌رسان (جسمی/روانی).",
+                "انواع: هیجانی/تکانشی، ابزاری.",
+                "عوامل: ناکامی، محرومیت/تبعیض، یادگیری مشاهده‌ای، عوامل زیستی.",
+                "نظریه ناکامی–پرخاشگری: ناکامی احتمال پرخاشگری را بالا می‌برد."
+              ]
+            },
+            {
+              title: "کنترل و کاهش پرخاشگری",
+              bullets: [
+                "پالایش (Catharsis) معمولاً مؤثر نیست و گاهی بدتر می‌کند.",
+                "روش‌ها: مجازات عادلانه و به‌موقع؛ الگوهای مثبت؛ کنترل شرایط برانگیزاننده؛ تقویت رفتارهای مثبت؛ آموزش کنترل خشم."
+              ]
+            },
+            {
+              title: "جمع‌بندی و نکات کاربردی",
+              bullets: [
+                "انگیزش توضیح چرایی رفتار؛ پرخاشگری می‌تواند هیجانی یا ابزاری باشد.",
+                "ناکامی یکی از عوامل مهم؛ اما واکنش‌ها متنوع‌اند.",
+                "راه مؤثر: آموزش و اصلاح محیط، نه صرفاً سرکوب."
+              ]
+            }
+          ]
+        },
+        {
+          id: 9,
+          title: "فصل ۹: تعارض، ناکامی و سازگاری",
+          sections: [
+            {
+              title: "تعارض و ناکامی",
+              bullets: [
+                "تعارض = روبه‌رو شدن با اهداف/نیازهای ناسازگار.",
+                "انواع تعارض: تقرب–تقرب؛ اجتناب–اجتناب؛ تقرب–اجتناب؛ چندگانه.",
+                "ناکامی = نرسیدن به هدف (علل بیرونی یا درونی).",
+                "سازگاری = توانایی هماهنگی نیازها با شرایط محیطی."
+              ]
+            },
+            {
+              title: "واکنش افراد به ناکامی",
+              bullets: [
+                "پرخاشگری مستقیم یا جابه‌جایی.",
+                "واپس‌روی (بازگشت به رفتارهای کودکانه).",
+                "گریز روانی (خیال‌پردازی، مواد).",
+                "اجتناب یا حل منطقی مشکل.",
+                "پژوهش بارکر و همکاران: ناکامی → پرخاشگری بیشتر."
+              ]
+            },
+            {
+              title: "مکانیسم‌های دفاعی",
+              bullets: [
+                "سرکوب: کنار گذاشتن ناخودآگاه افکار ناخوشایند.",
+                "دلیل‌تراشی: توجیه منطقی برای رفتارهای ناپسند.",
+                "فرافکنی: نسبت دادن تمایلات خود به دیگران.",
+                "جابه‌جایی: انتقال احساسات به هدف امن‌تر.",
+                "واکنش معکوس: رفتار مخالف تمایلات.",
+                "تصعید: هدایت انرژی منفی به فعالیت سازنده."
+              ]
+            },
+            {
+              title: "سازگاری سالم و جمع‌بندی",
+              bullets: [
+                "نشانه‌ها: پذیرش واقعیت، حل منطقی، کنترل هیجان، انعطاف‌پذیری، تصعید.",
+                "جمع‌بندی: تعارض/ناکامی طبیعی‌اند؛ بهترین راه = سازگاری منطقی و واقع‌بینانه."
+              ]
+            }
+          ]
+        },
+        {
+          id: 10,
+          title: "فصل ۱۰: مفهوم خود و خودآگاه",
+          sections: [
+            {
+              title: "مفهوم خود و عزت نفس",
+              bullets: [
+                "خود = تصویری که فرد از خودش دارد (جسمانی، روانی، اجتماعی، ایده‌آل).",
+                "عزت‌نفس = ارزش‌گذاری خود؛ بالا → اعتماد و سلامت روان؛ پایین → اضطراب/افسردگی."
+              ]
+            },
+            {
+              title: "عوامل شکل‌گیری خود و رشد آن",
+              bullets: [
+                "اریکسون: مراحل رشد از اعتماد↔بی‌اعتمادی تا تمامیت↔یأس.",
+                "فرهنگ: فردگرا → استقلال؛ جمع‌گرا → پیوندها.",
+                "خانواده، دوستان، رسانه‌ها، موفقیت‌ها، زیست‌شناسی هم اثرگذارند."
+              ]
+            },
+            {
+              title: "خودآگاهی و نقش آن",
+              bullets: [
+                "خودآگاهی = توجه به افکار، احساسات، رفتارها و تأثیرشان.",
+                "انواع: خصوصی (تمرکز بر درون)، عمومی (چگونگی دیده‌شدن).",
+                "نقش: کنترل رفتار، تصمیم آگاهانه، رشد فردی، روابط سالم.",
+                "مشکل: افراط در عمومی → اضطراب اجتماعی؛ کمبود خصوصی → ضعف شناخت احساسات."
+              ]
+            },
+            {
+              title: "جمع‌بندی و نکات کاربردی",
+              bullets: [
+                "خود ساختاری چندبعدی است (جسمی/روانی/اجتماعی).",
+                "عزت‌نفس مؤثر بر سلامت روان.",
+                "رشد خود تحت‌تأثیر خانواده، فرهنگ، دوستان و تجربه‌هاست.",
+                "خودآگاهی متعادل = پذیرش واقعیت + تلاش برای رشد."
+              ]
+            }
+          ]
+        }
+      ]; /* <<< پایان chapters */
+
+      function escapeRegExp(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+
+      function SummaryChapters510Standalone() {
+        const [query, setQuery] = useState("");
+        const [dark, setDark] = useState(false);
+        const [chapterIndex, setChapterIndex] = useState(0);
+        const [sectionIndex, setSectionIndex] = useState(0);
+
+        const currentChapter = chapters[chapterIndex] || chapters[0];
+        const currentSection = currentChapter.sections[sectionIndex] || currentChapter.sections[0];
+
+        const highlight = (text, q) => {
+          if (!q) return text;
+          try {
+            const parts = text.split(new RegExp(`(${escapeRegExp(q)})`, "gi"));
+            return parts.map((part, i) =>
+              part.toLowerCase() === q.toLowerCase()
+                ? <mark key={i} className="px-1 rounded">{part}</mark>
+                : <span key={i}>{part}</span>
+            );
+          } catch { return text; }
+        };
+
+        const flatBullets = useMemo(
+          () => chapters.flatMap(ch => ch.sections.flatMap(s => s.bullets)),
+          []
+        );
+
+        const searchCount = useMemo(() => {
+          if (!query) return 0;
+          const regex = new RegExp(escapeRegExp(query), "gi");
+          return flatBullets.reduce((acc, t) => acc + ((t.match(regex) || []).length), 0);
+        }, [query, flatBullets]);
+
+        const copyCurrent = async () => {
+          const txt = [
+            currentChapter.title,
+            currentSection.title,
+            ...currentSection.bullets.map(b => `• ${b}`)
+          ].join("\n");
+          await navigator.clipboard.writeText(txt);
+          alert("متن این بخش کپی شد ✅");
+        };
+
+        return (
+          <div className={dark ? "dark" : ""}>
+            <div className="min-h-screen bg-gray-50 text-gray-900 dark:bg-neutral-900 dark:text-neutral-100 transition-colors">
+              <header className="sticky top-0 z-30 backdrop-blur bg-white/70 dark:bg-neutral-900/70 border-b border-black/5 dark:border-white/10">
+                <div className="max-w-6xl mx-auto flex flex-col gap-3 sm:flex-row items-center justify-between p-4">
+                  <div>
+                    <h1 className="text-2xl sm:text-3xl font-bold">خلاصه ۴صفحه‌ای فصل‌های ۵ تا ۱۰</h1>
+                    <p className="text-sm sm:text-base text-gray-600 dark:text-neutral-300">محمد شکری — دوره ۷۴ کارشناسی پرستاری — دانشگاه علوم پزشکی تهران</p>
+                  </div>
+                  <div className="flex items-center gap-2 w-full sm:w-auto no-print">
+                    <input
+                      value={query}
+                      onChange={e => setQuery(e.target.value)}
+                      placeholder="جستجو در متن..."
+                      className="w-full sm:w-72 px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    />
+                    <button onClick={() => setDark(d => !d)} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-800">
+                      {dark ? "☀️ روشن" : "🌙 تیره"}
+                    </button>
+                    <button onClick={() => window.print()} className="px-3 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-700">پرینت</button>
+                  </div>
+                </div>
+                {query && (
+                  <div className="max-w-6xl mx-auto px-4 pb-3 text-sm text-gray-600 dark:text-neutral-300">
+                    {searchCount} نتیجه برای «{query}»
+                  </div>
+                )}
+              </header>
+
+              <main className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 p-4">
+                <aside className="md:col-span-4 lg:col-span-3">
+                  <div className="sticky top-[92px] space-y-3">
+                    {chapters.map((ch, idx) => (
+                      <div
+                        key={ch.id}
+                        className={`rounded-2xl p-4 shadow-sm border ${idx === chapterIndex ? "border-indigo-500 bg-white dark:bg-neutral-800" : "border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-800"}`}
+                      >
+                        <button className="w-full text-right font-semibold mb-3" onClick={() => { setChapterIndex(idx); setSectionIndex(0); }}>
+                          {ch.title}
+                        </button>
+                        <div className="grid grid-cols-4 gap-2">
+                          {ch.sections.map((s, sidx) => (
+                            <button
+                              key={sidx}
+                              onClick={() => { setChapterIndex(idx); setSectionIndex(sidx); }}
+                              className={`px-2 py-1 rounded-xl text-sm border ${idx===chapterIndex && sidx===sectionIndex ? "bg-indigo-600 text-white border-indigo-600" : "border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-700"}`}
+                            >
+                              {sidx + 1}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </aside>
+
+                <section className="md:col-span-8 lg:col-span-9">
+                  <div className="rounded-3xl bg-white dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 p-6 shadow-sm">
+                    <h2 className="text-xl sm:text-2xl font-bold mb-2">{currentChapter.title}</h2>
+                    <h3 className="text-base sm:text-lg text-indigo-600 dark:text-indigo-400 mb-4">{currentSection.title}</h3>
+                    <ul className="space-y-3 leading-8">
+                      {currentSection.bullets
+                        .filter(b => !query || new RegExp(escapeRegExp(query), "i").test(b))
+                        .map((b, i) => (
+                          <li key={i} className="pl-3 relative">
+                            <span className="absolute right-0 translate-y-1">•</span>
+                            <span className="pr-4">{highlight(b, query)}</span>
+                          </li>
+                        ))}
+                    </ul>
+
+                    <div className="mt-6 flex flex-wrap gap-2 no-print">
+                      <button
+                        onClick={() => setSectionIndex(s => Math.max(0, s-1))}
+                        disabled={sectionIndex === 0}
+                        className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 disabled:opacity-40"
+                      >
+                        بخش قبلی
+                      </button>
+                      <button
+                        onClick={() => setSectionIndex(s => Math.min(currentChapter.sections.length-1, s+1))}
+                        disabled={sectionIndex === currentChapter.sections.length-1}
+                        className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 disabled:opacity-40"
+                      >
+                        بخش بعدی
+                      </button>
+                      <span className="grow" />
+                      <button onClick={copyCurrent} className="px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">
+                        کپی متن این بخش
+                      </button>
+                    </div>
+                  </div>
+                </section>
+              </main>
+
+              <footer className="text-center text-sm text-gray-500 dark:text-neutral-400 py-6">
+                ساخته شده برای مرور سریع فصل‌های ۵ تا ۱۰ — طراحی: Tailwind — راست‌به‌چپ
+                <div className="mt-2">محمد شکری — دوره ۷۴ کارشناسی پرستاری — دانشگاه علوم پزشکی تهران</div>
+              </footer>
+            </div>
+          </div>
+        );
+      }
+
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(<SummaryChapters510Standalone />);
+    </script>
+  </body>
+</html>
