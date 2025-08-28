@@ -17,6 +17,9 @@
       header, .no-print { display: none !important; }
       main { padding: 0 !important; }
     }
+    .prose p { margin-bottom: .8rem; }
+    .prose h4 { font-weight: 700; margin: 1rem 0 .5rem; }
+    .prose ul { list-style: disc; padding-right: 1.2rem; margin: .5rem 0 1rem; }
   </style>
 </head>
 <body class="text-gray-900">
@@ -37,38 +40,72 @@
         document.title = "خلاصه فصل‌های ۵ تا ۱۰ | محمد شکری";
       }, []);
 
+      // کمکی‌ها
+      const escapeRegExp = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const highlightText = (html, q) => {
+        if (!q) return html;
+        const safeQ = escapeRegExp(q);
+        // هایلایت در HTML خام: فقط متن‌ها را هایلایت می‌کنیم (ساده‌سازی)
+        return html.replace(new RegExp(`(${safeQ})`, "gi"), '<mark class="px-1 rounded">$1</mark>');
+      };
+
+      // === داده‌ها ===
       const chapters = useMemo(() => ([
+        // --------- فصل ۵: متن کامل (۴ بخش) ----------
         {
           id: 5,
           title: "فصل ۵: هوش",
           sections: [
-            { title: "۴ صفحه اول – تعریف، اهمیت، آزمون اولیه", bullets: [
-              "هوش یعنی توانایی یادگیری، حل مسئله و سازگاری با محیط.",
-              "دیدگاه عمومی: هوش یک قابلیت کلی ذهنی است که در استدلال، قضاوت و تصمیم‌گیری دیده می‌شود (استرنبرگ: رفتار هدفمند و سازگارانه).",
-              "اهمیت: پیش‌شرط موفقیت تحصیلی و شغلی؛ عملکرد بهتر در کارهای شناختی.",
-              "آزمون بینه–سیمون: سن عقلی (MA) در برابر سن تقویمی (CA). فرمول IQ: IQ = (سن عقلی / سن تقویمی) × 100.",
-              "نمونه محاسبه: کودک ۱۰ ساله با عملکرد ۱۲ سال → IQ≈120؛ با عملکرد ۸ سال → IQ≈80."
-            ] },
-            { title: "۴ صفحه دوم – نظریه‌های هوش", bullets: [
-              "اسپیرمن: عامل عمومی g + عوامل خاص (استعدادهای ویژه).",
-              "ثرستون: ۷ توانایی اولیه (درک کلامی، روانی کلامی، عددی، فضایی، حافظه، استدلال، سرعت ادراک).",
-              "گاردنر: هوش‌های چندگانه (زبانی، منطقی–ریاضی، موسیقیایی، بدنی–حرکتی، فضایی، میان‌فردی، درون‌فردی، طبیعت‌گرا).",
-              "گیلفورد: بیش از ۱۲۰ توانایی ذهنی مستقل بر اساس عملیات، محتوا و محصولات فکری."
-            ] },
-            { title: "۴ صفحه سوم – آزمون‌های هوش", bullets: [
-              "بینه–سیمون و نسخه اصلاح‌شده استنفورد–بینه: سنجش هوش کلی و طبقه‌بندی هوشی.",
-              "وکسلر (WAIS, WISC, WPPSI): نمره‌های کلامی و عملی جداگانه؛ خرده‌آزمون‌هایی مانند خزانه لغات، طراحی با مکعب، حساب، حافظه کاری، سرعت پردازش.",
-              "آزمون‌های دیگر: دنور (رشد خردسال)، آزمون‌های گروهی (مدرسه/نظامی).",
-              "نمره پایین همیشه به معنی کم‌هوشی نیست؛ عوامل محیطی/سلامتی/استرس مؤثرند."
-            ] },
-            { title: "۴ صفحه چهارم – وراثت و محیط، تفاوت‌ها", bullets: [
-              "هوش نتیجه تعامل ژن‌ها و محیط است (شباهت دوقلوهای همسان).",
-              "محیط: تغذیه، خانواده، آموزش، محرک‌های حسی و شرایط عاطفی اثرگذارند.",
-              "آسیب‌ها: محرومیت حسی، اختلالات روانی، سوءتغذیه، فقر آموزشی می‌توانند هوش را کاهش دهند.",
-              "تفاوت‌ها: در میانگین‌ها پسرها کمی فضایی‌تر و دخترها زبانی‌تر؛ تفاوت‌های فرهنگی–اجتماعی نیز دیده می‌شود."
-            ] }
+            {
+              title: "بخش ۱: چیستیِ هوش، تاریخچه و مفاهیم پایه",
+              content: `
+                <p><strong>هوش چیست؟</strong> هوش مجموعه‌ای از توانایی‌های ذهنی است که به ما امکان می‌دهد اطلاعات را درک کنیم، از تجربه بیاموزیم، استدلال کنیم، مسائل را حل کنیم و با محیط سازگار شویم. این توانایی‌ها در زندگی روزمره در تصمیم‌گیری، برنامه‌ریزی، درک مطلب، استدلال عددی و کلامی دیده می‌شود.</p>
+                <p><strong>تفاوت هوش، استعداد و خِرَد:</strong></p>
+                <ul>
+                  <li><strong>هوش:</strong> ظرفیت کلی برای حل مسئله، یادگیری و سازگاری.</li>
+                  <li><strong>استعداد:</strong> آمادگی ویژه برای یک حوزه خاص (مثلاً موسیقی، ریاضی).</li>
+                  <li><strong>خِرَد:</strong> به‌کارگیری هوشمندانه دانش و تجربه برای تصمیم‌های اخلاقی و واقع‌بینانه.</li>
+                </ul>
+                <p><strong>هوش سیّال و متبلور (کتل):</strong> هوش سیّال (Gf) یعنی توانایی حل مسائل جدید بدون تکیه بر دانش قبلی؛ هوش متبلور (Gc) یعنی دانش و مهارت‌های اکتسابی (واژگان، اطلاعات عمومی). معمولاً Gc با سن پایدارتر است، اما Gf از میانسالی اندکی افت می‌کند.</p>
+                <p><strong>نظریه سه‌وجهی استرنبرگ:</strong> هوش <em>تحلیلی</em> (حل مسائل آزمونی)، <em>خلاق</em> (ایده‌های نو و مواجهه با موقعیت‌های تازه) و <em>عملی</em> (به‌کارگیری دانش در دنیای واقعی).</p>
+                <p><strong>چرا هوش مهم است؟</strong> با موفقیت تحصیلی، کیفیت حل مسئله و یادگیری شغلی ارتباط دارد؛ البته شخصیت، انگیزش و فرصت‌های محیطی نیز مؤثرند.</p>
+              `
+            },
+            {
+              title: "بخش ۲: نظریه‌ها و مدل‌های مهم هوش",
+              content: `
+                <p><strong>اسپیرمن (g + s):</strong> با تحلیل عاملی نشان داد عملکرد افراد در آزمون‌های مختلف همبستگی دارد؛ پس یک عامل عمومی <strong>g</strong> پشت همه کارکردها هست و در کنار آن <strong>عوامل خاص</strong> هر تکلیف نیز وجود دارند.</p>
+                <p><strong>ثرستون (توانایی‌های نخستین):</strong> هفت توانایی مستقل‌تر: درک کلامی، روانی کلامی، عددی، فضایی/دیداری، حافظه، استدلال، سرعت ادراک.</p>
+                <p><strong>کتل–هورن–کارول (CHC):</strong> ساختار سه‌لایه‌ای (توانایی‌های بسیار خاص ← توانایی‌های گسترده مثل Gf, Gc, Gwm, Gv, Ga, Gs ← عامل عمومی g). مبنای آزمون‌های مدرن.</p>
+                <p><strong>گاردنر (هوش‌های چندگانه):</strong> دست‌کم هشت/نه هوش: زبانی، منطقی–ریاضی، فضایی، موسیقایی، بدنی–حرکتی، میان‌فردی، درون‌فردی، طبیعت‌گرا (و گاهی وجودی). پیام کاربردی: استعدادها متنوع‌اند.</p>
+                <p><strong>گیلفورد (ساختار هوش):</strong> صدها توانش بر اساس عملیات، محتوا و محصولات فکری؛ بیشتر جنبه پژوهشی.</p>
+                <p><strong>نکتهٔ امتحانی:</strong> کلیدواژهٔ هر نظریه + یک مثال کوتاه را به‌خاطر بسپار (مثل: استرنبرگ=تحلیلی/خلاق/عملی؛ کتل=Gf/Gc؛ گاردنر=فهرست ۸/۹گانه؛ CHC=سه‌لایه‌ای).</p>
+              `
+            },
+            {
+              title: "بخش ۳: سنجش هوش و آزمون‌ها (جزئیات عملی)",
+              content: `
+                <p><strong>بینه–سیمون و استنفورد–بینه:</strong> آغاز سنجش استاندارد هوش؛ مفهوم <em>سن عقلی</em> و <em>IQ</em> کلاسیک. نسخه‌های جدید از <em>IQ انحرافی</em> (میانگین ۱۰۰، انحراف معیار ۱۵) استفاده می‌کنند.</p>
+                <p><strong>وکسلر (WAIS/WISC/WPPSI):</strong> شاخص‌های کلامی و غیرکلامی؛ نمونه خرده‌آزمون‌ها: خزانه لغات (Gc)، شباهت‌ها، حساب، طراحی با مکعب (Gv)، رمزگردانی/جست‌وجوی نماد (Gs)، اعداد معکوس (Gwm).</p>
+                <p><strong>دیگر آزمون‌ها:</strong> <em>ریون</em> (Matrices) غیرکلامی برای استدلال دیداری؛ <em>آزمون‌های گروهی</em> برای غربالگری؛ <em>دنور</em> برای رشد اولیه.</p>
+                <p><strong>مفاهیم روان‌سنجی:</strong> <em>روایی/اعتبار</em> (آزمون چه می‌سنجد؟)، <em>پایایی</em> (ثبات نمره)، <em>هنجار</em> (مقایسه با گروه مرجع). <strong>احتیاط فرهنگی:</strong> زبان و تجربه آموزشی بر عملکرد اثر دارند.</p>
+                <p><strong>خواندن IQ انحرافی:</strong> ۶۸٪ افراد بین ۸۵ تا ۱۱۵؛ تفسیر باید با «شاخص‌ها و خرده‌آزمون‌ها» همراه باشد، نه یک عدد تنها.</p>
+              `
+            },
+            {
+              title: "بخش ۴: وراثت و محیط، تفاوت‌ها و نکات کاربردی",
+              content: `
+                <p><strong>وراثت و محیط:</strong> دوقلوها نقش ژنتیک را تأیید می‌کنند، اما <em>محیط غنی</em> (تغذیه، محرک شناختی، مدرسه باکیفیت، روابط حمایتی) کارکرد را بهبود می‌دهد. <strong>اثر فلین:</strong> رشد آهستهٔ میانگین IQ در دهه‌ها به دلیل بهبودهای محیطی.</p>
+                <p><strong>تفاوت‌های گروهی (با احتیاط):</strong> میانگین‌ها کمی تفاوت نشان می‌دهند (مثلاً فضایی/زبانی)، اما همپوشانی زیاد است؛ فرد می‌تواند در هر مهارتی برتر باشد. تفاوت‌های فرهنگی اغلب بازتاب فرصت‌های آموزشی است.</p>
+                <p><strong>عوامل کاهندهٔ کارکرد:</strong> سوءتغذیه دوران رشد، محرومیت شدید محیطی، استرس مزمن، اختلالات پزشکی درمان‌نشده، کمبود خواب.</p>
+                <p><strong>بهبود کارکرد شناختی:</strong> خواب کافی، تغذیه متعادل، ورزش هوازی، مطالعهٔ فعال (سؤال‌سازی، خلاصه‌نویسی، یادسپاری)، یادگیری مهارت تازه (زبان/موسیقی)، تمرین فضایی (پازل/مکعب)، مدیریت استرس.</p>
+                <p><strong>اخلاق آزمون‌ها:</strong> استاندارد بودن، هنجار مناسب و تفسیر حرفه‌ای. برچسب‌زنی نادرست می‌تواند تبعیض‌آمیز باشد؛ هدف، <em>توانمندسازی آموزشی</em> است نه محدودسازی.</p>
+              `
+            }
           ]
         },
+
+        // --------- بقیه فصل‌ها فعلاً همان نسخه‌ی بولت‌وار قبلی ----------
         {
           id: 6,
           title: "فصل ۶: شخصیت",
@@ -217,31 +254,45 @@
         }
       ]), []);
 
+      const chaptersFlat = useMemo(() => chapters.flatMap(ch => ch.sections.map(sec => ({
+        ...sec,
+        _chapterId: ch.id
+      }))), [chapters]);
+
       const currentChapter = chapters[chapterIndex];
       const currentSection = currentChapter.sections[sectionIndex];
 
-      const escapeRegExp = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      const highlight = (text, q) => {
-        if (!q) return text;
-        try {
-          const parts = text.split(new RegExp(`(${escapeRegExp(q)})`, "gi"));
-          return parts.map((part, i) => part.toLowerCase() === q.toLowerCase() ? <mark key={i} className="px-1 rounded">{part}</mark> : <span key={i}>{part}</span>);
-        } catch { return text; }
-      };
-
-      const flatBullets = useMemo(() => chapters.flatMap(ch => ch.sections.flatMap(s => s.bullets)), [chapters]);
+      // شمارش نتایج جستجو (هم متن و هم بولت‌ها)
       const searchCount = useMemo(() => {
         if (!query) return 0;
         const regex = new RegExp(escapeRegExp(query), "gi");
-        return flatBullets.reduce((acc, t) => acc + ((t.match(regex) || []).length), 0);
-      }, [query, flatBullets]);
+        let count = 0;
+        chapters.forEach(ch => {
+          ch.sections.forEach(sec => {
+            if (sec.content) {
+              count += (sec.content.match(regex) || []).length;
+            } else if (sec.bullets) {
+              sec.bullets.forEach(b => { count += (b.match(regex) || []).length; });
+            }
+          });
+        });
+        return count;
+      }, [query, chapters]);
 
       const copyCurrent = async () => {
-        const txt = [currentChapter.title, currentSection.title, ...currentSection.bullets.map(b => `• ${b}`)].join("\n");
+        let txt = `${currentChapter.title}\n${currentSection.title}\n`;
+        if (currentSection.content) {
+          // حذف تگ‌ها برای کپی خوانا
+          const plain = currentSection.content.replace(/<[^>]*>/g, '');
+          txt += plain.trim();
+        } else if (currentSection.bullets) {
+          txt += currentSection.bullets.map(b => `• ${b}`).join("\n");
+        }
         await navigator.clipboard.writeText(txt);
         alert("متن این بخش کپی شد ✅");
       };
 
+      // خروجی
       return (
         <div className={dark ? "dark" : ""}>
           <div className="min-h-screen bg-gray-50 text-gray-900 dark:bg-neutral-900 dark:text-neutral-100 transition-colors">
@@ -252,8 +303,15 @@
                   <p className="text-sm sm:text-base text-gray-600 dark:text-neutral-300">محمد شکری — دوره ۷۴ کارشناسی پرستاری — دانشگاه علوم پزشکی تهران</p>
                 </div>
                 <div className="flex items-center gap-2 w-full sm:w-auto no-print">
-                  <input value={query} onChange={e => setQuery(e.target.value)} placeholder="جستجو در متن..." className="w-full sm:w-72 px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-                  <button onClick={() => setDark(d => !d)} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-800">{dark ? "☀️ روشن" : "🌙 تیره"}</button>
+                  <input
+                    value={query}
+                    onChange={e => setQuery(e.target.value)}
+                    placeholder="جستجو در متن..."
+                    className="w-full sm:w-72 px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  />
+                  <button onClick={() => setDark(d => !d)} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-800">
+                    {dark ? "☀️ روشن" : "🌙 تیره"}
+                  </button>
                   <button onClick={() => window.print()} className="px-3 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-700">پرینت</button>
                 </div>
               </div>
@@ -269,10 +327,17 @@
                 <div className="sticky top-[92px] space-y-3">
                   {chapters.map((ch, idx) => (
                     <div key={ch.id} className={`rounded-2xl p-4 shadow-sm border ${idx === chapterIndex ? "border-indigo-500 bg-white dark:bg-neutral-800" : "border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-800"}`}>
-                      <button className="w-full text-right font-semibold mb-3" onClick={() => { setChapterIndex(idx); setSectionIndex(0); }}>{ch.title}</button>
+                      <button
+                        className="w-full text-right font-semibold mb-3"
+                        onClick={() => { setChapterIndex(idx); setSectionIndex(0); }}
+                      >{ch.title}</button>
                       <div className="grid grid-cols-4 gap-2">
                         {ch.sections.map((s, sidx) => (
-                          <button key={sidx} onClick={() => { setChapterIndex(idx); setSectionIndex(sidx); }} className={`px-2 py-1 rounded-xl text-sm border ${idx===chapterIndex && sidx===sectionIndex ? "bg-indigo-600 text-white border-indigo-600" : "border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-700"}`}>{sidx+1}</button>
+                          <button
+                            key={sidx}
+                            onClick={() => { setChapterIndex(idx); setSectionIndex(sidx); }}
+                            className={`px-2 py-1 rounded-xl text-sm border ${idx===chapterIndex && sidx===sectionIndex ? "bg-indigo-600 text-white border-indigo-600" : "border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-700"}`}
+                          >{sidx+1}</button>
                         ))}
                       </div>
                     </div>
@@ -284,19 +349,41 @@
                 <div className="rounded-3xl bg-white dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 p-6 shadow-sm">
                   <h2 className="text-xl sm:text-2xl font-bold mb-2">{currentChapter.title}</h2>
                   <h3 className="text-base sm:text-lg text-indigo-600 dark:text-indigo-400 mb-4">{currentSection.title}</h3>
-                  <ul className="space-y-3 leading-8">
-                    {currentSection.bullets.filter(b => !query || new RegExp(escapeRegExp(query), "i").test(b)).map((b, i) => (
-                      <li key={i} className="pl-3 relative">
-                        <span className="absolute right-0 translate-y-1">•</span>
-                        <span className="pr-4">{highlight(b, query)}</span>
-                      </li>
-                    ))}
-                  </ul>
+
+                  {/* اگر متن کامل داشت، همان را رندر کن؛ وگرنه بولت‌ها */}
+                  {currentSection.content ? (
+                    <div
+                      className="prose prose-sm sm:prose-base rtl text-right leading-8 prose-p:mb-3"
+                      dangerouslySetInnerHTML={{
+                        __html: query ? highlightText(currentSection.content, query) : currentSection.content
+                      }}
+                    />
+                  ) : (
+                    <ul className="space-y-3 leading-8">
+                      {currentSection.bullets
+                        .filter(b => !query || new RegExp(escapeRegExp(query), "i").test(b))
+                        .map((b, i) => (
+                          <li key={i} className="pl-3 relative">
+                            <span className="absolute right-0 translate-y-1">•</span>
+                            <span className="pr-4" dangerouslySetInnerHTML={{__html: query ? highlightText(b, query) : b}}></span>
+                          </li>
+                        ))}
+                    </ul>
+                  )}
+
                   <div className="mt-6 flex flex-wrap gap-2 no-print">
-                    <button onClick={() => setSectionIndex(s => Math.max(0, s-1))} disabled={sectionIndex === 0} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 disabled:opacity-40">بخش قبلی</button>
-                    <button onClick={() => setSectionIndex(s => Math.min(currentChapter.sections.length-1, s+1))} disabled={sectionIndex === currentChapter.sections.length-1} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 disabled:opacity-40">بخش بعدی</button>
+                    <button
+                      onClick={() => setSectionIndex(s => Math.max(0, s-1))}
+                      disabled={sectionIndex === 0}
+                      className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 disabled:opacity-40"
+                    >بخش قبلی</button>
+                    <button
+                      onClick={() => setSectionIndex(s => Math.min(currentChapter.sections.length-1, s+1))}
+                      disabled={sectionIndex === currentChapter.sections.length-1}
+                      className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 disabled:opacity-40"
+                    >بخش بعدی</button>
                     <span className="grow" />
-                    <button onClick={() => { const txt = [currentChapter.title, currentSection.title, ...currentSection.bullets.map(b => `• ${b}`)].join("\n"); navigator.clipboard.writeText(txt); alert("متن این بخش کپی شد ✅"); }} className="px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">کپی متن این بخش</button>
+                    <button onClick={copyCurrent} className="px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">کپی متن این بخش</button>
                   </div>
                 </div>
               </section>
