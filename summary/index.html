@@ -6,95 +6,80 @@
 <title>فلش‌کارت لغات + آزمون | محمد شکری</title>
 <meta name="color-scheme" content="light dark">
 <style>
+:root{
+  --bg:#f6f7fb; --card:#ffffff; --ink:#0f172a; --muted:#6b7280;
+  --primary:#6366f1; --primary2:#8b5cf6; --ok:#16a34a; --bad:#ef4444;
+  --ring:#e5e7eb; --shadow:0 12px 24px rgba(0,0,0,.08);
+}
+@media (prefers-color-scheme:dark){
   :root{
-    --bg:#f6f7fb; --card:#ffffff; --ink:#0f172a; --muted:#6b7280;
-    --primary:#6366f1; --primary-2:#8b5cf6; --ok:#16a34a; --bad:#ef4444;
-    --chip:#eef2ff; --ring:#e5e7eb; --rad:18px; --shadow:0 12px 24px rgba(0,0,0,.08);
-    --grad: radial-gradient(1200px 600px at 100% -20%, #dbeafe 0%, transparent 60%),
-            radial-gradient(900px 500px at -10% 0%, #ede9fe 0%, transparent 60%);
+    --bg:#0b1220; --card:#0f172a; --ink:#e5e7eb; --muted:#9aa2b2;
+    --ring:#1f2a44; --shadow:0 12px 24px rgba(0,0,0,.45);
   }
-  @media (prefers-color-scheme:dark){
-    :root{
-      --bg:#0b1220; --card:#0f172a; --ink:#e5e7eb; --muted:#9aa2b2;
-      --ring:#1f2a44; --chip:#1e293b; --shadow:0 10px 24px rgba(0,0,0,.45);
-      --grad: radial-gradient(1200px 600px at 100% -20%, #0b2a59 0%, transparent 60%),
-              radial-gradient(900px 500px at -10% 0%, #3b0764 0%, transparent 60%);
-    }
-  }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);background-image:var(--grad);color:var(--ink);font:16px/1.7 Vazirmatn,IRANSansX,Segoe UI,Arial}
-  .wrap{max-width:1100px;margin:auto;padding:20px}
-  /* Header / Profile */
-  .hero{
-    position:relative;border-radius:24px;padding:22px 20px;background:
-      linear-gradient(135deg, rgba(99,102,241,.10), rgba(139,92,246,.10));
-    border:1px solid var(--ring); box-shadow:var(--shadow); overflow:hidden;
-  }
-  .badge{display:inline-flex;align-items:center;gap:8px;
-    background:linear-gradient(135deg,var(--primary),var(--primary-2)); color:#fff;
-    padding:8px 14px;border-radius:999px;font-weight:700;font-size:13px}
-  .hero-inner{display:flex;gap:16px;align-items:center;margin-top:14px;flex-wrap:wrap}
-  .avatar{
-    width:64px;height:64px;border-radius:18px;background:
-      linear-gradient(135deg,#a78bfa,#60a5fa); display:grid;place-items:center;
-    color:#fff;font-weight:900;font-size:22px; box-shadow:0 8px 24px rgba(99,102,241,.35);
-  }
-  .title{font-size:22px;font-weight:900;margin:0}
-  .sub{color:var(--muted);margin-top:4px}
-  .chips{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
-  .chip{background:var(--chip);padding:6px 10px;border-radius:999px;font-size:12px;color:#3730a3}
-  /* Tabs */
-  .tabs{display:flex;gap:8px;margin:18px 0 22px;flex-wrap:wrap;position:sticky;top:8px;z-index:5}
-  .tabbtn{background:#fff;border:1px solid var(--ring);border-radius:12px;padding:10px 14px;cursor:pointer}
-  .tabbtn.active{background:linear-gradient(135deg,var(--primary),var(--primary-2));color:#fff;border-color:transparent}
-  .panel{display:none}
-  .panel.active{display:block}
-  /* Controls + buttons */
-  .controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
-  input[type="search"]{flex:1;min-width:240px;padding:12px;border-radius:12px;border:1px solid var(--ring);background:var(--card);color:inherit}
-  .btn{border:1px solid var(--ring);background:var(--card);padding:10px 14px;border-radius:12px;cursor:pointer;transition:.2s}
-  .btn:hover{transform:translateY(-1px);box-shadow:0 8px 16px rgba(0,0,0,.08)}
-  .btn.primary{background:linear-gradient(135deg,var(--primary),var(--primary-2));border-color:transparent;color:#fff}
-  .btn.ghost{background:transparent}
-  /* Card */
-  .card{
-    background:var(--card); border:1px solid var(--ring); border-radius:var(--rad);
-    padding:28px; box-shadow:var(--shadow); min-height:230px;
-    display:grid; place-items:center; text-align:center; position:relative; perspective:1000px;
-  }
-  .face{position:absolute; inset:0; display:grid; place-items:center; padding:28px; backface-visibility:hidden; transition:transform .55s}
-  .front{transform:rotateY(0)}
-  .back{transform:rotateY(180deg)}
-  .card.flipped .front{transform:rotateY(180deg)}
-  .card.flipped .back{transform:rotateY(360deg)}
-  .word{font-size:30px;font-weight:900}
-  .pos{color:var(--muted);margin-top:6px}
-  .fa{font-size:18px;margin-top:10px}
-  .def{font-size:15px;margin-top:6px;color:var(--muted)}
-  .ex{margin-top:12px;background:rgba(99,102,241,.08);border:1px dashed var(--ring);padding:10px;border-radius:12px}
-  .toolbar{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:8px;flex-wrap:wrap}
-  .progress{font-size:13px;color:var(--muted)}
-  .mark{display:flex;align-items:center;gap:6px}
-  /* Quiz */
-  .qcard{background:var(--card);border:1px solid var(--ring);border-radius:16px;box-shadow:var(--shadow);padding:18px}
-  .qhead{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}
-  .qtext{font-weight:800}
-  .opts{display:grid;gap:8px;margin-top:8px}
-  .opt{border:1px solid var(--ring);border-radius:12px;padding:10px 12px;background:var(--card);cursor:pointer}
-  .opt.correct{border-color:var(--ok);background:rgba(22,163,74,.1)}
-  .opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.08)}
-  .answer{margin-top:8px;font-size:14px;color:var(--muted)}
-  .bar{height:8px;background:var(--ring);border-radius:999px;overflow:hidden}
-  .bar>span{display:block;height:100%;background:linear-gradient(90deg,var(--primary),var(--primary-2));width:0%}
-  footer{margin:26px 0 6px;color:var(--muted);font-size:13px;text-align:center}
+}
+*{box-sizing:border-box}
+body{margin:0;background:
+  radial-gradient(1200px 600px at 100% -20%, #dbeafe40 0%, transparent 60%),
+  radial-gradient(900px 500px at -10% 0%, #ede9fe40 0%, transparent 60%),
+  var(--bg); color:var(--ink); font:16px/1.8 Vazirmatn,IRANSansX,Segoe UI,Arial}
+.wrap{max-width:1100px;margin:auto;padding:22px}
+.hero{background:linear-gradient(135deg,#6366f120,#8b5cf620);
+  border:1px solid var(--ring); border-radius:24px; padding:22px; box-shadow:var(--shadow)}
+.badge{display:inline-flex;gap:8px;align-items:center;color:#fff;
+  background:linear-gradient(135deg,#6366f1,#8b5cf6);
+  padding:8px 14px;border-radius:999px;font-weight:800;font-size:13px}
+.hero-inner{display:flex;gap:16px;align-items:center;margin-top:14px;flex-wrap:wrap}
+.avatar{width:64px;height:64px;border-radius:16px;
+  background:linear-gradient(135deg,#a78bfa,#60a5fa);display:grid;place-items:center;
+  color:#fff;font-weight:900;font-size:22px;box-shadow:0 8px 24px rgba(99,102,241,.35)}
+.title{margin:0;font-size:22px;font-weight:900}
+.sub{color:var(--muted);margin-top:4px}
+.chips{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.chip{background:#eef2ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:12px}
+
+.tabs{display:flex;gap:8px;margin:18px 0 22px;flex-wrap:wrap}
+.tabbtn{background:var(--card);border:1px solid var(--ring);border-radius:12px;padding:10px 14px;cursor:pointer}
+.tabbtn.active{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border-color:transparent}
+.panel{display:none} .panel.active{display:block}
+
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
+input[type="search"]{flex:1;min-width:240px;padding:12px;border-radius:12px;border:1px solid var(--ring);background:var(--card);color:inherit}
+.btn{border:1px solid var(--ring);background:var(--card);padding:10px 14px;border-radius:12px;cursor:pointer;transition:.2s}
+.btn:hover{transform:translateY(-1px);box-shadow:0 8px 16px rgba(0,0,0,.08)}
+.btn.primary{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border-color:transparent}
+
+.card{background:var(--card);border:1px solid var(--ring);border-radius:18px;padding:28px;min-height:230px;
+  display:grid;place-items:center;text-align:center;position:relative;perspective:1000px;box-shadow:var(--shadow)}
+.face{position:absolute;inset:0;display:grid;place-items:center;padding:28px;backface-visibility:hidden;transition:transform .55s}
+.front{transform:rotateY(0)} .back{transform:rotateY(180deg)}
+.card.flipped .front{transform:rotateY(180deg)}
+.card.flipped .back{transform:rotateY(360deg)}
+.word{font-size:30px;font-weight:900}
+.pos{color:var(--muted);margin-top:6px}
+.fa{font-size:18px;margin-top:10px}
+.def{font-size:15px;margin-top:6px;color:var(--muted)}
+.ex{margin-top:12px;background:#6366f115;border:1px dashed var(--ring);padding:10px;border-radius:12px}
+.toolbar{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:8px;flex-wrap:wrap}
+.progress{font-size:13px;color:var(--muted)}
+
+.qcard{background:var(--card);border:1px solid var(--ring);border-radius:16px;box-shadow:var(--shadow);padding:18px}
+.qhead{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}
+.qtext{font-weight:800}
+.opts{display:grid;gap:8px;margin-top:8px}
+.opt{border:1px solid var(--ring);border-radius:12px;padding:10px 12px;background:var(--card);cursor:pointer}
+.opt.correct{border-color:var(--ok);background:#16a34a12}
+.opt.wrong{border-color:var(--bad);background:#ef444412}
+.answer{margin-top:8px;font-size:14px;color:var(--muted)}
+.bar{height:8px;background:var(--ring);border-radius:999px;overflow:hidden}
+.bar>span{display:block;height:100%;background:linear-gradient(90deg,#6366f1,#8b5cf6);width:0%}
+footer{margin:26px 0 6px;color:var(--muted);font-size:13px;text-align:center}
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <!-- Profile Header -->
   <section class="hero">
-    <span class="badge">📚 فلش‌کارت لغات + آزمون</span>
+    <span class="badge">📚 فلش‌کارت لغات + آزمون چهارگزینه‌ای</span>
     <div class="hero-inner">
       <div class="avatar">م‌ش</div>
       <div>
@@ -103,19 +88,17 @@
         <div class="chips">
           <span class="chip">پرستاری</span>
           <span class="chip">یادگیری زبان</span>
-          <span class="chip">فلش‌کارت و آزمون آنلاین</span>
+          <span class="chip">Flashcards + Quiz</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Tabs -->
   <div class="tabs">
     <button class="tabbtn active" data-tab="flash">فلش‌کارت‌ها</button>
-    <button class="tabbtn" data-tab="quiz">آزمون چهارگزینه‌ای</button>
+    <button class="tabbtn" data-tab="quiz">آزمون</button>
   </div>
 
-  <!-- Flashcards Panel -->
   <section id="flash" class="panel active">
     <div class="controls">
       <input id="search" type="search" placeholder="جستجوی لغت، ترجمه یا تعریف..." />
@@ -123,240 +106,248 @@
       <button id="prev" class="btn">⬅ قبلی</button>
       <button id="flip" class="btn primary">🔁 برگردان کارت</button>
       <button id="next" class="btn">بعدی ➡</button>
-      <button id="onlyLearned" class="btn">✅ فقط یادگرفته‌ها</button>
-      <span class="chip" id="learnedChip">یادگرفته‌ها: 0</span>
+      <span id="learnedChip" class="chip">یادگرفته‌ها: 0</span>
     </div>
 
     <div class="card" id="card">
-      <div class="face front">
-        <div>
-          <div class="word" id="frontWord">word</div>
-          <div class="pos" id="pos"></div>
-        </div>
-      </div>
-      <div class="face back">
-        <div>
-          <div class="fa" id="fa">ترجمه فارسی</div>
-          <div class="def" id="en">تعریف ساده انگلیسی</div>
-          <div class="ex" id="ex">Example: ...</div>
-        </div>
-      </div>
+      <div class="face front"><div><div id="frontWord" class="word">word</div><div id="pos" class="pos"></div></div></div>
+      <div class="face back"><div><div id="fa" class="fa">ترجمه فارسی</div><div id="en" class="def">تعریف ساده انگلیسی</div><div id="ex" class="ex">Example: ...</div></div></div>
     </div>
 
     <div class="toolbar">
       <div class="progress"><span id="idx">1</span>/<span id="total">-</span></div>
-      <label class="mark"><input id="mark" type="checkbox" /> این کارت را «یاد گرفتم»</label>
-      <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <button id="resetMarks" class="btn ghost">حذف علامت‌ها</button>
-        <button id="exportLearned" class="btn">📥 خروجیِ یادگرفته‌ها</button>
-      </div>
+      <label><input id="mark" type="checkbox"> این کارت را «یاد گرفتم»</label>
+      <button id="resetMarks" class="btn">حذف علامت‌ها</button>
     </div>
   </section>
 
-  <!-- Quiz Panel -->
   <section id="quiz" class="panel">
-    <div class="controls">
-      <button id="newQuiz" class="btn primary">📝 تولید آزمون جدید</button>
-      <div class="chip">سؤال‌ها از آرایه <b>QUESTIONS</b> خوانده می‌شوند</div>
-    </div>
+    <div class="controls"><button id="newQuiz" class="btn primary">📝 آزمون جدید</button></div>
     <div id="quizBox"></div>
     <div class="qcard" style="margin-top:14px">
       <div class="qhead"><div>پیشرفت آزمون</div><div id="scoreLabel">0 درست از 0</div></div>
-      <div class="bar"><span id="bar" style="width:0%"></span></div>
+      <div class="bar"><span id="bar"></span></div>
     </div>
   </section>
 
   <footer>طراحی و پیاده‌سازی برای <b>محمد شکری</b> — دوره ۷۴ کارشناسی، دانشگاه علوم پزشکی تهران</footer>
 </div>
-
 <script>
-/* ====== داده‌های فلش‌کارت ======
-هر مورد: { word, fa, en, ex, pos }  — می‌تونی آزادانه اضافه/کم کنی.
-*/
+// ===== داده‌های فلش‌کارت (بخش ۱) =====
 const VOCAB = [
-  {word:'definition', fa:'تعریف', en:'The meaning of a word or idea.', ex:'What is the definition of "campus"?', pos:'noun'},
-  {word:'campus', fa:'محوطه دانشگاه', en:'The land and buildings of a college.', ex:'There is a bus around the campus.', pos:'noun'},
-  {word:'tutor', fa:'معلم خصوصی', en:'A teacher who helps one student.', ex:'I meet my tutor every Tuesday.', pos:'noun'},
-  {word:'transportation', fa:'حمل‌ونقل', en:'Ways to move people or things.', ex:'Transportation on campus is easy.', pos:'noun'},
-  {word:'entertainment', fa:'سرگرمی', en:'Things people do for fun.', ex:'The city has a lot of entertainment.', pos:'noun'},
-  {word:'theater', fa:'تئاتر', en:'A place to watch plays or movies.', ex:'We went to the theater last night.', pos:'noun'},
-  {word:'art gallery', fa:'گالری هنری', en:'A place to show art.', ex:'Students visited the art gallery.', pos:'noun'},
-  {word:'shuttle', fa:'سرویس رفت‌وبرگشت', en:'A bus going back and forth.', ex:'Take the shuttle to the library.', pos:'noun'},
-  {word:'dormitory (dorm)', fa:'خوابگاه', en:'A building where students live.', ex:'My dormitory is near the cafeteria.', pos:'noun'},
-  {word:'population', fa:'جمعیت', en:'Number of people in a place.', ex:'The population of the city is growing.', pos:'noun'},
-  {word:'prepare', fa:'آماده کردن', en:'To get something ready.', ex:'Prepare your notes for the exam.', pos:'verb'},
-  {word:'release', fa:'آزاد/رها کردن', en:'Let something go free.', ex:'They released the bird.', pos:'verb'},
-  {word:'predict', fa:'پیش‌بینی کردن', en:'Say what you think will happen.', ex:'Scientists predict rain tomorrow.', pos:'verb'},
-  {word:'separate', fa:'جدا کردن', en:'Divide into parts.', ex:'Separate papers into two piles.', pos:'verb'},
-  {word:'compare', fa:'مقایسه کردن', en:'Look to see same or different.', ex:'Compare these two phones.', pos:'verb'},
-  {word:'wonderful', fa:'عالی', en:'Very good; great.', ex:'It was a wonderful day.', pos:'adj'},
-  {word:'several', fa:'چندین', en:'More than two, not many.', ex:'I have several books.', pos:'adj'},
-  {word:'similar to', fa:'شبیه به', en:'Almost the same as.', ex:'This city is similar to my town.', pos:'adj'},
-  {word:'gourmet', fa:'غذای لوکس و باکیفیت', en:'Very high-quality food.', ex:'He cooked a gourmet meal.', pos:'adj'},
-  {word:'huge', fa:'خیلی بزرگ', en:'Very, very big.', ex:'A huge stadium.', pos:'adj'},
-  {word:'common', fa:'رایج', en:'Happening often.', ex:'It’s common to drink tea.', pos:'adj'},
-  {word:'popular', fa:'محبوب', en:'Liked by many people.', ex:'Football is popular worldwide.', pos:'adj'},
-  {word:'rarely', fa:'به‌ندرت', en:'Not often; almost never.', ex:'I rarely watch TV.', pos:'adv'},
-  {word:'almost', fa:'تقریباً', en:'Very close, not completely.', ex:'It’s almost midnight.', pos:'adv'},
-  {word:'throughout', fa:'در سراسر/تمام مدت', en:'In every part or the whole time.', ex:'It rained throughout the night.', pos:'prep'},
-  {word:'during', fa:'در طول', en:'At the same time as.', ex:'No phones during class.', pos:'prep'},
-  {word:'between', fa:'بینِ', en:'In the space/time of two things.', ex:'Between the bank and library.', pos:'prep'},
-  {word:'put purchases on credit card', fa:'خرید را با کارت اعتباری حساب کردن', en:'Pay by credit card, not cash.', ex:'I put the book on my credit card.', pos:'phrase'},
-  {word:'e-commerce', fa:'تجارت الکترونیک', en:'Buying and selling online.', ex:'E-commerce is growing fast.', pos:'noun'},
-  {word:'journal', fa:'دفتر یادداشت', en:'Notebook to write ideas.', ex:'Write in your journal daily.', pos:'noun'},
-  {word:'environment', fa:'محیط زیست', en:'The natural world around us.', ex:'Protect the environment.', pos:'noun'},
-  {word:'hardships', fa:'سختی‌ها', en:'Difficult conditions in life.', ex:'They faced many hardships.', pos:'noun'},
-  {word:'homelessness', fa:'بی‌خانمانی', en:'Having no home.', ex:'Homelessness is a serious issue.', pos:'noun'},
-  {word:'mammals', fa:'پستانداران', en:'Animals that feed babies with milk.', ex:'Humans are mammals.', pos:'noun'},
-  {word:'cypress', fa:'سرو', en:'A tall, thin tree.', ex:'A row of cypress trees.', pos:'noun'},
-  {word:'elm', fa:'نارون', en:'A tree with wide leaves.', ex:'An old elm in the yard.', pos:'noun'},
-  {word:'eucalyptus', fa:'اوکالیپتوس', en:'A tall tree with strong smell.', ex:'Koalas love eucalyptus leaves.', pos:'noun'},
-  {word:'pine', fa:'کاج', en:'A tree with needles and cones.', ex:'Pine forests cover the hills.', pos:'noun'},
-  {word:'seals', fa:'فک‌های دریایی', en:'Sea animals living on land and water.', ex:'We saw seals on the rocks.', pos:'noun'},
-  {word:'sea lions', fa:'شیرهای دریایی', en:'Large sea mammals with loud voices.', ex:'Sea lions rested on the pier.', pos:'noun'},
-  {word:'sea otters', fa:'سمورهای دریایی', en:'Small sea mammals with thick fur.', ex:'Sea otters float on their backs.', pos:'noun'},
-  {word:'tough', fa:'سخت/دشوار', en:'Very difficult or strong.', ex:'A tough exam.', pos:'adj'},
-  {word:'crime', fa:'جرم/جنایت', en:'An illegal act.', ex:'Stealing is a crime.', pos:'noun'},
-  {word:'contrast', fa:'تضاد', en:'A clear difference.', ex:'Contrast between rich and poor.', pos:'noun'}
+  {word:'definition',fa:'تعریف',en:'The meaning of a word or idea.',ex:'What is the definition of "campus"?',pos:'noun'},
+  {word:'chapter',fa:'فصل (کتاب)',en:'A part of a book with a number and title.',ex:'Read chapter two tonight.',pos:'noun'},
+  {word:'experience',fa:'تجربه',en:'Something you do or feel in real life.',ex:'Work experience is important.',pos:'noun'},
+  {word:'housing',fa:'مسکن',en:'Places where people live.',ex:'Student housing is near campus.',pos:'noun'},
+  {word:'academics',fa:'امور آموزشی',en:'School or university studies.',ex:'She focuses on academics.',pos:'noun'},
+  {word:'adjectives',fa:'صفت‌ها',en:'Words that describe nouns.',ex:'Big and small are adjectives.',pos:'noun'},
+  {word:'population',fa:'جمعیت',en:'Number of people in a place.',ex:'The population is growing.',pos:'noun'},
+  {word:'snack bars',fa:'بوفه خوراکی',en:'Small places that sell light food.',ex:'There are snack bars on campus.',pos:'noun'},
+  {word:'transportation',fa:'حمل‌ونقل',en:'Ways to move people or things.',ex:'Transportation is cheap here.',pos:'noun'},
+  {word:'tutor',fa:'معلم خصوصی',en:'A teacher who helps one student.',ex:'I meet my tutor weekly.',pos:'noun'},
+  {word:'sentence',fa:'جمله',en:'A group of words with a subject and a verb.',ex:'This sentence is simple.',pos:'noun'},
+  {word:'learning resources center',fa:'مرکز منابع آموزشی',en:'Place with books and computers for study.',ex:'Go to the learning resources center.',pos:'noun'},
+  {word:'shuttle',fa:'سرویس رفت‌وبرگشت',en:'A bus that goes back and forth.',ex:'Take the shuttle to class.',pos:'noun'},
+  {word:'town',fa:'شهر کوچک',en:'A place smaller than a city.',ex:'He lives in a small town.',pos:'noun'},
+  {word:'dormitory (dorm)',fa:'خوابگاه',en:'A building where students live.',ex:'My dorm is new.',pos:'noun'},
+  {word:'dining rooms',fa:'سالن غذاخوری',en:'Rooms where people eat meals.',ex:'The dorm has two dining rooms.',pos:'noun'},
+  {word:'clothes',fa:'لباس‌ها',en:'Things you wear.',ex:'Wash your clothes.',pos:'noun'},
+  {word:'computers',fa:'کامپیوترها',en:'Machines used for work or the internet.',ex:'Computers are in the lab.',pos:'noun'},
+  {word:'health center',fa:'مرکز بهداشت',en:'A place with doctors and nurses.',ex:'Go to the health center if sick.',pos:'noun'},
+  {word:'entertainment',fa:'سرگرمی',en:'Things people do for fun.',ex:'There is a lot of entertainment.',pos:'noun'},
+  {word:'theater',fa:'تئاتر',en:'A place to watch plays or movies.',ex:'We visited the theater.',pos:'noun'},
+  {word:'art gallery',fa:'گالری هنری',en:'A place to show art.',ex:'The art gallery is open.',pos:'noun'},
+  {word:'resources center',fa:'مرکز منابع',en:'Place to find information and help.',ex:'Ask at the resources center.',pos:'noun'},
+  {word:'activities',fa:'فعالیت‌ها',en:'Things that people do.',ex:"Many activities happen after class.",pos:'noun'},
+  {word:'journal',fa:'دفتر یادداشت',en:'Notebook to write ideas or events.',ex:'Write in your journal daily.',pos:'noun'},
+  {word:'emoticons',fa:'شکلک‌ها',en:'Small pictures that show feelings.',ex:'Use emoticons in messages.',pos:'noun'},
+  {word:'directions',fa:'دستورالعمل‌ها',en:'Information about how to do something.',ex:'Follow the directions.',pos:'noun'},
+  {word:'categories',fa:'دسته‌بندی‌ها',en:'Groups of similar things.',ex:'Sort items into categories.',pos:'noun'},
+  {word:'home improvement',fa:'بهسازی خانه',en:'Work to make a house better.',ex:'He does home improvement on weekends.',pos:'noun'},
+  {word:'products',fa:'محصولات',en:'Things that are made and sold.',ex:'The store sells many products.',pos:'noun'}
 ];
+</script>
+<script>
+// ===== داده‌های فلش‌کارت (بخش ۲) =====
+VOCAB.push(
+  {word:'virtual shopping mall',fa:'مرکز خرید مجازی',en:'Online place to buy many things.',ex:'A virtual shopping mall has many stores.',pos:'noun'},
+  {word:'vacations',fa:'تعطیلات',en:'Times for rest or travel.',ex:'Students love summer vacations.',pos:'noun'},
+  {word:'quotes',fa:'نقل‌قول‌ها',en:'Words repeated exactly.',ex:'He collects famous quotes.',pos:'noun'},
+  {word:'opinion',fa:'نظر',en:'What someone thinks.',ex:'In my opinion, it’s great.',pos:'noun'},
+  {word:'suggestions',fa:'پیشنهادها',en:'Ideas about what to do.',ex:'Any suggestions for dinner?',pos:'noun'},
+  {word:'situation',fa:'وضعیت',en:'The way things are now.',ex:'The situation is under control.',pos:'noun'},
+  {word:'status',fa:'وضعیت/جایگاه',en:'Condition or social position.',ex:'Check the delivery status.',pos:'noun'},
+  {word:'purpose',fa:'هدف',en:'The reason for something.',ex:'What is the purpose of this test?',pos:'noun'},
+  {word:'vision',fa:'دید/چشم‌انداز',en:'Ability to see; idea about the future.',ex:'Her vision is inspiring.',pos:'noun'},
+  {word:'logic',fa:'منطق',en:'Clear and reasonable thinking.',ex:'Use logic to solve it.',pos:'noun'},
+  {word:'adulthood',fa:'بزرگسالی',en:'Life stage after childhood.',ex:'Adulthood brings duties.',pos:'noun'},
+  {word:'narrative',fa:'روایت/داستان',en:'A story or account of events.',ex:'The narrative is strong.',pos:'noun'},
+  {word:'wishes',fa:'آرزوها/تبریک‌ها',en:'Things people hope for or kind words.',ex:'Best wishes on your exam!',pos:'noun'},
+  {word:'coat',fa:'کت/روکش',en:'Outer clothing; a covering layer.',ex:'A coat of paint.',pos:'noun'},
 
-/* ====== نمونه‌سوال‌ها ====== */
+  {word:'prepare',fa:'آماده کردن',en:'Get something ready.',ex:'Prepare your slides.',pos:'verb'},
+  {word:'release',fa:'آزاد کردن',en:'Let something go free.',ex:'Release the brake.',pos:'verb'},
+  {word:'predict',fa:'پیش‌بینی کردن',en:'Say what will happen.',ex:'They predict rain.',pos:'verb'},
+  {word:'separate',fa:'جدا کردن',en:'Divide into parts.',ex:'Separate papers.',pos:'verb'},
+  {word:'compare',fa:'مقایسه کردن',en:'See similarities/differences.',ex:'Compare two phones.',pos:'verb'},
+  {word:'practice',fa:'تمرین کردن',en:'Do many times to improve.',ex:'Practice speaking daily.',pos:'verb'},
+  {word:'apply',fa:'درخواست دادن/اعمال کردن',en:'Ask officially; use something.',ex:'Apply for a job.',pos:'verb'},
+  {word:'decide',fa:'تصمیم گرفتن',en:'Choose after thinking.',ex:'Decide soon.',pos:'verb'},
+  {word:'expect',fa:'انتظار داشتن',en:'Think something will happen.',ex:'I expect good news.',pos:'verb'},
+  {word:'quit',fa:'ترک کردن',en:'Stop doing something; leave a job.',ex:'Quit smoking.',pos:'verb'},
+  {word:'taught (teach)',fa:'آموزش داد',en:'Past of teach.',ex:'She taught English.',pos:'verb'},
+
+  {word:'wonderful',fa:'عالی',en:'Very good; great.',ex:'A wonderful day.',pos:'adj'},
+  {word:'several',fa:'چندین',en:'More than two, not many.',ex:'Several reasons.',pos:'adj'},
+  {word:'similar to',fa:'شبیه به',en:'Almost the same as.',ex:'Similar to my city.',pos:'adj'},
+  {word:'gourmet',fa:'غذای لوکس',en:'Very high-quality food.',ex:'Gourmet coffee.',pos:'adj'},
+  {word:'huge',fa:'خیلی بزرگ',en:'Very very big.',ex:'A huge stadium.',pos:'adj'},
+  {word:'common',fa:'رایج',en:'Happens often.',ex:'A common mistake.',pos:'adj'},
+  {word:'popular',fa:'محبوب',en:'Liked by many people.',ex:'A popular app.',pos:'adj'},
+  {word:'tough',fa:'سخت/دشوار',en:'Very difficult/strong.',ex:'A tough exam.',pos:'adj'},
+  {word:'boldfaced',fa:'پررنگ',en:'Written in thick letters.',ex:'Boldfaced keywords.',pos:'adj'},
+  {word:'wide',fa:'پهن/عریض',en:'Large from side to side.',ex:'A wide road.',pos:'adj'},
+  {word:'growing',fa:'در حال رشد',en:'Becoming bigger.',ex:'A growing city.',pos:'adj'},
+
+  {word:'above',fa:'بالایِ',en:'In a higher place.',ex:'Above the door.',pos:'adv'},
+  {word:'below',fa:'پایین/زیر',en:'In a lower place.',ex:'Below zero.',pos:'adv'},
+  {word:'ahead',fa:'جلو/پیش‌رو',en:'In front or in the future.',ex:'A long trip ahead.',pos:'adv'},
+  {word:'perhaps',fa:'شاید',en:'Maybe; not sure.',ex:'Perhaps tomorrow.',pos:'adv'},
+  {word:'almost',fa:'تقریباً',en:'Very close, not fully.',ex:'Almost done.',pos:'adv'},
+  {word:'rarely',fa:'به‌ندرت',en:'Not often.',ex:'He rarely watches TV.',pos:'adv'},
+
+  {word:'during',fa:'در طولِ',en:'At the same time as.',ex:'During class, be quiet.',pos:'prep'},
+  {word:'throughout',fa:'در سراسر/تمام مدت',en:'In every part/whole time.',ex:'Throughout the night.',pos:'prep'},
+  {word:'between',fa:'بینِ',en:'In the space/time of two.',ex:'Between A and B.',pos:'prep'},
+
+  {word:'put purchases on credit card',fa:'خرید را با کارت اعتباری حساب کردن',en:'Pay by credit card.',ex:'I put it on my card.',pos:'phrase'},
+  {word:'e-commerce',fa:'تجارت الکترونیک',en:'Buying/selling online.',ex:'E-commerce is booming.',pos:'noun'},
+  {word:'separate pieces of paper',fa:'برگه‌های جداگانه',en:'Different sheets of paper.',ex:'Write on separate pieces of paper.',pos:'phrase'},
+  {word:'aloud',fa:'بلندبلند',en:'Speaking so others hear.',ex:'Read the text aloud.',pos:'adv'},
+  {word:'a loud (noise)',fa:'یک صدای بلند',en:'A strong, high-volume noise.',ex:'A loud noise outside.',pos:'phrase'},
+
+  // درخت‌ها و جانوران
+  {word:'cypress',fa:'سرو',en:'A tall, thin tree.',ex:'Tall cypress trees.',pos:'noun'},
+  {word:'elm',fa:'نارون',en:'A tree with wide leaves.',ex:'An old elm.',pos:'noun'},
+  {word:'eucalyptus',fa:'اوکالیپتوس',en:'A tall tree with strong smell.',ex:'Koalas eat eucalyptus.',pos:'noun'},
+  {word:'pine',fa:'کاج',en:'Tree with needles and cones.',ex:'Pine forest.',pos:'noun'},
+  {word:'seals',fa:'فک‌های دریایی',en:'Sea animals on land/water.',ex:'We saw seals.',pos:'noun'},
+  {word:'sea lions',fa:'شیرهای دریایی',en:'Large sea mammals with loud voices.',ex:'Sea lions on the pier.',pos:'noun'},
+  {word:'sea otters',fa:'سمورهای دریایی',en:'Small sea mammals with thick fur.',ex:'Sea otters float on backs.',pos:'noun'},
+
+  // مجموعه آخر
+  {word:'contrast',fa:'تضاد',en:'A clear difference.',ex:'Contrast between two colors.',pos:'noun'},
+  {word:'crime',fa:'جرم/جنایت',en:'An illegal act.',ex:'Crime is a problem.',pos:'noun'}
+);
+</script>
+<script>
+// ===== سوالات چهارگزینه‌ای =====
 const QUESTIONS = [
-  { q:'معنی صحیح "tutor" چیست؟', choices:['فروشگاه','معلم خصوصی','اتوبوس','خوابگاه'], answer:1, explain:'tutor یعنی معلم خصوصی که به یک دانشجو کمک می‌کند.' },
-  { q:'کدام گزینه معنی "transportation" است؟', choices:['سرگرمی','حمل‌ونقل','جمعیت','مرکز بهداشت'], answer:1, explain:'Transportation یعنی روش‌های جابه‌جایی.' },
-  { q:'"gourmet" بیشتر درباره‌ی چه چیزی به‌کار می‌رود؟', choices:['غذای باکیفیت و لوکس','هوای بارانی','ورزش دشوار','درخت کاج'], answer:0, explain:'gourmet برای غذاهای بسیار باکیفیت است.' },
-  { q:'کدام ترجمه برای "homelessness" درست است؟', choices:['محیط زیست','بی‌خانمانی','سختی‌ها','پستانداران'], answer:1, explain:'homelessness یعنی نبودن خانه.' },
-  { q:'معنی "rarely" کدام است؟', choices:['معمولاً','به‌ندرت','سریع','تقریباً'], answer:1, explain:'rarely یعنی خیلی کم/به‌ندرت.' }
+  {q:'معنی "tutor" چیست؟',choices:['فروشگاه','معلم خصوصی','اتوبوس','خوابگاه'],answer:1,explain:'tutor = معلم خصوصی'},
+  {q:'"transportation" یعنی چه؟',choices:['سرگرمی','حمل‌ونقل','جمعیت','مراکز خرید'],answer:1,explain:'Ways to move people/things'},
+  {q:'بهترین ترجمه "gourmet"؟',choices:['غذای لوکس','خیابان شلوغ','اتاق مطالعه','درخت کاج'],answer:0,explain:'مرتبط با غذای باکیفیت'},
+  {q:'کدام گزینه معنی "homelessness" است؟',choices:['محیط زیست','بی‌خانمانی','سختی‌ها','پستانداران'],answer:1,explain:'having no home'},
+  {q:'"rarely" یعنی…',choices:['همیشه','به‌ندرت','اغلب','گاهی'],answer:1,explain:'not often'},
+  {q:'"contrast" نزدیک‌ترین معنی؟',choices:['شباهت','تضاد','اندازه','سرعت'],answer:1,explain:'clear difference'},
+  {q:'"campus" چیست؟',choices:['محوطه دانشگاه','فروشگاه بزرگ','بیمارستان','پارک ملی'],answer:0,explain:'land & buildings of a college'},
+  {q:'"shuttle" بیشتر به چه معناست؟',choices:['کافه','سرویس رفت‌وبرگشت','زمین بازی','پارکینگ'],answer:1,explain:'bus back and forth'},
+  {q:'کدام ترجمه برای "population" درست است؟',choices:['جمعیت','سردی هوا','درآمد','تغذیه'],answer:0,explain:'number of people'},
+  {q:'"adjectives" چه هستند؟',choices:['افعال','حروف اضافه','صفت‌ها','ضمیرها'],answer:2,explain:'describe nouns'},
+  {q:'"apply" در جمله "apply for a job" یعنی…',choices:['کارکردن','درخواست دادن','کنار گذاشتن','آموزش دادن'],answer:1,explain:'officially ask'},
+  {q:'"release" یعنی…',choices:['جمع‌آوری','آزاد کردن','اندازه‌گیری','تزیین کردن'],answer:1,explain:'let go free'},
+  {q:'"similar to" یعنی…',choices:['کاملاً متفاوت با','شبیه به','خیلی کوچک','خیلی سریع'],answer:1,explain:'almost the same as'},
+  {q:'"tough exam" یعنی…',choices:['امتحان آسان','امتحان سخت','امتحان شفاهی','بدون نمره'],answer:1,explain:'difficult exam'},
+  {q:'"sea otters" کدام جانور است؟',choices:['پرنده دریایی','سمور دریایی','نهنگ کوچک','خرچنگ'],answer:1,explain:'small sea mammals'},
+  {q:'"throughout the night" یعنی…',choices:['وسط شب','پایان شب','در تمام شب','قبل از شب'],answer:2,explain:'the whole night'},
+  {q:'"put purchases on credit card" یعنی…',choices:['نقدی پرداخت کردن','نسیه خریدن','با کارت اعتباری پرداخت کردن','لغو خرید'],answer:2,explain:'pay by credit card'},
+  {q:'"e-commerce" یعنی…',choices:['خرید حضوری','تجارت الکترونیک','بانکداری','حمل‌ونقل'],answer:1,explain:'online buying/selling'},
+  {q:'"purpose" نزدیک‌ترین معنی؟',choices:['ظاهر','هدف','قدرت','جایگاه'],answer:1,explain:'reason for something'},
+  {q:'"vision" در مدیریت یعنی…',choices:['بینایی چشم','چشم‌انداز آینده','شفاف‌سازی','محاسبه'],answer:1,explain:'future picture/plan'}
 ];
+</script>
+<script>
+// ===== منطق فلش‌کارت =====
+let order=[...VOCAB.keys()], i=0;
+const card=document.getElementById('card');
+const frontWord=document.getElementById('frontWord');
+const posEl=document.getElementById('pos');
+const faEl=document.getElementById('fa');
+const enEl=document.getElementById('en');
+const exEl=document.getElementById('ex');
+const idxEl=document.getElementById('idx');
+const totalEl=document.getElementById('total');
+const mark=document.getElementById('mark');
+const learnedChip=document.getElementById('learnedChip');
+const search=document.getElementById('search');
 
-/* ====== منطق فلش‌کارت ====== */
-let baseOrder = [...VOCAB.keys()];
-let order = [...baseOrder];
-let i = 0;
-const card = document.getElementById('card');
-const frontWord = document.getElementById('frontWord');
-const posEl = document.getElementById('pos');
-const faEl = document.getElementById('fa');
-const enEl = document.getElementById('en');
-const exEl = document.getElementById('ex');
-const idxEl = document.getElementById('idx');
-const totalEl = document.getElementById('total');
-const mark = document.getElementById('mark');
-const learnedChip = document.getElementById('learnedChip');
-const search = document.getElementById('search');
-const onlyLearnedBtn = document.getElementById('onlyLearned');
-
-const learned = new Set(JSON.parse(localStorage.getItem('learned')||'[]'));
-function saveLearned(){ localStorage.setItem('learned', JSON.stringify([...learned])); }
-function updateLearnedChip(){ learnedChip.textContent = `یادگرفته‌ها: ${learned.size}`; }
-updateLearnedChip();
+const learned=new Set(JSON.parse(localStorage.getItem('learned')||'[]'));
+function updChip(){ learnedChip.textContent=`یادگرفته‌ها: ${learned.size}` } updChip();
 
 function show(k){
-  if(order.length === 0){ frontWord.textContent='هیچ موردی یافت نشد'; posEl.textContent=''; faEl.textContent=''; enEl.textContent=''; exEl.textContent=''; idxEl.textContent=0; totalEl.textContent=0; return; }
-  i = (k+order.length)%order.length;
-  const v = VOCAB[order[i]];
-  frontWord.textContent = v.word;
-  posEl.textContent = v.pos ? `(${v.pos})` : '';
-  faEl.textContent = v.fa;
-  enEl.textContent = v.en;
-  exEl.textContent = 'Example: ' + v.ex;
-  idxEl.textContent = i+1; totalEl.textContent = order.length;
-  card.classList.remove('flipped');
-  mark.checked = learned.has(v.word);
+  i=(k+order.length)%order.length;
+  const v=VOCAB[order[i]];
+  frontWord.textContent=v.word; posEl.textContent=v.pos?`(${v.pos})`:'';
+  faEl.textContent=v.fa; enEl.textContent=v.en; exEl.textContent='Example: '+v.ex;
+  idxEl.textContent=i+1; totalEl.textContent=order.length;
+  card.classList.remove('flipped'); mark.checked=learned.has(v.word);
 }
-function shuffle(){
-  for(let j=order.length-1;j>0;j--){
-    const r = Math.floor(Math.random()*(j+1));
-    [order[j],order[r]] = [order[r],order[j]];
-  }
-  show(0);
-}
-function next(){ show(i+1); }
-function prev(){ show(i-1); }
+function shuffle(){ for(let j=order.length-1;j>0;j--){const r=Math.floor(Math.random()*(j+1));[order[j],order[r]]=[order[r],order[j]]} show(0) }
+function next(){ show(i+1) } function prev(){ show(i-1) }
 document.getElementById('flip').onclick=()=>card.classList.toggle('flipped');
-document.getElementById('next').onclick=next;
-document.getElementById('prev').onclick=prev;
-document.getElementById('shuffle').onclick=shuffle;
-document.getElementById('resetMarks').onclick=()=>{
-  learned.clear(); saveLearned(); updateLearnedChip(); show(i);
-};
-document.getElementById('exportLearned').onclick=()=>{
-  const arr = VOCAB.filter(v=>learned.has(v.word));
-  const blob = new Blob([JSON.stringify(arr, null, 2)], {type:'application/json'});
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob); a.download='learned_vocab.json'; a.click();
-};
-mark.onchange = ()=>{
-  const w = VOCAB[order[i]].word;
-  mark.checked ? learned.add(w) : learned.delete(w);
-  saveLearned(); updateLearnedChip();
-};
-let showOnlyLearned = false;
-onlyLearnedBtn.onclick=()=>{
-  showOnlyLearned = !showOnlyLearned;
-  onlyLearnedBtn.textContent = showOnlyLearned ? '✅ نمایش همه' : '✅ فقط یادگرفته‌ها';
-  filterOrder();
-};
-function filterOrder(){
-  const q = search.value.trim().toLowerCase();
-  order = baseOrder.filter(idx=>{
-    const v = VOCAB[idx];
-    const text = [v.word,v.fa,v.en,(v.pos||''),(v.ex||'')].join(' ').toLowerCase();
-    const match = text.includes(q);
-    const inLearned = learned.has(v.word);
-    return match && (!showOnlyLearned || inLearned);
+document.getElementById('next').onclick=next; document.getElementById('prev').onclick=prev; document.getElementById('shuffle').onclick=shuffle;
+document.getElementById('resetMarks').onclick=()=>{ learned.clear(); localStorage.setItem('learned','[]'); updChip(); show(i); };
+mark.onchange=()=>{ const w=VOCAB[order[i]].word; mark.checked?learned.add(w):learned.delete(w); localStorage.setItem('learned',JSON.stringify([...learned])); updChip(); };
+search.addEventListener('input', e=>{
+  const q=e.target.value.trim().toLowerCase();
+  order=VOCAB.map((_,idx)=>idx).filter(idx=>{
+    const v=VOCAB[idx];
+    return [v.word,v.fa,v.en,(v.pos||''),(v.ex||'')].join(' ').toLowerCase().includes(q);
   });
+  if(order.length===0){ order=[0]; }
   show(0);
-}
-search.addEventListener('input', filterOrder);
+});
 show(0);
 
-/* ====== آزمون ====== */
-const quizBox = document.getElementById('quizBox');
-const scoreLabel = document.getElementById('scoreLabel');
-const bar = document.getElementById('bar');
+// ===== آزمون =====
+const quizBox=document.getElementById('quizBox');
+const scoreLabel=document.getElementById('scoreLabel');
+const bar=document.getElementById('bar');
 function renderQuiz(){
-  quizBox.innerHTML = '';
-  let correct=0, total=0;
+  quizBox.innerHTML=''; let correct=0, total=0;
   QUESTIONS.forEach((Q,qi)=>{
     total++;
-    const card = document.createElement('div'); card.className='qcard';
-    const head = document.createElement('div'); head.className='qhead';
-    head.innerHTML = `<div class="qtext">سؤال ${qi+1}: ${Q.q}</div>`;
+    const card=document.createElement('div'); card.className='qcard';
+    const head=document.createElement('div'); head.className='qhead';
+    head.innerHTML=`<div class="qtext">سؤال ${qi+1}: ${Q.q}</div>`;
     card.appendChild(head);
 
-    const opts = document.createElement('div'); opts.className='opts';
+    const opts=document.createElement('div'); opts.className='opts';
     Q.choices.forEach((c,ci)=>{
-      const b = document.createElement('button'); b.type='button';
-      b.className='opt'; b.textContent=c;
-      b.onclick = ()=>{
+      const b=document.createElement('button'); b.type='button'; b.className='opt'; b.textContent=c;
+      b.onclick=()=>{
         [...opts.children].forEach(x=>x.disabled=true);
         if(ci===Q.answer){ b.classList.add('correct'); correct++; }
         else { b.classList.add('wrong'); opts.children[Q.answer].classList.add('correct'); }
         ans.style.display='block';
-        scoreLabel.textContent = `${correct} درست از ${total}`;
-        bar.style.width = `${Math.round(correct/total*100)}%`;
+        scoreLabel.textContent=`${correct} درست از ${total}`;
+        bar.style.width=`${Math.round(correct/total*100)}%`;
       };
       opts.appendChild(b);
     });
-    const ans = document.createElement('div'); ans.className='answer'; ans.style.display='none';
-    ans.textContent = 'توضیح: ' + (Q.explain||'');
-    card.appendChild(opts);
-    card.appendChild(ans);
-    quizBox.appendChild(card);
+    const ans=document.createElement('div'); ans.className='answer'; ans.style.display='none';
+    ans.textContent='توضیح: '+(Q.explain||'');
+    card.appendChild(opts); card.appendChild(ans); quizBox.appendChild(card);
   });
-  scoreLabel.textContent = `0 درست از ${QUESTIONS.length}`;
-  bar.style.width='0%';
+  scoreLabel.textContent=`0 درست از ${QUESTIONS.length}`; bar.style.width='0%';
 }
 renderQuiz();
 
-/* ====== تب‌ها ====== */
+// ===== تب‌ها =====
 document.querySelectorAll('.tabbtn').forEach(btn=>{
   btn.onclick=()=>{
     document.querySelectorAll('.tabbtn').forEach(b=>b.classList.remove('active'));
     document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById(btn.dataset.tab).classList.add('active');
+    btn.classList.add('active'); document.getElementById(btn.dataset.tab).classList.add('active');
     scroll({top:0,behavior:'smooth'});
   };
 });
