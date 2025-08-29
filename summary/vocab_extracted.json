@@ -1,2923 +1,1236 @@
 {
-  "vocab": [
-    {
-      "word": "a loud (noise)",
-      "fa": "یک صدای بلند",
-      "en": "A strong, high‑volume noise.",
-      "ex": "We heard a loud noise.",
-      "pos": "phrase"
-    },
-    {
-      "word": "above",
-      "fa": "بالایِ",
-      "en": "In a higher place than something.",
-      "ex": "The picture is above the door.",
-      "pos": "adv"
-    },
-    {
-      "word": "academics",
-      "fa": "امور آموزشی",
-      "en": "School or university studies.",
-      "ex": "She focuses on her academics.",
-      "pos": "noun"
-    },
+  "autofilled": [
     {
       "word": "accoutant",
-      "fa": "معنی سادهٔ «accoutant» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'accoutant'.",
-      "ex": "I used the word 'accoutant' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "across from",
-      "fa": "روبه‌روی",
-      "en": "On the other side of the street.",
-      "ex": "The café is across from the bank.",
-      "pos": "prep phrase"
-    },
-    {
-      "word": "activities",
-      "fa": "فعالیت‌ها",
-      "en": "Things people do.",
-      "ex": "Many activities happen after class.",
-      "pos": "noun"
-    },
-    {
-      "word": "adjectives",
-      "fa": "صفت‌ها",
-      "en": "Words that describe nouns.",
-      "ex": "Big and small are adjectives.",
-      "pos": "noun"
-    },
-    {
-      "word": "adulthood",
-      "fa": "بزرگسالی",
-      "en": "The life stage when you are fully grown.",
-      "ex": "Adulthood brings new duties.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «accoutant» (نیازمند بازبینی)"
     },
     {
       "word": "agriculture",
-      "fa": "معنی سادهٔ «agriculture» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'agriculture'.",
-      "ex": "I used the word 'agriculture' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "ahead",
-      "fa": "جلو / پیش‌رو",
-      "en": "In front of you or in the future.",
-      "ex": "A long trip ahead.",
-      "pos": "adv"
+      "fa": "معنی سادهٔ «agriculture» (نیازمند بازبینی)"
     },
     {
       "word": "ailments",
-      "fa": "معنی سادهٔ «ailments» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'ailments'.",
-      "ex": "I used the word 'ailments' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "almost",
-      "fa": "تقریباً",
-      "en": "Very close, but not completely.",
-      "ex": "It’s almost midnight.",
-      "pos": "adv"
-    },
-    {
-      "word": "aloud",
-      "fa": "بلندبلند",
-      "en": "To speak so people can hear you, not silently.",
-      "ex": "She read the story aloud.",
-      "pos": "adv"
+      "fa": "معنی سادهٔ «ailments» (نیازمند بازبینی)"
     },
     {
       "word": "amazing",
-      "fa": "معنی سادهٔ «amazing» (نیازمند بازبینی)",
-      "en": "A form of the verb 'amaz'.",
-      "ex": "I used the word 'amazing' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «amazing» (نیازمند بازبینی)"
     },
     {
       "word": "amber",
-      "fa": "معنی سادهٔ «amber» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'amber'.",
-      "ex": "I used the word 'amber' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «amber» (نیازمند بازبینی)"
     },
     {
       "word": "ancient",
-      "fa": "معنی سادهٔ «ancient» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'ancient'.",
-      "ex": "I used the word 'ancient' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «ancient» (نیازمند بازبینی)"
     },
     {
       "word": "antacid",
-      "fa": "معنی سادهٔ «antacid» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'antacid'.",
-      "ex": "I used the word 'antacid' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «antacid» (نیازمند بازبینی)"
     },
     {
       "word": "any",
-      "fa": "معنی سادهٔ «any» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'any'.",
-      "ex": "I used the word 'any' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «any» (نیازمند بازبینی)"
     },
     {
       "word": "appearance",
-      "fa": "معنی سادهٔ «appearance» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'appearance'.",
-      "ex": "I used the word 'appearance' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «appearance» (نیازمند بازبینی)"
     },
     {
       "word": "Appeared",
-      "fa": "معنی سادهٔ «Appeared» (نیازمند بازبینی)",
-      "en": "A form of the verb 'Appear'.",
-      "ex": "I used the word 'Appeared' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Appeared» (نیازمند بازبینی)"
     },
     {
       "word": "appliance",
-      "fa": "معنی سادهٔ «appliance» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'appliance'.",
-      "ex": "I used the word 'appliance' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "apply",
-      "fa": "درخواست دادن / اعمال کردن",
-      "en": "To officially ask for something; or to use something.",
-      "ex": "Apply for a job; apply the rule.",
-      "pos": "verb"
+      "fa": "معنی سادهٔ «appliance» (نیازمند بازبینی)"
     },
     {
       "word": "architect",
-      "fa": "معنی سادهٔ «architect» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'architect'.",
-      "ex": "I used the word 'architect' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «architect» (نیازمند بازبینی)"
     },
     {
       "word": "argue",
-      "fa": "معنی سادهٔ «argue» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'argue'.",
-      "ex": "I used the word 'argue' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "art gallery",
-      "fa": "گالری هنری",
-      "en": "A place to show art.",
-      "ex": "Students visited the art gallery.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «argue» (نیازمند بازبینی)"
     },
     {
       "word": "article",
-      "fa": "معنی سادهٔ «article» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'article'.",
-      "ex": "I used the word 'article' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «article» (نیازمند بازبینی)"
     },
     {
       "word": "Aspect",
-      "fa": "معنی سادهٔ «Aspect» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Aspect'.",
-      "ex": "I used the word 'Aspect' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Aspect» (نیازمند بازبینی)"
     },
     {
       "word": "at",
-      "fa": "معنی سادهٔ «at» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'at'.",
-      "ex": "I used the word 'at' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «at» (نیازمند بازبینی)"
     },
     {
       "word": "athlete",
-      "fa": "معنی سادهٔ «athlete» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'athlete'.",
-      "ex": "I used the word 'athlete' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «athlete» (نیازمند بازبینی)"
     },
     {
       "word": "audition",
-      "fa": "معنی سادهٔ «audition» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'audition'.",
-      "ex": "I used the word 'audition' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «audition» (نیازمند بازبینی)"
     },
     {
       "word": "Avalanche",
-      "fa": "معنی سادهٔ «Avalanche» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Avalanche'.",
-      "ex": "I used the word 'Avalanche' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Avalanche» (نیازمند بازبینی)"
     },
     {
       "word": "awful",
-      "fa": "معنی سادهٔ «awful» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'awful'.",
-      "ex": "I used the word 'awful' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «awful» (نیازمند بازبینی)"
     },
     {
       "word": "bathub",
-      "fa": "معنی سادهٔ «bathub» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'bathub'.",
-      "ex": "I used the word 'bathub' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «bathub» (نیازمند بازبینی)"
     },
     {
       "word": "beach",
-      "fa": "معنی سادهٔ «beach» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'beach'.",
-      "ex": "I used the word 'beach' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «beach» (نیازمند بازبینی)"
     },
     {
       "word": "beans",
-      "fa": "معنی سادهٔ «beans» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'beans'.",
-      "ex": "I used the word 'beans' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «beans» (نیازمند بازبینی)"
     },
     {
       "word": "beef",
-      "fa": "معنی سادهٔ «beef» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'beef'.",
-      "ex": "I used the word 'beef' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «beef» (نیازمند بازبینی)"
     },
     {
       "word": "behind",
-      "fa": "معنی سادهٔ «behind» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'behind'.",
-      "ex": "I used the word 'behind' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «behind» (نیازمند بازبینی)"
     },
     {
       "word": "beige",
-      "fa": "معنی سادهٔ «beige» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'beige'.",
-      "ex": "I used the word 'beige' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «beige» (نیازمند بازبینی)"
     },
     {
       "word": "belhop",
-      "fa": "معنی سادهٔ «belhop» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'belhop'.",
-      "ex": "I used the word 'belhop' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "below",
-      "fa": "پایین / زیر",
-      "en": "In a lower place or level than something.",
-      "ex": "The pen is below the book.",
-      "pos": "adv"
-    },
-    {
-      "word": "between",
-      "fa": "بینِ",
-      "en": "In the space or time of two things.",
-      "ex": "Between the bank and the library.",
-      "pos": "prep"
+      "fa": "معنی سادهٔ «belhop» (نیازمند بازبینی)"
     },
     {
       "word": "beverage",
-      "fa": "معنی سادهٔ «beverage» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'beverage'.",
-      "ex": "I used the word 'beverage' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «beverage» (نیازمند بازبینی)"
     },
     {
       "word": "Bigg",
-      "fa": "معنی سادهٔ «Bigg» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Bigg'.",
-      "ex": "I used the word 'Bigg' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Bigg» (نیازمند بازبینی)"
     },
     {
       "word": "body",
-      "fa": "معنی سادهٔ «body» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'body'.",
-      "ex": "I used the word 'body' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "boldfaced",
-      "fa": "پررنگ / بولد",
-      "en": "Written in darker, thicker letters to show importance.",
-      "ex": "Read the boldfaced words.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «body» (نیازمند بازبینی)"
     },
     {
       "word": "boss",
-      "fa": "معنی سادهٔ «boss» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'boss'.",
-      "ex": "I used the word 'boss' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «boss» (نیازمند بازبینی)"
     },
     {
       "word": "Bottom",
-      "fa": "معنی سادهٔ «Bottom» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Bottom'.",
-      "ex": "I used the word 'Bottom' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Bottom» (نیازمند بازبینی)"
     },
     {
       "word": "bubble",
-      "fa": "معنی سادهٔ «bubble» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'bubble'.",
-      "ex": "I used the word 'bubble' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «bubble» (نیازمند بازبینی)"
     },
     {
       "word": "cabin",
-      "fa": "معنی سادهٔ «cabin» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'cabin'.",
-      "ex": "I used the word 'cabin' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «cabin» (نیازمند بازبینی)"
     },
     {
       "word": "canoes",
-      "fa": "معنی سادهٔ «canoes» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'canoes'.",
-      "ex": "I used the word 'canoes' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «canoes» (نیازمند بازبینی)"
     },
     {
       "word": "carrot",
-      "fa": "معنی سادهٔ «carrot» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'carrot'.",
-      "ex": "I used the word 'carrot' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «carrot» (نیازمند بازبینی)"
     },
     {
       "word": "cashier",
-      "fa": "معنی سادهٔ «cashier» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'cashier'.",
-      "ex": "I used the word 'cashier' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «cashier» (نیازمند بازبینی)"
     },
     {
       "word": "Catch",
-      "fa": "معنی سادهٔ «Catch» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Catch'.",
-      "ex": "I used the word 'Catch' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "categories",
-      "fa": "دسته‌بندی‌ها",
-      "en": "Groups of similar things.",
-      "ex": "Sort items into categories.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Catch» (نیازمند بازبینی)"
     },
     {
       "word": "celery",
-      "fa": "معنی سادهٔ «celery» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'celery'.",
-      "ex": "I used the word 'celery' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «celery» (نیازمند بازبینی)"
     },
     {
       "word": "cereal",
-      "fa": "معنی سادهٔ «cereal» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'cereal'.",
-      "ex": "I used the word 'cereal' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «cereal» (نیازمند بازبینی)"
     },
     {
       "word": "chamomile",
-      "fa": "معنی سادهٔ «chamomile» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'chamomile'.",
-      "ex": "I used the word 'chamomile' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «chamomile» (نیازمند بازبینی)"
     },
     {
       "word": "champion",
-      "fa": "معنی سادهٔ «champion» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'champion'.",
-      "ex": "I used the word 'champion' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "chapter",
-      "fa": "فصل (کتاب)",
-      "en": "A numbered part of a book.",
-      "ex": "Please read chapter two tonight.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «champion» (نیازمند بازبینی)"
     },
     {
       "word": "chef",
-      "fa": "معنی سادهٔ «chef» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'chef'.",
-      "ex": "I used the word 'chef' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «chef» (نیازمند بازبینی)"
     },
     {
       "word": "chin",
-      "fa": "معنی سادهٔ «chin» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'chin'.",
-      "ex": "I used the word 'chin' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «chin» (نیازمند بازبینی)"
     },
     {
       "word": "Cliary",
-      "fa": "معنی سادهٔ «Cliary» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Cliary'.",
-      "ex": "I used the word 'Cliary' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Cliary» (نیازمند بازبینی)"
     },
     {
       "word": "climb",
-      "fa": "معنی سادهٔ «climb» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'climb'.",
-      "ex": "I used the word 'climb' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "clothes",
-      "fa": "لباس‌ها",
-      "en": "Things you wear.",
-      "ex": "Wash your clothes regularly.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «climb» (نیازمند بازبینی)"
     },
     {
       "word": "coastline",
-      "fa": "معنی سادهٔ «coastline» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'coastline'.",
-      "ex": "I used the word 'coastline' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "coat",
-      "fa": "کت / روکش",
-      "en": "A warm outer piece of clothing; or a covering layer on something.",
-      "ex": "The cake has a thin coat of chocolate.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «coastline» (نیازمند بازبینی)"
     },
     {
       "word": "Cola",
-      "fa": "معنی سادهٔ «Cola» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Cola'.",
-      "ex": "I used the word 'Cola' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Cola» (نیازمند بازبینی)"
     },
     {
       "word": "comfortable",
-      "fa": "معنی سادهٔ «comfortable» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'comfortable'.",
-      "ex": "I used the word 'comfortable' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "common",
-      "fa": "رایج",
-      "en": "Happening often.",
-      "ex": "It’s common to drink tea.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «comfortable» (نیازمند بازبینی)"
     },
     {
       "word": "communication",
-      "fa": "معنی سادهٔ «communication» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'communication'.",
-      "ex": "I used the word 'communication' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «communication» (نیازمند بازبینی)"
     },
     {
       "word": "compact",
-      "fa": "معنی سادهٔ «compact» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'compact'.",
-      "ex": "I used the word 'compact' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "compare",
-      "fa": "مقایسه کردن",
-      "en": "To look to see how things are the same or different.",
-      "ex": "Compare these two phones.",
-      "pos": "verb"
-    },
-    {
-      "word": "computers",
-      "fa": "کامپیوترها",
-      "en": "Electronic machines used for work or the internet.",
-      "ex": "Computers are in the lab.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «compact» (نیازمند بازبینی)"
     },
     {
       "word": "Con",
-      "fa": "معنی سادهٔ «Con» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Con'.",
-      "ex": "I used the word 'Con' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Con» (نیازمند بازبینی)"
     },
     {
       "word": "congratulation",
-      "fa": "معنی سادهٔ «congratulation» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'congratulation'.",
-      "ex": "I used the word 'congratulation' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «congratulation» (نیازمند بازبینی)"
     },
     {
       "word": "conjunction",
-      "fa": "معنی سادهٔ «conjunction» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'conjunction'.",
-      "ex": "I used the word 'conjunction' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «conjunction» (نیازمند بازبینی)"
     },
     {
       "word": "connect",
-      "fa": "معنی سادهٔ «connect» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'connect'.",
-      "ex": "I used the word 'connect' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «connect» (نیازمند بازبینی)"
     },
     {
       "word": "contact",
-      "fa": "معنی سادهٔ «contact» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'contact'.",
-      "ex": "I used the word 'contact' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «contact» (نیازمند بازبینی)"
     },
     {
       "word": "contest",
-      "fa": "معنی سادهٔ «contest» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'contest'.",
-      "ex": "I used the word 'contest' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "contrast",
-      "fa": "تضاد",
-      "en": "A clear difference between two things.",
-      "ex": "There is a contrast between day and night.",
-      "pos": "noun"
-    },
-    {
-      "word": "conversation",
-      "fa": "مکالمه",
-      "en": "When two or more people talk together.",
-      "ex": "We had a short conversation.",
-      "pos": "noun"
-    },
-    {
-      "word": "cooking",
-      "fa": "آشپزی",
-      "en": "Making food with heat.",
-      "ex": "I enjoy cooking dinner.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «contest» (نیازمند بازبینی)"
     },
     {
       "word": "couch",
-      "fa": "معنی سادهٔ «couch» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'couch'.",
-      "ex": "I used the word 'couch' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «couch» (نیازمند بازبینی)"
     },
     {
       "word": "covservation",
-      "fa": "معنی سادهٔ «covservation» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'covservation'.",
-      "ex": "I used the word 'covservation' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «covservation» (نیازمند بازبینی)"
     },
     {
       "word": "cozy",
-      "fa": "معنی سادهٔ «cozy» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'cozy'.",
-      "ex": "I used the word 'cozy' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «cozy» (نیازمند بازبینی)"
     },
     {
       "word": "Crab",
-      "fa": "معنی سادهٔ «Crab» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Crab'.",
-      "ex": "I used the word 'Crab' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Crab» (نیازمند بازبینی)"
     },
     {
       "word": "credit",
-      "fa": "معنی سادهٔ «credit» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'credit'.",
-      "ex": "I used the word 'credit' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "crime",
-      "fa": "جرم / جنایت",
-      "en": "An illegal act; something against the law.",
-      "ex": "Stealing is a crime.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «credit» (نیازمند بازبینی)"
     },
     {
       "word": "criminal",
-      "fa": "معنی سادهٔ «criminal» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'criminal'.",
-      "ex": "I used the word 'criminal' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «criminal» (نیازمند بازبینی)"
     },
     {
       "word": "cupboard",
-      "fa": "معنی سادهٔ «cupboard» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'cupboard'.",
-      "ex": "I used the word 'cupboard' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «cupboard» (نیازمند بازبینی)"
     },
     {
       "word": "curtains",
-      "fa": "معنی سادهٔ «curtains» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'curtains'.",
-      "ex": "I used the word 'curtains' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "cypress",
-      "fa": "سرو",
-      "en": "A tall, thin tree.",
-      "ex": "A row of cypress trees.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «curtains» (نیازمند بازبینی)"
     },
     {
       "word": "d",
-      "fa": "معنی سادهٔ «d» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'd'.",
-      "ex": "I used the word 'd' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "decide",
-      "fa": "تصمیم گرفتن",
-      "en": "To choose something after thinking.",
-      "ex": "Decide soon, please.",
-      "pos": "verb"
+      "fa": "معنی سادهٔ «d» (نیازمند بازبینی)"
     },
     {
       "word": "decorate",
-      "fa": "معنی سادهٔ «decorate» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'decorate'.",
-      "ex": "I used the word 'decorate' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "definition",
-      "fa": "تعریف",
-      "en": "The meaning of a word or idea.",
-      "ex": "What is the definition of 'campus'?",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «decorate» (نیازمند بازبینی)"
     },
     {
       "word": "deprived",
-      "fa": "معنی سادهٔ «deprived» (نیازمند بازبینی)",
-      "en": "A form of the verb 'depriv'.",
-      "ex": "I used the word 'deprived' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «deprived» (نیازمند بازبینی)"
     },
     {
       "word": "describe",
-      "fa": "معنی سادهٔ «describe» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'describe'.",
-      "ex": "I used the word 'describe' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «describe» (نیازمند بازبینی)"
     },
     {
       "word": "dessert",
-      "fa": "معنی سادهٔ «dessert» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'dessert'.",
-      "ex": "I used the word 'dessert' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "dining rooms",
-      "fa": "سالن غذاخوری",
-      "en": "Rooms where people eat meals.",
-      "ex": "The dorm has two dining rooms.",
-      "pos": "noun"
-    },
-    {
-      "word": "directions",
-      "fa": "دستورالعمل‌ها",
-      "en": "Information about how to do something.",
-      "ex": "Follow the directions carefully.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «dessert» (نیازمند بازبینی)"
     },
     {
       "word": "directly",
-      "fa": "معنی سادهٔ «directly» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'directly'.",
-      "ex": "I used the word 'directly' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «directly» (نیازمند بازبینی)"
     },
     {
       "word": "disaster",
-      "fa": "معنی سادهٔ «disaster» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'disaster'.",
-      "ex": "I used the word 'disaster' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «disaster» (نیازمند بازبینی)"
     },
     {
       "word": "discuss",
-      "fa": "معنی سادهٔ «discuss» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'discuss'.",
-      "ex": "I used the word 'discuss' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "discuss shopping",
-      "fa": "درباره خرید صحبت کردن",
-      "en": "To talk about buying things.",
-      "ex": "Let’s discuss shopping plans.",
-      "pos": "verb phrase"
+      "fa": "معنی سادهٔ «discuss» (نیازمند بازبینی)"
     },
     {
       "word": "disgusting",
-      "fa": "معنی سادهٔ «disgusting» (نیازمند بازبینی)",
-      "en": "A form of the verb 'disgust'.",
-      "ex": "I used the word 'disgusting' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "dormitory (dorm)",
-      "fa": "خوابگاه",
-      "en": "A building where students live.",
-      "ex": "The dormitory is near the cafeteria.",
-      "pos": "noun"
-    },
-    {
-      "word": "double",
-      "fa": "دو برابر",
-      "en": "To make something two times bigger.",
-      "ex": "Double the amount of water.",
-      "pos": "verb"
+      "fa": "معنی سادهٔ «disgusting» (نیازمند بازبینی)"
     },
     {
       "word": "downtown",
-      "fa": "معنی سادهٔ «downtown» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'downtown'.",
-      "ex": "I used the word 'downtown' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «downtown» (نیازمند بازبینی)"
     },
     {
       "word": "drag",
-      "fa": "معنی سادهٔ «drag» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'drag'.",
-      "ex": "I used the word 'drag' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «drag» (نیازمند بازبینی)"
     },
     {
       "word": "dresser",
-      "fa": "معنی سادهٔ «dresser» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'dresser'.",
-      "ex": "I used the word 'dresser' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "drove",
-      "fa": "رانندگی کرد",
-      "en": "Past tense of drive: used a car.",
-      "ex": "He drove to school yesterday.",
-      "pos": "verb (past)"
-    },
-    {
-      "word": "drove across the country",
-      "fa": "سراسر کشور رانندگی کرد",
-      "en": "Traveled by car from one side of the country to the other.",
-      "ex": "They drove across the country in five days.",
-      "pos": "phrase"
-    },
-    {
-      "word": "during",
-      "fa": "در طولِ",
-      "en": "At the same time as something happens.",
-      "ex": "No phones during class.",
-      "pos": "prep"
+      "fa": "معنی سادهٔ «dresser» (نیازمند بازبینی)"
     },
     {
       "word": "e",
-      "fa": "معنی سادهٔ «e» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'e'.",
-      "ex": "I used the word 'e' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "e-commerce",
-      "fa": "تجارت الکترونیک",
-      "en": "Buying and selling on the internet.",
-      "ex": "E-commerce is growing fast.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «e» (نیازمند بازبینی)"
     },
     {
       "word": "education",
-      "fa": "معنی سادهٔ «education» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'education'.",
-      "ex": "I used the word 'education' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «education» (نیازمند بازبینی)"
     },
     {
       "word": "eg",
-      "fa": "معنی سادهٔ «eg» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'eg'.",
-      "ex": "I used the word 'eg' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «eg» (نیازمند بازبینی)"
     },
     {
       "word": "El",
-      "fa": "معنی سادهٔ «El» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'El'.",
-      "ex": "I used the word 'El' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «El» (نیازمند بازبینی)"
     },
     {
       "word": "elbow",
-      "fa": "معنی سادهٔ «elbow» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'elbow'.",
-      "ex": "I used the word 'elbow' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «elbow» (نیازمند بازبینی)"
     },
     {
       "word": "elevator",
-      "fa": "معنی سادهٔ «elevator» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'elevator'.",
-      "ex": "I used the word 'elevator' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "elm",
-      "fa": "نارون",
-      "en": "A tree with wide leaves.",
-      "ex": "An old elm in the yard.",
-      "pos": "noun"
-    },
-    {
-      "word": "emoticons",
-      "fa": "شکلک‌ها",
-      "en": "Small pictures that show feelings.",
-      "ex": "Use emoticons in messages.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «elevator» (نیازمند بازبینی)"
     },
     {
       "word": "engineering",
-      "fa": "معنی سادهٔ «engineering» (نیازمند بازبینی)",
-      "en": "A form of the verb 'engineer'.",
-      "ex": "I used the word 'engineering' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «engineering» (نیازمند بازبینی)"
     },
     {
       "word": "enormous",
-      "fa": "معنی سادهٔ «enormous» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'enormous'.",
-      "ex": "I used the word 'enormous' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "entertainment",
-      "fa": "سرگرمی",
-      "en": "Things people do for fun.",
-      "ex": "The city has a lot of entertainment.",
-      "pos": "noun"
-    },
-    {
-      "word": "environment",
-      "fa": "محیط زیست",
-      "en": "The natural world around us (air, water, land).",
-      "ex": "Protect the environment.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «enormous» (نیازمند بازبینی)"
     },
     {
       "word": "environmentalists",
-      "fa": "معنی سادهٔ «environmentalists» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'environmentalists'.",
-      "ex": "I used the word 'environmentalists' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «environmentalists» (نیازمند بازبینی)"
     },
     {
       "word": "equality",
-      "fa": "معنی سادهٔ «equality» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'equality'.",
-      "ex": "I used the word 'equality' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "eucalyptus",
-      "fa": "اوکالیپتوس",
-      "en": "A tall tree with a strong smell.",
-      "ex": "Koalas love eucalyptus leaves.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «equality» (نیازمند بازبینی)"
     },
     {
       "word": "event",
-      "fa": "معنی سادهٔ «event» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'event'.",
-      "ex": "I used the word 'event' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «event» (نیازمند بازبینی)"
     },
     {
       "word": "evidence",
-      "fa": "معنی سادهٔ «evidence» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'evidence'.",
-      "ex": "I used the word 'evidence' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «evidence» (نیازمند بازبینی)"
     },
     {
       "word": "exciting",
-      "fa": "معنی سادهٔ «exciting» (نیازمند بازبینی)",
-      "en": "A form of the verb 'excit'.",
-      "ex": "I used the word 'exciting' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «exciting» (نیازمند بازبینی)"
     },
     {
       "word": "exhausted",
-      "fa": "معنی سادهٔ «exhausted» (نیازمند بازبینی)",
-      "en": "A form of the verb 'exhaust'.",
-      "ex": "I used the word 'exhausted' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «exhausted» (نیازمند بازبینی)"
     },
     {
       "word": "exist",
-      "fa": "معنی سادهٔ «exist» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'exist'.",
-      "ex": "I used the word 'exist' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "expect",
-      "fa": "انتظار داشتن",
-      "en": "To think something will happen or someone will come.",
-      "ex": "I expect good news.",
-      "pos": "verb"
-    },
-    {
-      "word": "experience",
-      "fa": "تجربه",
-      "en": "Something you do or feel in real life.",
-      "ex": "Work experience is important.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «exist» (نیازمند بازبینی)"
     },
     {
       "word": "Expert",
-      "fa": "معنی سادهٔ «Expert» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Expert'.",
-      "ex": "I used the word 'Expert' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Expert» (نیازمند بازبینی)"
     },
     {
       "word": "experts",
-      "fa": "معنی سادهٔ «experts» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'experts'.",
-      "ex": "I used the word 'experts' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «experts» (نیازمند بازبینی)"
     },
     {
       "word": "expressions",
-      "fa": "معنی سادهٔ «expressions» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'expressions'.",
-      "ex": "I used the word 'expressions' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «expressions» (نیازمند بازبینی)"
     },
     {
       "word": "extinct",
-      "fa": "معنی سادهٔ «extinct» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'extinct'.",
-      "ex": "I used the word 'extinct' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «extinct» (نیازمند بازبینی)"
     },
     {
       "word": "Eye",
-      "fa": "معنی سادهٔ «Eye» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Eye'.",
-      "ex": "I used the word 'Eye' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Eye» (نیازمند بازبینی)"
     },
     {
       "word": "eyebrow",
-      "fa": "معنی سادهٔ «eyebrow» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'eyebrow'.",
-      "ex": "I used the word 'eyebrow' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «eyebrow» (نیازمند بازبینی)"
     },
     {
       "word": "fancy",
-      "fa": "معنی سادهٔ «fancy» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'fancy'.",
-      "ex": "I used the word 'fancy' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «fancy» (نیازمند بازبینی)"
     },
     {
       "word": "fashion",
-      "fa": "معنی سادهٔ «fashion» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'fashion'.",
-      "ex": "I used the word 'fashion' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «fashion» (نیازمند بازبینی)"
     },
     {
       "word": "females",
-      "fa": "معنی سادهٔ «females» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'females'.",
-      "ex": "I used the word 'females' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «females» (نیازمند بازبینی)"
     },
     {
       "word": "fields",
-      "fa": "معنی سادهٔ «fields» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'fields'.",
-      "ex": "I used the word 'fields' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «fields» (نیازمند بازبینی)"
     },
     {
       "word": "fighting",
-      "fa": "معنی سادهٔ «fighting» (نیازمند بازبینی)",
-      "en": "A form of the verb 'fight'.",
-      "ex": "I used the word 'fighting' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «fighting» (نیازمند بازبینی)"
     },
     {
       "word": "flavors",
-      "fa": "معنی سادهٔ «flavors» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'flavors'.",
-      "ex": "I used the word 'flavors' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «flavors» (نیازمند بازبینی)"
     },
     {
       "word": "front",
-      "fa": "معنی سادهٔ «front» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'front'.",
-      "ex": "I used the word 'front' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «front» (نیازمند بازبینی)"
     },
     {
       "word": "funny",
-      "fa": "معنی سادهٔ «funny» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'funny'.",
-      "ex": "I used the word 'funny' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «funny» (نیازمند بازبینی)"
     },
     {
       "word": "furniture",
-      "fa": "معنی سادهٔ «furniture» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'furniture'.",
-      "ex": "I used the word 'furniture' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «furniture» (نیازمند بازبینی)"
     },
     {
       "word": "genders",
-      "fa": "معنی سادهٔ «genders» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'genders'.",
-      "ex": "I used the word 'genders' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «genders» (نیازمند بازبینی)"
     },
     {
       "word": "glacier",
-      "fa": "معنی سادهٔ «glacier» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'glacier'.",
-      "ex": "I used the word 'glacier' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «glacier» (نیازمند بازبینی)"
     },
     {
       "word": "glad",
-      "fa": "معنی سادهٔ «glad» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'glad'.",
-      "ex": "I used the word 'glad' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «glad» (نیازمند بازبینی)"
     },
     {
       "word": "good",
-      "fa": "معنی سادهٔ «good» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'good'.",
-      "ex": "I used the word 'good' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "gourmet",
-      "fa": "غذای لوکس و باکیفیت",
-      "en": "Very high‑quality, special food.",
-      "ex": "They served a gourmet dinner.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «good» (نیازمند بازبینی)"
     },
     {
       "word": "grass",
-      "fa": "معنی سادهٔ «grass» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'grass'.",
-      "ex": "I used the word 'grass' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "growing",
-      "fa": "در حال رشد",
-      "en": "Becoming bigger; increasing.",
-      "ex": "A growing number of users.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «grass» (نیازمند بازبینی)"
     },
     {
       "word": "guilty",
-      "fa": "معنی سادهٔ «guilty» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'guilty'.",
-      "ex": "I used the word 'guilty' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «guilty» (نیازمند بازبینی)"
     },
     {
       "word": "gure",
-      "fa": "معنی سادهٔ «gure» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'gure'.",
-      "ex": "I used the word 'gure' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «gure» (نیازمند بازبینی)"
     },
     {
       "word": "hairbrush",
-      "fa": "معنی سادهٔ «hairbrush» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'hairbrush'.",
-      "ex": "I used the word 'hairbrush' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «hairbrush» (نیازمند بازبینی)"
     },
     {
       "word": "hairstylist",
-      "fa": "معنی سادهٔ «hairstylist» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'hairstylist'.",
-      "ex": "I used the word 'hairstylist' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «hairstylist» (نیازمند بازبینی)"
     },
     {
       "word": "handsome",
-      "fa": "معنی سادهٔ «handsome» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'handsome'.",
-      "ex": "I used the word 'handsome' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "hardships",
-      "fa": "سختی‌ها",
-      "en": "Difficult conditions or problems in life.",
-      "ex": "They faced many hardships.",
-      "pos": "noun"
-    },
-    {
-      "word": "health center",
-      "fa": "مرکز بهداشت",
-      "en": "A place with doctors and nurses.",
-      "ex": "Go to the health center if you are sick.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «handsome» (نیازمند بازبینی)"
     },
     {
       "word": "heavy",
-      "fa": "معنی سادهٔ «heavy» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'heavy'.",
-      "ex": "I used the word 'heavy' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «heavy» (نیازمند بازبینی)"
     },
     {
       "word": "hidden",
-      "fa": "معنی سادهٔ «hidden» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'hidden'.",
-      "ex": "I used the word 'hidden' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «hidden» (نیازمند بازبینی)"
     },
     {
       "word": "hierarchy",
-      "fa": "معنی سادهٔ «hierarchy» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'hierarchy'.",
-      "ex": "I used the word 'hierarchy' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «hierarchy» (نیازمند بازبینی)"
     },
     {
       "word": "high",
-      "fa": "معنی سادهٔ «high» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'high'.",
-      "ex": "I used the word 'high' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «high» (نیازمند بازبینی)"
     },
     {
       "word": "Hike",
-      "fa": "معنی سادهٔ «Hike» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Hike'.",
-      "ex": "I used the word 'Hike' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Hike» (نیازمند بازبینی)"
     },
     {
       "word": "Hiker",
-      "fa": "معنی سادهٔ «Hiker» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Hiker'.",
-      "ex": "I used the word 'Hiker' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Hiker» (نیازمند بازبینی)"
     },
     {
       "word": "hip",
-      "fa": "معنی سادهٔ «hip» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'hip'.",
-      "ex": "I used the word 'hip' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "home improvement",
-      "fa": "بهسازی خانه",
-      "en": "Work to make a house better.",
-      "ex": "He does home improvement on weekends.",
-      "pos": "noun"
-    },
-    {
-      "word": "homelessness",
-      "fa": "بی‌خانمانی",
-      "en": "The state of having no home to live in.",
-      "ex": "Homelessness is a serious issue.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «hip» (نیازمند بازبینی)"
     },
     {
       "word": "horrible",
-      "fa": "معنی سادهٔ «horrible» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'horrible'.",
-      "ex": "I used the word 'horrible' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «horrible» (نیازمند بازبینی)"
     },
     {
       "word": "host",
-      "fa": "معنی سادهٔ «host» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'host'.",
-      "ex": "I used the word 'host' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "housing",
-      "fa": "مسکن",
-      "en": "Places where people live.",
-      "ex": "Student housing is near campus.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «host» (نیازمند بازبینی)"
     },
     {
       "word": "How",
-      "fa": "معنی سادهٔ «How» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'How'.",
-      "ex": "I used the word 'How' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «How» (نیازمند بازبینی)"
     },
     {
       "word": "How's",
-      "fa": "معنی سادهٔ «How's» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'How's'.",
-      "ex": "I used the word 'How's' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "huge",
-      "fa": "خیلی بزرگ",
-      "en": "Very, very big.",
-      "ex": "A huge stadium.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «How's» (نیازمند بازبینی)"
     },
     {
       "word": "i",
-      "fa": "معنی سادهٔ «i» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'i'.",
-      "ex": "I used the word 'i' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «i» (نیازمند بازبینی)"
     },
     {
       "word": "I-e",
-      "fa": "معنی سادهٔ «I-e» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'I-e'.",
-      "ex": "I used the word 'I-e' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «I-e» (نیازمند بازبینی)"
     },
     {
       "word": "identify",
-      "fa": "معنی سادهٔ «identify» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'identify'.",
-      "ex": "I used the word 'identify' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «identify» (نیازمند بازبینی)"
     },
     {
       "word": "Identity",
-      "fa": "معنی سادهٔ «Identity» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Identity'.",
-      "ex": "I used the word 'Identity' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Identity» (نیازمند بازبینی)"
     },
     {
       "word": "igosy",
-      "fa": "معنی سادهٔ «igosy» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'igosy'.",
-      "ex": "I used the word 'igosy' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «igosy» (نیازمند بازبینی)"
     },
     {
       "word": "independence",
-      "fa": "معنی سادهٔ «independence» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'independence'.",
-      "ex": "I used the word 'independence' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «independence» (نیازمند بازبینی)"
     },
     {
       "word": "individual",
-      "fa": "معنی سادهٔ «individual» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'individual'.",
-      "ex": "I used the word 'individual' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «individual» (نیازمند بازبینی)"
     },
     {
       "word": "industry",
-      "fa": "معنی سادهٔ «industry» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'industry'.",
-      "ex": "I used the word 'industry' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «industry» (نیازمند بازبینی)"
     },
     {
       "word": "inferences",
-      "fa": "معنی سادهٔ «inferences» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'inferences'.",
-      "ex": "I used the word 'inferences' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «inferences» (نیازمند بازبینی)"
     },
     {
       "word": "infront",
-      "fa": "معنی سادهٔ «infront» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'infront'.",
-      "ex": "I used the word 'infront' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «infront» (نیازمند بازبینی)"
     },
     {
       "word": "instructor",
-      "fa": "معنی سادهٔ «instructor» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'instructor'.",
-      "ex": "I used the word 'instructor' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «instructor» (نیازمند بازبینی)"
     },
     {
       "word": "Interaction",
-      "fa": "معنی سادهٔ «Interaction» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Interaction'.",
-      "ex": "I used the word 'Interaction' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Interaction» (نیازمند بازبینی)"
     },
     {
       "word": "interview",
-      "fa": "معنی سادهٔ «interview» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'interview'.",
-      "ex": "I used the word 'interview' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «interview» (نیازمند بازبینی)"
     },
     {
       "word": "intination",
-      "fa": "معنی سادهٔ «intination» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'intination'.",
-      "ex": "I used the word 'intination' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «intination» (نیازمند بازبینی)"
     },
     {
       "word": "intonation",
-      "fa": "معنی سادهٔ «intonation» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'intonation'.",
-      "ex": "I used the word 'intonation' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «intonation» (نیازمند بازبینی)"
     },
     {
       "word": "Isi",
-      "fa": "معنی سادهٔ «Isi» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Isi'.",
-      "ex": "I used the word 'Isi' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "it over once",
-      "fa": "یک بار تا کن",
-      "en": "Fold it one time.",
-      "ex": "Please fold it over once.",
-      "pos": "phrase"
+      "fa": "معنی سادهٔ «Isi» (نیازمند بازبینی)"
     },
     {
       "word": "Itaf/",
-      "fa": "معنی سادهٔ «Itaf/» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Itaf/'.",
-      "ex": "I used the word 'Itaf/' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "I’m doing well!",
-      "fa": "حالم خوب است!",
-      "en": "I feel fine; everything is OK.",
-      "ex": "Hi, I’m doing well!",
-      "pos": "expression"
+      "fa": "معنی سادهٔ «Itaf/» (نیازمند بازبینی)"
     },
     {
       "word": "J",
-      "fa": "معنی سادهٔ «J» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'J'.",
-      "ex": "I used the word 'J' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «J» (نیازمند بازبینی)"
     },
     {
       "word": "Ja",
-      "fa": "معنی سادهٔ «Ja» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Ja'.",
-      "ex": "I used the word 'Ja' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Ja» (نیازمند بازبینی)"
     },
     {
       "word": "jars",
-      "fa": "معنی سادهٔ «jars» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'jars'.",
-      "ex": "I used the word 'jars' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «jars» (نیازمند بازبینی)"
     },
     {
       "word": "Jets",
-      "fa": "معنی سادهٔ «Jets» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Jets'.",
-      "ex": "I used the word 'Jets' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Jets» (نیازمند بازبینی)"
     },
     {
       "word": "jig",
-      "fa": "معنی سادهٔ «jig» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'jig'.",
-      "ex": "I used the word 'jig' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «jig» (نیازمند بازبینی)"
     },
     {
       "word": "Jigs",
-      "fa": "معنی سادهٔ «Jigs» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Jigs'.",
-      "ex": "I used the word 'Jigs' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "journal",
-      "fa": "دفتر یادداشت",
-      "en": "A notebook to write ideas and events.",
-      "ex": "Write in your journal every day.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Jigs» (نیازمند بازبینی)"
     },
     {
       "word": "ju",
-      "fa": "معنی سادهٔ «ju» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'ju'.",
-      "ex": "I used the word 'ju' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «ju» (نیازمند بازبینی)"
     },
     {
       "word": "junk",
-      "fa": "معنی سادهٔ «junk» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'junk'.",
-      "ex": "I used the word 'junk' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «junk» (نیازمند بازبینی)"
     },
     {
       "word": "L",
-      "fa": "معنی سادهٔ «L» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'L'.",
-      "ex": "I used the word 'L' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «L» (نیازمند بازبینی)"
     },
     {
       "word": "laundry",
-      "fa": "معنی سادهٔ «laundry» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'laundry'.",
-      "ex": "I used the word 'laundry' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «laundry» (نیازمند بازبینی)"
     },
     {
       "word": "law",
-      "fa": "معنی سادهٔ «law» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'law'.",
-      "ex": "I used the word 'law' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «law» (نیازمند بازبینی)"
     },
     {
       "word": "lawyer",
-      "fa": "معنی سادهٔ «lawyer» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'lawyer'.",
-      "ex": "I used the word 'lawyer' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «lawyer» (نیازمند بازبینی)"
     },
     {
       "word": "lawyers",
-      "fa": "معنی سادهٔ «lawyers» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'lawyers'.",
-      "ex": "I used the word 'lawyers' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "learning resources center",
-      "fa": "مرکز منابع آموزشی",
-      "en": "A place with books and computers for study.",
-      "ex": "Go to the learning resources center.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «lawyers» (نیازمند بازبینی)"
     },
     {
       "word": "lettuce",
-      "fa": "معنی سادهٔ «lettuce» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'lettuce'.",
-      "ex": "I used the word 'lettuce' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "logic",
-      "fa": "منطق",
-      "en": "Clear and reasonable thinking.",
-      "ex": "Use logic to solve the problem.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «lettuce» (نیازمند بازبینی)"
     },
     {
       "word": "males",
-      "fa": "معنی سادهٔ «males» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'males'.",
-      "ex": "I used the word 'males' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "mammals",
-      "fa": "پستانداران",
-      "en": "Animals that have hair and feed their babies with milk.",
-      "ex": "Humans are mammals.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «males» (نیازمند بازبینی)"
     },
     {
       "word": "marine",
-      "fa": "معنی سادهٔ «marine» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'marine'.",
-      "ex": "I used the word 'marine' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «marine» (نیازمند بازبینی)"
     },
     {
       "word": "married",
-      "fa": "معنی سادهٔ «married» (نیازمند بازبینی)",
-      "en": "A form of the verb 'marri'.",
-      "ex": "I used the word 'married' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «married» (نیازمند بازبینی)"
     },
     {
       "word": "melting",
-      "fa": "معنی سادهٔ «melting» (نیازمند بازبینی)",
-      "en": "A form of the verb 'melt'.",
-      "ex": "I used the word 'melting' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «melting» (نیازمند بازبینی)"
     },
     {
       "word": "mention",
-      "fa": "معنی سادهٔ «mention» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'mention'.",
-      "ex": "I used the word 'mention' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «mention» (نیازمند بازبینی)"
     },
     {
       "word": "methods",
-      "fa": "معنی سادهٔ «methods» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'methods'.",
-      "ex": "I used the word 'methods' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «methods» (نیازمند بازبینی)"
     },
     {
       "word": "miserable",
-      "fa": "معنی سادهٔ «miserable» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'miserable'.",
-      "ex": "I used the word 'miserable' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «miserable» (نیازمند بازبینی)"
     },
     {
       "word": "Miss",
-      "fa": "معنی سادهٔ «Miss» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Miss'.",
-      "ex": "I used the word 'Miss' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Miss» (نیازمند بازبینی)"
     },
     {
       "word": "Mr",
-      "fa": "معنی سادهٔ «Mr» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Mr'.",
-      "ex": "I used the word 'Mr' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Mr» (نیازمند بازبینی)"
     },
     {
       "word": "Mrs",
-      "fa": "معنی سادهٔ «Mrs» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Mrs'.",
-      "ex": "I used the word 'Mrs' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Mrs» (نیازمند بازبینی)"
     },
     {
       "word": "Ms",
-      "fa": "معنی سادهٔ «Ms» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Ms'.",
-      "ex": "I used the word 'Ms' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "narrative",
-      "fa": "روایت / داستان",
-      "en": "A story or description of events.",
-      "ex": "The movie has a strong narrative.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Ms» (نیازمند بازبینی)"
     },
     {
       "word": "nationalities",
-      "fa": "معنی سادهٔ «nationalities» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'nationalities'.",
-      "ex": "I used the word 'nationalities' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "neighborhood",
-      "fa": "محله",
-      "en": "The area where you live.",
-      "ex": "Our neighborhood is quiet.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «nationalities» (نیازمند بازبینی)"
     },
     {
       "word": "nets",
-      "fa": "معنی سادهٔ «nets» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'nets'.",
-      "ex": "I used the word 'nets' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «nets» (نیازمند بازبینی)"
     },
     {
       "word": "next",
-      "fa": "معنی سادهٔ «next» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'next'.",
-      "ex": "I used the word 'next' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «next» (نیازمند بازبینی)"
     },
     {
       "word": "nice",
-      "fa": "معنی سادهٔ «nice» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'nice'.",
-      "ex": "I used the word 'nice' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «nice» (نیازمند بازبینی)"
     },
     {
       "word": "nod",
-      "fa": "معنی سادهٔ «nod» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'nod'.",
-      "ex": "I used the word 'nod' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «nod» (نیازمند بازبینی)"
     },
     {
       "word": "notice",
-      "fa": "معنی سادهٔ «notice» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'notice'.",
-      "ex": "I used the word 'notice' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «notice» (نیازمند بازبینی)"
     },
     {
       "word": "nuts",
-      "fa": "معنی سادهٔ «nuts» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'nuts'.",
-      "ex": "I used the word 'nuts' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «nuts» (نیازمند بازبینی)"
     },
     {
       "word": "o",
-      "fa": "معنی سادهٔ «o» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'o'.",
-      "ex": "I used the word 'o' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «o» (نیازمند بازبینی)"
     },
     {
       "word": "objects",
-      "fa": "معنی سادهٔ «objects» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'objects'.",
-      "ex": "I used the word 'objects' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «objects» (نیازمند بازبینی)"
     },
     {
       "word": "occasion",
-      "fa": "معنی سادهٔ «occasion» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'occasion'.",
-      "ex": "I used the word 'occasion' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «occasion» (نیازمند بازبینی)"
     },
     {
       "word": "od",
-      "fa": "معنی سادهٔ «od» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'od'.",
-      "ex": "I used the word 'od' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «od» (نیازمند بازبینی)"
     },
     {
       "word": "office",
-      "fa": "معنی سادهٔ «office» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'office'.",
-      "ex": "I used the word 'office' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "on the corner (of)",
-      "fa": "سرِ گوشه",
-      "en": "At the place where two streets meet.",
-      "ex": "The shop is on the corner of Elm Street.",
-      "pos": "prep phrase"
-    },
-    {
-      "word": "opinion",
-      "fa": "نظر",
-      "en": "What someone thinks or believes.",
-      "ex": "In my opinion, this is great.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «office» (نیازمند بازبینی)"
     },
     {
       "word": "orange",
-      "fa": "معنی سادهٔ «orange» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'orange'.",
-      "ex": "I used the word 'orange' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «orange» (نیازمند بازبینی)"
     },
     {
       "word": "originally",
-      "fa": "معنی سادهٔ «originally» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'originally'.",
-      "ex": "I used the word 'originally' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «originally» (نیازمند بازبینی)"
     },
     {
       "word": "outlet",
-      "fa": "معنی سادهٔ «outlet» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'outlet'.",
-      "ex": "I used the word 'outlet' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «outlet» (نیازمند بازبینی)"
     },
     {
       "word": "over",
-      "fa": "معنی سادهٔ «over» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'over'.",
-      "ex": "I used the word 'over' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «over» (نیازمند بازبینی)"
     },
     {
       "word": "overdid",
-      "fa": "معنی سادهٔ «overdid» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'overdid'.",
-      "ex": "I used the word 'overdid' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «overdid» (نیازمند بازبینی)"
     },
     {
       "word": "overfishing",
-      "fa": "معنی سادهٔ «overfishing» (نیازمند بازبینی)",
-      "en": "A form of the verb 'overfish'.",
-      "ex": "I used the word 'overfishing' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «overfishing» (نیازمند بازبینی)"
     },
     {
       "word": "owl",
-      "fa": "معنی سادهٔ «owl» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'owl'.",
-      "ex": "I used the word 'owl' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «owl» (نیازمند بازبینی)"
     },
     {
       "word": "owner",
-      "fa": "معنی سادهٔ «owner» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'owner'.",
-      "ex": "I used the word 'owner' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «owner» (نیازمند بازبینی)"
     },
     {
       "word": "P",
-      "fa": "معنی سادهٔ «P» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'P'.",
-      "ex": "I used the word 'P' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «P» (نیازمند بازبینی)"
     },
     {
       "word": "pacific",
-      "fa": "معنی سادهٔ «pacific» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'pacific'.",
-      "ex": "I used the word 'pacific' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «pacific» (نیازمند بازبینی)"
     },
     {
       "word": "pair",
-      "fa": "معنی سادهٔ «pair» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'pair'.",
-      "ex": "I used the word 'pair' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «pair» (نیازمند بازبینی)"
     },
     {
       "word": "Paliteshen/",
-      "fa": "معنی سادهٔ «Paliteshen/» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Paliteshen/'.",
-      "ex": "I used the word 'Paliteshen/' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Paliteshen/» (نیازمند بازبینی)"
     },
     {
       "word": "pants",
-      "fa": "معنی سادهٔ «pants» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'pants'.",
-      "ex": "I used the word 'pants' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «pants» (نیازمند بازبینی)"
     },
     {
       "word": "parade",
-      "fa": "معنی سادهٔ «parade» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'parade'.",
-      "ex": "I used the word 'parade' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «parade» (نیازمند بازبینی)"
     },
     {
       "word": "pastries",
-      "fa": "معنی سادهٔ «pastries» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'pastries'.",
-      "ex": "I used the word 'pastries' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «pastries» (نیازمند بازبینی)"
     },
     {
       "word": "percentage",
-      "fa": "معنی سادهٔ «percentage» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'percentage'.",
-      "ex": "I used the word 'percentage' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "perhaps",
-      "fa": "شاید",
-      "en": "Maybe; not sure.",
-      "ex": "Perhaps it will rain.",
-      "pos": "adv"
+      "fa": "معنی سادهٔ «percentage» (نیازمند بازبینی)"
     },
     {
       "word": "personaliti",
-      "fa": "معنی سادهٔ «personaliti» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'personaliti'.",
-      "ex": "I used the word 'personaliti' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «personaliti» (نیازمند بازبینی)"
     },
     {
       "word": "photographer",
-      "fa": "معنی سادهٔ «photographer» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'photographer'.",
-      "ex": "I used the word 'photographer' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "phrases",
-      "fa": "عبارت‌ها",
-      "en": "Groups of words with meaning, not a full sentence.",
-      "ex": "Learn common phrases for travel.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «photographer» (نیازمند بازبینی)"
     },
     {
       "word": "Pick",
-      "fa": "معنی سادهٔ «Pick» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Pick'.",
-      "ex": "I used the word 'Pick' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Pick» (نیازمند بازبینی)"
     },
     {
       "word": "pickles",
-      "fa": "معنی سادهٔ «pickles» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'pickles'.",
-      "ex": "I used the word 'pickles' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «pickles» (نیازمند بازبینی)"
     },
     {
       "word": "pill",
-      "fa": "معنی سادهٔ «pill» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'pill'.",
-      "ex": "I used the word 'pill' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «pill» (نیازمند بازبینی)"
     },
     {
       "word": "pilot",
-      "fa": "معنی سادهٔ «pilot» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'pilot'.",
-      "ex": "I used the word 'pilot' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "pine",
-      "fa": "کاج",
-      "en": "A tree with needles and cones.",
-      "ex": "Pine forests cover the hills.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «pilot» (نیازمند بازبینی)"
     },
     {
       "word": "politicians",
-      "fa": "معنی سادهٔ «politicians» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'politicians'.",
-      "ex": "I used the word 'politicians' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "popular",
-      "fa": "محبوب / پرطرفدار",
-      "en": "Liked by many people.",
-      "ex": "A popular app.",
-      "pos": "adj"
-    },
-    {
-      "word": "population",
-      "fa": "جمعیت",
-      "en": "The number of people in a place.",
-      "ex": "The population is growing fast.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «politicians» (نیازمند بازبینی)"
     },
     {
       "word": "Por",
-      "fa": "معنی سادهٔ «Por» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Por'.",
-      "ex": "I used the word 'Por' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Por» (نیازمند بازبینی)"
     },
     {
       "word": "position",
-      "fa": "معنی سادهٔ «position» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'position'.",
-      "ex": "I used the word 'position' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «position» (نیازمند بازبینی)"
     },
     {
       "word": "possessions",
-      "fa": "معنی سادهٔ «possessions» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'possessions'.",
-      "ex": "I used the word 'possessions' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «possessions» (نیازمند بازبینی)"
     },
     {
       "word": "poster",
-      "fa": "معنی سادهٔ «poster» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'poster'.",
-      "ex": "I used the word 'poster' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "practice",
-      "fa": "تمرین کردن",
-      "en": "To do something many times to get better.",
-      "ex": "Practice speaking every day.",
-      "pos": "verb"
-    },
-    {
-      "word": "predict",
-      "fa": "پیش‌بینی کردن",
-      "en": "To say what you think will happen.",
-      "ex": "Scientists predict rain tomorrow.",
-      "pos": "verb"
+      "fa": "معنی سادهٔ «poster» (نیازمند بازبینی)"
     },
     {
       "word": "prediction",
-      "fa": "معنی سادهٔ «prediction» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'prediction'.",
-      "ex": "I used the word 'prediction' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "predictions",
-      "fa": "پیش‌بینی‌ها",
-      "en": "Guesses about what will happen.",
-      "ex": "Weather predictions say it will rain.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «prediction» (نیازمند بازبینی)"
     },
     {
       "word": "Pregnant",
-      "fa": "معنی سادهٔ «Pregnant» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Pregnant'.",
-      "ex": "I used the word 'Pregnant' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "prepare",
-      "fa": "آماده کردن",
-      "en": "To get something ready.",
-      "ex": "Prepare your notes for the exam.",
-      "pos": "verb"
+      "fa": "معنی سادهٔ «Pregnant» (نیازمند بازبینی)"
     },
     {
       "word": "Pressure",
-      "fa": "معنی سادهٔ «Pressure» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Pressure'.",
-      "ex": "I used the word 'Pressure' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Pressure» (نیازمند بازبینی)"
     },
     {
       "word": "pretty",
-      "fa": "معنی سادهٔ «pretty» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'pretty'.",
-      "ex": "I used the word 'pretty' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "products",
-      "fa": "محصولات",
-      "en": "Things that are made and sold.",
-      "ex": "The store sells many products.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «pretty» (نیازمند بازبینی)"
     },
     {
       "word": "professional",
-      "fa": "معنی سادهٔ «professional» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'professional'.",
-      "ex": "I used the word 'professional' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «professional» (نیازمند بازبینی)"
     },
     {
       "word": "Protect",
-      "fa": "معنی سادهٔ «Protect» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Protect'.",
-      "ex": "I used the word 'Protect' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Protect» (نیازمند بازبینی)"
     },
     {
       "word": "prove",
-      "fa": "معنی سادهٔ «prove» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'prove'.",
-      "ex": "I used the word 'prove' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «prove» (نیازمند بازبینی)"
     },
     {
       "word": "province",
-      "fa": "معنی سادهٔ «province» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'province'.",
-      "ex": "I used the word 'province' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «province» (نیازمند بازبینی)"
     },
     {
       "word": "Pull",
-      "fa": "معنی سادهٔ «Pull» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Pull'.",
-      "ex": "I used the word 'Pull' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "punctuation clues",
-      "fa": "نشانه‌های نگارشی",
-      "en": "Writing marks that help us understand sentences (. , ? !).",
-      "ex": "A question mark is a punctuation clue.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Pull» (نیازمند بازبینی)"
     },
     {
       "word": "purple",
-      "fa": "معنی سادهٔ «purple» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'purple'.",
-      "ex": "I used the word 'purple' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "purpose",
-      "fa": "هدف / مقصود",
-      "en": "The reason why something is done.",
-      "ex": "What is the purpose of this test?",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «purple» (نیازمند بازبینی)"
     },
     {
       "word": "purse",
-      "fa": "معنی سادهٔ «purse» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'purse'.",
-      "ex": "I used the word 'purse' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «purse» (نیازمند بازبینی)"
     },
     {
       "word": "Push",
-      "fa": "معنی سادهٔ «Push» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Push'.",
-      "ex": "I used the word 'Push' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "put purchases on credit card",
-      "fa": "خرید را با کارت اعتباری حساب کردن",
-      "en": "To pay by using a credit card, not cash.",
-      "ex": "I put the book on my credit card.",
-      "pos": "phrase"
-    },
-    {
-      "word": "quit",
-      "fa": "ترک کردن",
-      "en": "To stop doing something or leave a job/place.",
-      "ex": "He wants to quit smoking.",
-      "pos": "verb"
+      "fa": "معنی سادهٔ «Push» (نیازمند بازبینی)"
     },
     {
       "word": "quiz",
-      "fa": "معنی سادهٔ «quiz» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'quiz'.",
-      "ex": "I used the word 'quiz' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "quotes",
-      "fa": "نقل‌قول‌ها",
-      "en": "Words repeated exactly as someone said or wrote them.",
-      "ex": "He collects famous quotes.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «quiz» (نیازمند بازبینی)"
     },
     {
       "word": "rain",
-      "fa": "معنی سادهٔ «rain» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'rain'.",
-      "ex": "I used the word 'rain' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «rain» (نیازمند بازبینی)"
     },
     {
       "word": "Rant",
-      "fa": "معنی سادهٔ «Rant» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Rant'.",
-      "ex": "I used the word 'Rant' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "rarely",
-      "fa": "به‌ندرت",
-      "en": "Not often; almost never.",
-      "ex": "He rarely watches TV.",
-      "pos": "adv"
+      "fa": "معنی سادهٔ «Rant» (نیازمند بازبینی)"
     },
     {
       "word": "reaches",
-      "fa": "معنی سادهٔ «reaches» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'reaches'.",
-      "ex": "I used the word 'reaches' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «reaches» (نیازمند بازبینی)"
     },
     {
       "word": "receptionist",
-      "fa": "معنی سادهٔ «receptionist» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'receptionist'.",
-      "ex": "I used the word 'receptionist' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «receptionist» (نیازمند بازبینی)"
     },
     {
       "word": "reduction",
-      "fa": "معنی سادهٔ «reduction» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'reduction'.",
-      "ex": "I used the word 'reduction' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «reduction» (نیازمند بازبینی)"
     },
     {
       "word": "refrigerator",
-      "fa": "معنی سادهٔ «refrigerator» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'refrigerator'.",
-      "ex": "I used the word 'refrigerator' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "release",
-      "fa": "آزاد کردن / رها کردن",
-      "en": "To let something go free.",
-      "ex": "They released the bird.",
-      "pos": "verb"
+      "fa": "معنی سادهٔ «refrigerator» (نیازمند بازبینی)"
     },
     {
       "word": "remedies",
-      "fa": "معنی سادهٔ «remedies» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'remedies'.",
-      "ex": "I used the word 'remedies' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «remedies» (نیازمند بازبینی)"
     },
     {
       "word": "repairing",
-      "fa": "معنی سادهٔ «repairing» (نیازمند بازبینی)",
-      "en": "A form of the verb 'repair'.",
-      "ex": "I used the word 'repairing' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «repairing» (نیازمند بازبینی)"
     },
     {
       "word": "Reproduce",
-      "fa": "معنی سادهٔ «Reproduce» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Reproduce'.",
-      "ex": "I used the word 'Reproduce' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "resources center",
-      "fa": "مرکز منابع",
-      "en": "A place to find information and help.",
-      "ex": "Ask at the resources center.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Reproduce» (نیازمند بازبینی)"
     },
     {
       "word": "reuse",
-      "fa": "معنی سادهٔ «reuse» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'reuse'.",
-      "ex": "I used the word 'reuse' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "reviewing verb tenses",
-      "fa": "مرور زمان‌های فعل",
-      "en": "Looking again at verb tenses (present/past/future).",
-      "ex": "We are reviewing verb tenses today.",
-      "pos": "phrase"
+      "fa": "معنی سادهٔ «reuse» (نیازمند بازبینی)"
     },
     {
       "word": "rinkel/",
-      "fa": "معنی سادهٔ «rinkel/» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'rinkel/'.",
-      "ex": "I used the word 'rinkel/' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «rinkel/» (نیازمند بازبینی)"
     },
     {
       "word": "rollers",
-      "fa": "معنی سادهٔ «rollers» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'rollers'.",
-      "ex": "I used the word 'rollers' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «rollers» (نیازمند بازبینی)"
     },
     {
       "word": "roughy",
-      "fa": "معنی سادهٔ «roughy» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'roughy'.",
-      "ex": "I used the word 'roughy' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «roughy» (نیازمند بازبینی)"
     },
     {
       "word": "rug",
-      "fa": "معنی سادهٔ «rug» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'rug'.",
-      "ex": "I used the word 'rug' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «rug» (نیازمند بازبینی)"
     },
     {
       "word": "S",
-      "fa": "معنی سادهٔ «S» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'S'.",
-      "ex": "I used the word 'S' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «S» (نیازمند بازبینی)"
     },
     {
       "word": "salesperson",
-      "fa": "معنی سادهٔ «salesperson» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'salesperson'.",
-      "ex": "I used the word 'salesperson' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «salesperson» (نیازمند بازبینی)"
     },
     {
       "word": "schedule",
-      "fa": "معنی سادهٔ «schedule» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'schedule'.",
-      "ex": "I used the word 'schedule' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «schedule» (نیازمند بازبینی)"
     },
     {
       "word": "sculpture",
-      "fa": "معنی سادهٔ «sculpture» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'sculpture'.",
-      "ex": "I used the word 'sculpture' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "sea lions",
-      "fa": "شیرهای دریایی",
-      "en": "Large sea animals with small ears and loud voices.",
-      "ex": "Sea lions rested on the pier.",
-      "pos": "noun"
-    },
-    {
-      "word": "sea otters",
-      "fa": "سمورهای دریایی",
-      "en": "Small sea animals with thick fur that float on their backs.",
-      "ex": "Sea otters float on their backs.",
-      "pos": "noun"
-    },
-    {
-      "word": "seals",
-      "fa": "فک‌های دریایی",
-      "en": "Sea animals with smooth bodies that swim and rest on land.",
-      "ex": "We saw seals on the rocks.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «sculpture» (نیازمند بازبینی)"
     },
     {
       "word": "security",
-      "fa": "معنی سادهٔ «security» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'security'.",
-      "ex": "I used the word 'security' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «security» (نیازمند بازبینی)"
     },
     {
       "word": "Seed",
-      "fa": "معنی سادهٔ «Seed» (نیازمند بازبینی)",
-      "en": "A form of the verb 'S'.",
-      "ex": "I used the word 'Seed' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "sentence",
-      "fa": "جمله",
-      "en": "A group of words with a subject and a verb.",
-      "ex": "This sentence is simple.",
-      "pos": "noun"
-    },
-    {
-      "word": "separate",
-      "fa": "جدا کردن",
-      "en": "To divide into parts.",
-      "ex": "Separate the papers into two piles.",
-      "pos": "verb"
-    },
-    {
-      "word": "separate pieces of paper",
-      "fa": "برگه‌های جداگانه",
-      "en": "Different sheets of paper, not together.",
-      "ex": "Write on separate pieces of paper.",
-      "pos": "phrase"
+      "fa": "معنی سادهٔ «Seed» (نیازمند بازبینی)"
     },
     {
       "word": "serious",
-      "fa": "معنی سادهٔ «serious» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'serious'.",
-      "ex": "I used the word 'serious' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «serious» (نیازمند بازبینی)"
     },
     {
       "word": "server",
-      "fa": "معنی سادهٔ «server» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'server'.",
-      "ex": "I used the word 'server' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "several",
-      "fa": "چندین",
-      "en": "More than two, but not many.",
-      "ex": "I have several books.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «server» (نیازمند بازبینی)"
     },
     {
       "word": "sh",
-      "fa": "معنی سادهٔ «sh» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'sh'.",
-      "ex": "I used the word 'sh' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «sh» (نیازمند بازبینی)"
     },
     {
       "word": "Sharing",
-      "fa": "معنی سادهٔ «Sharing» (نیازمند بازبینی)",
-      "en": "A form of the verb 'Shar'.",
-      "ex": "I used the word 'Sharing' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "shuttle",
-      "fa": "سرویس رفت‌وبرگشت",
-      "en": "A bus that goes back and forth many times.",
-      "ex": "Take the shuttle to the library.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Sharing» (نیازمند بازبینی)"
     },
     {
       "word": "shy",
-      "fa": "معنی سادهٔ «shy» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'shy'.",
-      "ex": "I used the word 'shy' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «shy» (نیازمند بازبینی)"
     },
     {
       "word": "Similar",
-      "fa": "معنی سادهٔ «Similar» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Similar'.",
-      "ex": "I used the word 'Similar' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "similar to",
-      "fa": "شبیه به",
-      "en": "Almost the same as something.",
-      "ex": "This city is similar to mine.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «Similar» (نیازمند بازبینی)"
     },
     {
       "word": "single",
-      "fa": "معنی سادهٔ «single» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'single'.",
-      "ex": "I used the word 'single' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «single» (نیازمند بازبینی)"
     },
     {
       "word": "Sist",
-      "fa": "معنی سادهٔ «Sist» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Sist'.",
-      "ex": "I used the word 'Sist' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "situation",
-      "fa": "وضعیت / شرایط",
-      "en": "The way things are at a time.",
-      "ex": "The situation is under control.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Sist» (نیازمند بازبینی)"
     },
     {
       "word": "slackjaw",
-      "fa": "معنی سادهٔ «slackjaw» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'slackjaw'.",
-      "ex": "I used the word 'slackjaw' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «slackjaw» (نیازمند بازبینی)"
     },
     {
       "word": "sleep",
-      "fa": "معنی سادهٔ «sleep» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'sleep'.",
-      "ex": "I used the word 'sleep' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "snack bars",
-      "fa": "بوفه خوراکی",
-      "en": "Small places that sell light food or drinks.",
-      "ex": "There are snack bars on campus.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «sleep» (نیازمند بازبینی)"
     },
     {
       "word": "snapshot",
-      "fa": "معنی سادهٔ «snapshot» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'snapshot'.",
-      "ex": "I used the word 'snapshot' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «snapshot» (نیازمند بازبینی)"
     },
     {
       "word": "sneakers",
-      "fa": "معنی سادهٔ «sneakers» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'sneakers'.",
-      "ex": "I used the word 'sneakers' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «sneakers» (نیازمند بازبینی)"
     },
     {
       "word": "Soda",
-      "fa": "معنی سادهٔ «Soda» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Soda'.",
-      "ex": "I used the word 'Soda' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Soda» (نیازمند بازبینی)"
     },
     {
       "word": "Solution",
-      "fa": "معنی سادهٔ «Solution» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Solution'.",
-      "ex": "I used the word 'Solution' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Solution» (نیازمند بازبینی)"
     },
     {
       "word": "solve",
-      "fa": "معنی سادهٔ «solve» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'solve'.",
-      "ex": "I used the word 'solve' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «solve» (نیازمند بازبینی)"
     },
     {
       "word": "sounds",
-      "fa": "معنی سادهٔ «sounds» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'sounds'.",
-      "ex": "I used the word 'sounds' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «sounds» (نیازمند بازبینی)"
     },
     {
       "word": "species",
-      "fa": "معنی سادهٔ «species» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'species'.",
-      "ex": "I used the word 'species' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «species» (نیازمند بازبینی)"
     },
     {
       "word": "spiny",
-      "fa": "معنی سادهٔ «spiny» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'spiny'.",
-      "ex": "I used the word 'spiny' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «spiny» (نیازمند بازبینی)"
     },
     {
       "word": "spit",
-      "fa": "معنی سادهٔ «spit» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'spit'.",
-      "ex": "I used the word 'spit' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «spit» (نیازمند بازبینی)"
     },
     {
       "word": "Squid",
-      "fa": "معنی سادهٔ «Squid» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Squid'.",
-      "ex": "I used the word 'Squid' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Squid» (نیازمند بازبینی)"
     },
     {
       "word": "squirrel",
-      "fa": "معنی سادهٔ «squirrel» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'squirrel'.",
-      "ex": "I used the word 'squirrel' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «squirrel» (نیازمند بازبینی)"
     },
     {
       "word": "Stare",
-      "fa": "معنی سادهٔ «Stare» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Stare'.",
-      "ex": "I used the word 'Stare' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Stare» (نیازمند بازبینی)"
     },
     {
       "word": "State",
-      "fa": "معنی سادهٔ «State» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'State'.",
-      "ex": "I used the word 'State' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «State» (نیازمند بازبینی)"
     },
     {
       "word": "statement",
-      "fa": "معنی سادهٔ «statement» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'statement'.",
-      "ex": "I used the word 'statement' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «statement» (نیازمند بازبینی)"
     },
     {
       "word": "statues",
-      "fa": "معنی سادهٔ «statues» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'statues'.",
-      "ex": "I used the word 'statues' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "status",
-      "fa": "وضعیت / جایگاه",
-      "en": "The condition of something or a social position.",
-      "ex": "Check the delivery status.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «statues» (نیازمند بازبینی)"
     },
     {
       "word": "stay",
-      "fa": "معنی سادهٔ «stay» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'stay'.",
-      "ex": "I used the word 'stay' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «stay» (نیازمند بازبینی)"
     },
     {
       "word": "Steal",
-      "fa": "معنی سادهٔ «Steal» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Steal'.",
-      "ex": "I used the word 'Steal' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Steal» (نیازمند بازبینی)"
     },
     {
       "word": "stressful",
-      "fa": "معنی سادهٔ «stressful» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'stressful'.",
-      "ex": "I used the word 'stressful' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «stressful» (نیازمند بازبینی)"
     },
     {
       "word": "suburbs",
-      "fa": "معنی سادهٔ «suburbs» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'suburbs'.",
-      "ex": "I used the word 'suburbs' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "suggestions",
-      "fa": "پیشنهادها",
-      "en": "Ideas or advice about what to do.",
-      "ex": "Any suggestions for dinner?",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «suburbs» (نیازمند بازبینی)"
     },
     {
       "word": "surfing",
-      "fa": "معنی سادهٔ «surfing» (نیازمند بازبینی)",
-      "en": "A form of the verb 'surf'.",
-      "ex": "I used the word 'surfing' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «surfing» (نیازمند بازبینی)"
     },
     {
       "word": "Surrounding",
-      "fa": "معنی سادهٔ «Surrounding» (نیازمند بازبینی)",
-      "en": "A form of the verb 'Surroun'.",
-      "ex": "I used the word 'Surrounding' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Surrounding» (نیازمند بازبینی)"
     },
     {
       "word": "survey",
-      "fa": "معنی سادهٔ «survey» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'survey'.",
-      "ex": "I used the word 'survey' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «survey» (نیازمند بازبینی)"
     },
     {
       "word": "Survival",
-      "fa": "معنی سادهٔ «Survival» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Survival'.",
-      "ex": "I used the word 'Survival' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Survival» (نیازمند بازبینی)"
     },
     {
       "word": "swimsuit",
-      "fa": "معنی سادهٔ «swimsuit» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'swimsuit'.",
-      "ex": "I used the word 'swimsuit' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «swimsuit» (نیازمند بازبینی)"
     },
     {
       "word": "T",
-      "fa": "معنی سادهٔ «T» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'T'.",
-      "ex": "I used the word 'T' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «T» (نیازمند بازبینی)"
     },
     {
       "word": "take",
-      "fa": "معنی سادهٔ «take» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'take'.",
-      "ex": "I used the word 'take' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «take» (نیازمند بازبینی)"
     },
     {
       "word": "talent",
-      "fa": "معنی سادهٔ «talent» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'talent'.",
-      "ex": "I used the word 'talent' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «talent» (نیازمند بازبینی)"
     },
     {
       "word": "talkative",
-      "fa": "معنی سادهٔ «talkative» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'talkative'.",
-      "ex": "I used the word 'talkative' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "taught (teach)",
-      "fa": "آموزش داد (گذشته teach)",
-      "en": "Past of teach: gave lessons.",
-      "ex": "She taught English to children.",
-      "pos": "verb"
-    },
-    {
-      "word": "theater",
-      "fa": "تئاتر / سالن نمایش",
-      "en": "A place to watch plays or movies.",
-      "ex": "We went to the theater last night.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «talkative» (نیازمند بازبینی)"
     },
     {
       "word": "Theft",
-      "fa": "معنی سادهٔ «Theft» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Theft'.",
-      "ex": "I used the word 'Theft' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «Theft» (نیازمند بازبینی)"
     },
     {
       "word": "thin",
-      "fa": "معنی سادهٔ «thin» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'thin'.",
-      "ex": "I used the word 'thin' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «thin» (نیازمند بازبینی)"
     },
     {
       "word": "throat",
-      "fa": "معنی سادهٔ «throat» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'throat'.",
-      "ex": "I used the word 'throat' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "throughout",
-      "fa": "در سراسر / در تمام مدت",
-      "en": "In every part of something; the whole time.",
-      "ex": "It rained throughout the night.",
-      "pos": "prep"
+      "fa": "معنی سادهٔ «throat» (نیازمند بازبینی)"
     },
     {
       "word": "throw",
-      "fa": "معنی سادهٔ «throw» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'throw'.",
-      "ex": "I used the word 'throw' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «throw» (نیازمند بازبینی)"
     },
     {
       "word": "thumb",
-      "fa": "معنی سادهٔ «thumb» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'thumb'.",
-      "ex": "I used the word 'thumb' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "to fold",
-      "fa": "تا کردن",
-      "en": "To bend paper or cloth so one part covers another.",
-      "ex": "Fold the paper in half.",
-      "pos": "verb"
+      "fa": "معنی سادهٔ «thumb» (نیازمند بازبینی)"
     },
     {
       "word": "toad",
-      "fa": "معنی سادهٔ «toad» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'toad'.",
-      "ex": "I used the word 'toad' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «toad» (نیازمند بازبینی)"
     },
     {
       "word": "toes",
-      "fa": "معنی سادهٔ «toes» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'toes'.",
-      "ex": "I used the word 'toes' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "tough",
-      "fa": "سخت / دشوار",
-      "en": "Very difficult or very strong.",
-      "ex": "A tough exam.",
-      "pos": "adj"
-    },
-    {
-      "word": "town",
-      "fa": "شهر کوچک",
-      "en": "A place smaller than a city.",
-      "ex": "He lives in a small town.",
-      "pos": "noun"
-    },
-    {
-      "word": "transportation",
-      "fa": "حمل‌ونقل",
-      "en": "Ways to move people or things.",
-      "ex": "Public transportation is cheap here.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «toes» (نیازمند بازبینی)"
     },
     {
       "word": "Trouble",
-      "fa": "معنی سادهٔ «Trouble» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Trouble'.",
-      "ex": "I used the word 'Trouble' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "tutor",
-      "fa": "معلم خصوصی",
-      "en": "A teacher who helps one student.",
-      "ex": "I meet my tutor every Tuesday.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Trouble» (نیازمند بازبینی)"
     },
     {
       "word": "typical",
-      "fa": "معنی سادهٔ «typical» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'typical'.",
-      "ex": "I used the word 'typical' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «typical» (نیازمند بازبینی)"
     },
     {
       "word": "under",
-      "fa": "معنی سادهٔ «under» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'under'.",
-      "ex": "I used the word 'under' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «under» (نیازمند بازبینی)"
     },
     {
       "word": "underscore",
-      "fa": "معنی سادهٔ «underscore» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'underscore'.",
-      "ex": "I used the word 'underscore' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «underscore» (نیازمند بازبینی)"
     },
     {
       "word": "unicycle",
-      "fa": "معنی سادهٔ «unicycle» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'unicycle'.",
-      "ex": "I used the word 'unicycle' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «unicycle» (نیازمند بازبینی)"
     },
     {
       "word": "unscramble",
-      "fa": "معنی سادهٔ «unscramble» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'unscramble'.",
-      "ex": "I used the word 'unscramble' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «unscramble» (نیازمند بازبینی)"
     },
     {
       "word": "unusual",
-      "fa": "معنی سادهٔ «unusual» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'unusual'.",
-      "ex": "I used the word 'unusual' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «unusual» (نیازمند بازبینی)"
     },
     {
       "word": "urgerd",
-      "fa": "معنی سادهٔ «urgerd» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'urgerd'.",
-      "ex": "I used the word 'urgerd' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «urgerd» (نیازمند بازبینی)"
     },
     {
       "word": "vacation",
-      "fa": "معنی سادهٔ «vacation» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'vacation'.",
-      "ex": "I used the word 'vacation' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "vacations",
-      "fa": "تعطیلات",
-      "en": "Times for rest or travel.",
-      "ex": "Students love summer vacations.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «vacation» (نیازمند بازبینی)"
     },
     {
       "word": "vegetation",
-      "fa": "معنی سادهٔ «vegetation» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'vegetation'.",
-      "ex": "I used the word 'vegetation' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «vegetation» (نیازمند بازبینی)"
     },
     {
       "word": "vendor",
-      "fa": "معنی سادهٔ «vendor» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'vendor'.",
-      "ex": "I used the word 'vendor' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «vendor» (نیازمند بازبینی)"
     },
     {
       "word": "veterinarian",
-      "fa": "معنی سادهٔ «veterinarian» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'veterinarian'.",
-      "ex": "I used the word 'veterinarian' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "virtual shopping mall",
-      "fa": "مرکز خرید مجازی",
-      "en": "An online place to buy many things.",
-      "ex": "A virtual shopping mall has many stores.",
-      "pos": "noun"
-    },
-    {
-      "word": "vision",
-      "fa": "چشم‌انداز / دید",
-      "en": "The ability to see; an idea about the future.",
-      "ex": "The company’s vision is clear.",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «veterinarian» (نیازمند بازبینی)"
     },
     {
       "word": "wallet",
-      "fa": "معنی سادهٔ «wallet» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'wallet'.",
-      "ex": "I used the word 'wallet' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «wallet» (نیازمند بازبینی)"
     },
     {
       "word": "warning",
-      "fa": "معنی سادهٔ «warning» (نیازمند بازبینی)",
-      "en": "A form of the verb 'war'.",
-      "ex": "I used the word 'warning' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «warning» (نیازمند بازبینی)"
     },
     {
       "word": "waste",
-      "fa": "معنی سادهٔ «waste» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'waste'.",
-      "ex": "I used the word 'waste' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «waste» (نیازمند بازبینی)"
     },
     {
       "word": "wastebasket",
-      "fa": "معنی سادهٔ «wastebasket» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'wastebasket'.",
-      "ex": "I used the word 'wastebasket' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "wide",
-      "fa": "پهن / عریض",
-      "en": "Large from side to side.",
-      "ex": "A wide road.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «wastebasket» (نیازمند بازبینی)"
     },
     {
       "word": "Will",
-      "fa": "معنی سادهٔ «Will» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'Will'.",
-      "ex": "I used the word 'Will' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "wishes",
-      "fa": "آرزوها / تبریک‌ها",
-      "en": "Things people hope for, or kind words to someone.",
-      "ex": "Best wishes on your exam!",
-      "pos": "noun"
+      "fa": "معنی سادهٔ «Will» (نیازمند بازبینی)"
     },
     {
       "word": "wizard",
-      "fa": "معنی سادهٔ «wizard» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'wizard'.",
-      "ex": "I used the word 'wizard' in a simple sentence.",
-      "pos": ""
-    },
-    {
-      "word": "wonderful",
-      "fa": "عالی",
-      "en": "Very good; great.",
-      "ex": "It was a wonderful day.",
-      "pos": "adj"
+      "fa": "معنی سادهٔ «wizard» (نیازمند بازبینی)"
     },
     {
       "word": "wrinkle",
-      "fa": "معنی سادهٔ «wrinkle» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'wrinkle'.",
-      "ex": "I used the word 'wrinkle' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «wrinkle» (نیازمند بازبینی)"
     },
     {
       "word": "wrist",
-      "fa": "معنی سادهٔ «wrist» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'wrist'.",
-      "ex": "I used the word 'wrist' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «wrist» (نیازمند بازبینی)"
     },
     {
       "word": "zones",
-      "fa": "معنی سادهٔ «zones» (نیازمند بازبینی)",
-      "en": "A simple meaning of 'zones'.",
-      "ex": "I used the word 'zones' in a simple sentence.",
-      "pos": ""
+      "fa": "معنی سادهٔ «zones» (نیازمند بازبینی)"
     }
   ]
 }
