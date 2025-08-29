@@ -1,385 +1,323 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>خلاصه ۴صفحه‌ای فصل‌های ۵ تا ۱۰ | Safe Mode</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <style>
-      html, body { background: #f6f7fb; }
-      @media print { header, .no-print { display: none !important; } main { padding: 0 !important; } }
-    </style>
-  </head>
-  <body class="text-gray-900">
-    <div id="root"></div>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>فلش‌کارت لغات + آزمون چهارگزینه‌ای | محمد</title>
+<style>
+  :root{
+    --bg:#f6f7fb; --card:#ffffff; --ink:#1f2937; --muted:#6b7280;
+    --primary:#2563eb; --ok:#16a34a; --bad:#dc2626; --chip:#eef2ff;
+    --shadow: 0 10px 20px rgba(0,0,0,.08);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Vazirmatn,IRANSansX,Segoe UI,Arial}
+  .wrap{max-width:1000px;margin:auto;padding:24px}
+  h1{font-weight:800;margin:0 0 8px}
+  .tabs{display:flex;gap:8px;margin:16px 0 24px;flex-wrap:wrap}
+  .tabbtn{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:10px 14px;cursor:pointer}
+  .tabbtn.active{background:var(--primary);color:#fff;border-color:var(--primary)}
+  .panel{display:none}
+  .panel.active{display:block}
 
-    <script type="text/babel">
-      const { useMemo, useState, useEffect } = React;
+  /* Flashcards */
+  .controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
+  input[type="search"]{flex:1;min-width:220px;padding:10px 12px;border-radius:10px;border:1px solid #e5e7eb;background:#fff}
+  .btn{border:1px solid #e5e7eb;background:#fff;padding:10px 14px;border-radius:10px;cursor:pointer}
+  .btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
+  .btn.ghost{background:#fff}
+  .chip{background:var(--chip);padding:4px 9px;border-radius:999px;font-size:12px;color:#3730a3}
+  .card{
+    background:var(--card); border-radius:18px; padding:28px; box-shadow:var(--shadow);
+    min-height:220px; display:grid; place-items:center; text-align:center; position:relative; perspective:1000px;
+  }
+  .face{position:absolute; inset:0; display:grid; place-items:center; padding:28px; backface-visibility:hidden; transition:transform .5s}
+  .front{transform:rotateY(0)}
+  .back{transform:rotateY(180deg)}
+  .card.flipped .front{transform:rotateY(180deg)}
+  .card.flipped .back{transform:rotateY(360deg)}
+  .word{font-size:28px;font-weight:800}
+  .fa{color:var(--muted);margin-top:10px}
+  .def{font-size:15px;margin-top:6px}
+  .ex{margin-top:10px;background:#f9fafb;border:1px dashed #e5e7eb;padding:10px;border-radius:10px}
+  .toolbar{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:8px;flex-wrap:wrap}
+  .progress{font-size:13px;color:var(--muted)}
+  .actions{display:flex;gap:8px;flex-wrap:wrap}
+  .mark{display:flex;align-items:center;gap:6px}
 
-      /* =====================
-         نسخه Safe Mode
-         - بدون optional chaining (?.)
-         - بدون structuredClone
-         - با ویرایشگر داخلی و ذخیره در localStorage
-      ====================== */
+  /* Quiz */
+  .qcard{background:#fff;border-radius:16px;box-shadow:var(--shadow);padding:18px}
+  .qhead{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}
+  .qtext{font-weight:700}
+  .opts{display:grid;gap:8px;margin-top:8px}
+  .opt{border:1px solid #e5e7eb;border-radius:12px;padding:10px 12px;background:#fff;cursor:pointer}
+  .opt.correct{border-color:var(--ok);background:#ecfdf5}
+  .opt.wrong{border-color:var(--bad);background:#fef2f2}
+  .answer{margin-top:8px;font-size:14px}
+  .bar{height:8px;background:#e5e7eb;border-radius:999px;overflow:hidden}
+  .bar>span{display:block;height:100%;background:var(--primary);width:0%}
 
-      const defaultChapters = [
-        {
-          id: 5,
-          title: "فصل ۵: هوش",
-          sections: [
-            {
-              title: "چیستیِ هوش، تاریخچه و مفاهیم پایه",
-              bullets: [
-                "هوش مجموعه‌ای از توانایی‌های ذهنی برای درک، یادگیری، استدلال، حل مسئله و سازگاری است.",
-                "تفاوت هوش، استعداد و خرد: هوش = ظرفیت کلی؛ استعداد = آمادگی خاص؛ خرد = استفاده اخلاقی و واقع‌بینانه.",
-                "دیدگاه سنتی: هوش یک توانایی کلی و پایدار. دیدگاه نو: چندبعدی (کلامی، فضایی، اجتماعی…).",
-                "کتل: هوش سیال (Gf) = استدلال تازه؛ هوش متبلور (Gc) = دانش اکتسابی.",
-                "استرنبرگ: تحلیلی، خلاق، عملی.",
-                "اهمیت هوش: موفقیت تحصیلی، شغلی، سلامت غیرمستقیم؛ اما شخصیت و انگیزش نیز مهم‌اند."
-              ]
-            },
-            {
-              title: "نظریه‌ها و مدل‌های مهم هوش",
-              bullets: [
-                "اسپیرمن: g (عامل عمومی) + s (عوامل خاص).",
-                "ثرستون: هفت توانایی نخستین (درک کلامی، روانی کلامی، عددی، فضایی، حافظه، استدلال، سرعت ادراک).",
-                "مدل CHC: سه لایه (توانایی‌های خاص، گسترده، g عمومی).",
-                "گاردنر: هوش‌های چندگانه (۸/۹ نوع: زبانی، منطقی، فضایی، موسیقایی، بدنی، میان‌فردی، درون‌فردی، طبیعت‌گرا، وجودی).",
-                "گیلفورد: صدها توانش بر اساس عملیات/محتوا/محصول. بیشتر پژوهشی.",
-                "کلیدواژه‌ها برای امتحان: استرنبرگ=تحلیلی/خلاق/عملی؛ کتل=Gf/Gc؛ گاردنر=۸/۹گانه؛ CHC=سه‌لایه‌ای."
-              ]
-            },
-            {
-              title: "سنجش هوش و آزمون‌ها",
-              bullets: [
-                "بینه–سیمون و استنفورد–بینه: معرفی سن عقلی و IQ کلاسیک. نسخه جدید: IQ انحرافی (میانگین ۱۰۰، SD=15).",
-                "وکسلر (WAIS/WISC/WPPSI): نمره‌های کلامی و غیرکلامی + شاخص‌ها (واژگان، شباهت‌ها، حساب، مکعب، رمزگردانی، اعداد معکوس).",
-                "ریون (Matrices): غیرکلامی، مناسب فرهنگ‌های مختلف.",
-                "آزمون‌های گروهی برای غربالگری؛ دنور برای رشد کودکان.",
-                "مفاهیم: اعتبار، روایی، پایایی، هنجار، احتیاط فرهنگی.",
-                "خواندن IQ: میانگین ۱۰۰، ۶۸٪ بین ۸۵–۱۱۵؛ تفسیر باید با شاخص‌ها همراه باشد."
-              ]
-            },
-            {
-              title: "وراثت و محیط، تفاوت‌ها و نکات کاربردی",
-              bullets: [
-                "وراثت نقش مهم دارد؛ محیط غنی می‌تواند عملکرد را بهبود دهد.",
-                "اثر فلین: افزایش میانگین IQ در دهه‌ها به دلیل آموزش، تغذیه، پیچیدگی زندگی.",
-                "تفاوت‌های جنسیتی: برخی گرایش‌ها (فضایی پسران، زبانی دختران) اما همپوشانی زیاد.",
-                "تفاوت‌های فرهنگی بیشتر بازتاب فرصت‌هاست نه توان ذاتی.",
-                "کاهش هوش: سوءتغذیه، محرومیت، استرس مزمن، اختلالات پزشکی، کمبود خواب.",
-                "تقویت: خواب کافی، تغذیه سالم، ورزش هوازی، مطالعه فعال، یادگیری مهارت تازه، تمرین فضایی، کاهش استرس."
-              ]
-            }
-          ]
-        },
-        {
-          id: 6,
-          title: "فصل ۶: شخصیت",
-          sections: [
-            { title: "مفهوم شخصیت و روان‌کاوی", bullets: ["شخصیت = الگوی پایدار افکار، هیجان و رفتار.", "فروید: نهاد، من، فرامن؛ تجارب کودکی اثرگذار.", "نقد: جزئیات رد شده، اما تأکید بر ناخودآگاه مهم است."] },
-            { title: "نئوفرویدی‌ها و صفات", bullets: ["آدلر: جبران احساس حقارت.", "یونگ: ناخودآگاه جمعی، کهن‌الگو، برون‌گرایی/درون‌گرایی.", "هورنای: نیاز به امنیت و محبت، سه سبک مقابله.", "آلپورت: صفات اصلی، مرکزی، ثانویه.", "مدل پنج‌عاملی: برون‌گرایی، سازگاری، وظیفه‌شناسی، ثبات هیجانی، گشودگی."] },
-            { title: "یادگیری و انسان‌گرایی", bullets: ["رفتارگرایی: واتسون/اسکینر = شرطی‌سازی.", "باندورا: یادگیری اجتماعی (الگوی سه‌جانبه، مشاهده و الگوبرداری).", "مزلو: سلسله‌مراتب نیازها و خودشکوفایی.", "راجرز: خود واقعی/ایده‌آل؛ شرایط مثبت بدون قید و شرط."] },
-            { title: "سنجش و اختلالات", bullets: ["روش‌ها: پرسشنامه (MMPI، NEO-PI)، آزمون‌های فرافکن (رورشاخ، TAT)، مشاهده/مصاحبه.", "اختلالات شخصیت: A=پارانوئید… B=ضداجتماعی، مرزی… C=اجتنابی…", "کاربرد: شناخت شخصیت برای روابط، شغل، سلامت روان."] }
-          ]
-        },
-        {
-          id: 7,
-          title: "فصل ۷: یادگیری و حافظه",
-          sections: [
-            { title: "مفهوم یادگیری و نظریه‌های پایه", bullets: ["یادگیری = تغییر نسبتاً پایدار در رفتار/توانایی بر اثر تجربه.", "شرطی‌سازی کلاسیک (پاولف): محرک شرطی، پاسخ شرطی، خاموشی.", "شرطی‌سازی کنش‌گر (اسکینر): تقویت مثبت/منفی، تنبیه، شکل‌دهی.", "یادگیری مشاهده‌ای (باندورا): الگوبرداری، آزمایش بوبودال."] },
-            { title: "حافظه و انواع آن", bullets: ["سه مرحله: رمزگردانی، ذخیره‌سازی، بازیابی.", "حافظه حسی (لحظه‌ای)، کوتاه‌مدت (۷±۲، ۲۰–۳۰ثانیه)، بلندمدت (تقریباً نامحدود).", "مدل پردازش اطلاعات: سازماندهی و معنا → یادسپاری بهتر."] },
-            { title: "فراموشی و عوامل مؤثر", bullets: ["علل: محو شدن اثر، تداخل پیش‌گستر/پس‌گستر، مشکل بازیابی، سرکوب.", "عوامل مؤثر: تکرار، سازماندهی، ارتباط معنایی/تصویری، علاقه، خواب/تغذیه."] },
-            { title: "راهبردهای تقویت حافظه و جمع‌بندی", bullets: ["PQRST، یادسپاری فعال، تصویرسازی، روش مکان‌ها.", "مرور با فاصله (Spaced repetition).", "حافظه سازا: بازسازی ذهنی ممکن است تحریف ایجاد کند.", "جمع‌بندی: یادگیری = تغییر رفتار؛ حافظه = رمزگردانی/ذخیره/بازیابی."] }
-          ]
-        },
-        {
-          id: 8,
-          title: "فصل ۸: انگیزش و پرخاشگری",
-          sections: [
-            { title: "انگیزش و نظریه‌های آن", bullets: ["انگیزش = نیروی آغاز، جهت‌دهی و تداوم رفتار.", "نظریه‌ها: غرایز؛ کاهش سائق (Hull)؛ برانگیختگی (یرکس–دادسون)؛ مازلو (سلسله‌مراتب)."] },
-            { title: "پرخاشگری و انواع آن", bullets: ["پرخاشگری = رفتار عمدی آسیب‌رسان (جسمی/روانی).", "انواع: هیجانی/تکانشی، ابزاری.", "عوامل: ناکامی، محرومیت/تبعیض، یادگیری مشاهده‌ای، عوامل زیستی.", "نظریه ناکامی–پرخاشگری: ناکامی احتمال پرخاشگری را بالا می‌برد."] },
-            { title: "کنترل و کاهش پرخاشگری", bullets: ["پالایش (Catharsis) معمولاً مؤثر نیست و گاهی بدتر می‌کند.", "روش‌ها: مجازات عادلانه و به‌موقع؛ الگوهای مثبت؛ کنترل شرایط برانگیزاننده؛ تقویت رفتارهای مثبت؛ آموزش کنترل خشم."] },
-            { title: "جمع‌بندی و نکات کاربردی", bullets: ["انگیزش توضیح چرایی رفتار؛ پرخاشگری می‌تواند هیجانی یا ابزاری باشد.", "ناکامی یکی از عوامل مهم؛ اما واکنش‌ها متنوع‌اند.", "راه مؤثر: آموزش و اصلاح محیط، نه صرفاً سرکوب."] }
-          ]
-        },
-        {
-          id: 9,
-          title: "فصل ۹: تعارض، ناکامی و سازگاری",
-          sections: [
-            { title: "تعارض و ناکامی", bullets: ["تعارض = روبه‌رو شدن با اهداف/نیازهای ناسازگار.", "انواع تعارض: تقرب–تقرب؛ اجتناب–اجتناب؛ تقرب–اجتناب؛ چندگانه.", "ناکامی = نرسیدن به هدف (علل بیرونی یا درونی).", "سازگاری = توانایی هماهنگی نیازها با شرایط محیطی."] },
-            { title: "واکنش افراد به ناکامی", bullets: ["پرخاشگری مستقیم یا جابه‌جایی.", "واپس‌روی (بازگشت به رفتارهای کودکانه).", "گریز روانی (خیال‌پردازی، مواد).", "اجتناب یا حل منطقی مشکل.", "پژوهش بارکر و همکاران: ناکامی → پرخاشگری بیشتر."] },
-            { title: "مکانیسم‌های دفاعی", bullets: ["سرکوب، دلیل‌تراشی، فرافکنی، جابه‌جایی، واکنش معکوس، تصعید."] },
-            { title: "سازگاری سالم و جمع‌بندی", bullets: ["نشانه‌ها: پذیرش واقعیت، حل منطقی، کنترل هیجان، انعطاف، تصعید.", "جمع‌بندی: تعارض/ناکامی طبیعی؛ بهترین راه = سازگاری منطقی."] }
-          ]
-        },
-        {
-          id: 10,
-          title: "فصل ۱۰: مفهوم خود و خودآگاه",
-          sections: [
-            { title: "مفهوم خود و عزت‌نفس", bullets: ["خود = تصویر فرد از خودش (جسمانی، روانی، اجتماعی، ایده‌آل).", "عزت‌نفس = ارزش‌گذاری خود؛ بالا → اعتماد، پایین → اضطراب/افسردگی."] },
-            { title: "عوامل شکل‌گیری خود", bullets: ["اریکسون: مراحل رشد (اعتماد↔بی‌اعتمادی… تمامیت↔یأس).", "فرهنگ: فردگرا → استقلال؛ جمع‌گرا → پیوندها.", "دیگر عوامل: خانواده، دوستان، رسانه‌ها، موفقیت‌ها، زیست‌شناسی."] },
-            { title: "خودآگاهی", bullets: ["توانایی توجه به افکار/احساسات/رفتارها.", "انواع: خصوصی (درون)، عمومی (نگاه دیگران).", "نقش: کنترل رفتار، تصمیم‌گیری، رشد، روابط سالم.", "مشکل: افراط در عمومی → اضطراب اجتماعی؛ کمبود خصوصی → ضعف شناخت احساسات."] },
-            { title: "جمع‌بندی", bullets: ["خود چندبعدی است؛ عزت‌نفس مهم برای سلامت روان.", "رشد خود تحت‌تأثیر خانواده، فرهنگ، دوستان، تجربه‌ها.", "خودآگاهی متعادل → پذیرش + رشد."] }
-          ]
-        }
-      ];
+  /* Small footer */
+  footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>فلش‌کارت لغات + آزمون</h1>
+  <div class="tabs">
+    <button class="tabbtn active" data-tab="flash">فلش‌کارت‌ها</button>
+    <button class="tabbtn" data-tab="quiz">آزمون چهارگزینه‌ای</button>
+  </div>
 
-      var STORAGE_KEY = 'chapters-510';
-      function deepClone(obj){ return JSON.parse(JSON.stringify(obj)); }
+  <!-- Flashcards Panel -->
+  <section id="flash" class="panel active">
+    <div class="controls">
+      <input id="search" type="search" placeholder="جستجوی لغت..." />
+      <button id="shuffle" class="btn">🔀 شافل</button>
+      <button id="prev" class="btn">⬅ قبلی</button>
+      <button id="flip" class="btn primary">🔁 برگردان کارت</button>
+      <button id="next" class="btn">بعدی ➡</button>
+      <span class="chip" id="learnedChip">یادگرفته‌ها: 0</span>
+    </div>
 
-      function useChapters(){
-        const [chapters, setChapters] = useState(() => {
-          try {
-            const saved = localStorage.getItem(STORAGE_KEY);
-            return saved ? JSON.parse(saved) : defaultChapters;
-          } catch(e){ return defaultChapters; }
-        });
-        useEffect(() => {
-          try { localStorage.setItem(STORAGE_KEY, JSON.stringify(chapters)); } catch(e){}
-        }, [chapters]);
-        return [chapters, setChapters];
-      }
+    <div class="card" id="card">
+      <div class="face front">
+        <div>
+          <div class="word" id="frontWord">word</div>
+          <div class="fa" id="pos"></div>
+        </div>
+      </div>
+      <div class="face back">
+        <div>
+          <div class="word" id="fa">ترجمه فارسی</div>
+          <div class="def" id="en">تعریف ساده انگلیسی</div>
+          <div class="ex" id="ex">Example: ...</div>
+        </div>
+      </div>
+    </div>
 
-      function escapeRegExp(string){
-        return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      }
+    <div class="toolbar">
+      <div class="progress"><span id="idx">1</span>/<span id="total">-</span></div>
+      <div class="actions">
+        <label class="mark"><input id="mark" type="checkbox" /> این کارت را «یاد گرفتم»</label>
+        <button id="resetMarks" class="btn ghost">حذف علامت‌ها</button>
+      </div>
+    </div>
+  </section>
 
-      function SummaryChapters510Standalone(){
-        const [chapters, setChapters] = useChapters();
-        const [query, setQuery] = useState("");
-        const [dark, setDark] = useState(false);
-        const [chapterIndex, setChapterIndex] = useState(0);
-        const [sectionIndex, setSectionIndex] = useState(0);
-        const [showEditor, setShowEditor] = useState(true);
+  <!-- Quiz Panel -->
+  <section id="quiz" class="panel">
+    <div class="controls">
+      <button id="newQuiz" class="btn primary">📝 تولید آزمون جدید</button>
+      <div class="chip">سؤال‌ها از آرایه QUESTIONS خوانده می‌شوند</div>
+    </div>
+    <div id="quizBox"></div>
+    <div class="qcard" style="margin-top:14px">
+      <div class="qhead"><div>پیشرفت آزمون</div><div id="scoreLabel">0 درست از 0</div></div>
+      <div class="bar"><span id="bar" style="width:0%"></span></div>
+    </div>
+  </section>
 
-        const currentChapter = (chapters[chapterIndex] || chapters[0]);
-        const currentSection = ((currentChapter && currentChapter.sections[sectionIndex]) || (currentChapter && currentChapter.sections[0]) || { title:"", bullets: [] });
+  <footer>ساخته‌شده برای محمد ✨ - هر زمان خواستی، آرایه‌ها را ویرایش کن و لغت/سؤال اضافه کن.</footer>
+</div>
 
-        const highlight = (text, q) => {
-          if (!q) return text;
-          try {
-            const parts = text.split(new RegExp("("+escapeRegExp(q)+")", "gi"));
-            return parts.map((part, i) => part.toLowerCase() === q.toLowerCase() ? <mark key={i} className="px-1 rounded">{part}</mark> : <span key={i}>{part}</span>);
-          } catch { return text; }
-        };
+<script>
+/* ========= داده‌ها =========
+هر مورد: { word, fa, en, ex, pos }
+pos اختیاری: نوع کلمه (noun/verb/adj/adv/phrase)
+*/
+const VOCAB = [
+  // ——— نمونه‌های از لیست‌های شما (می‌تونی آزادانه اضافه/کم کنی) ———
+  {word:'definition', fa:'تعریف', en:'The meaning of a word or idea.', ex:'What is the definition of "campus"?', pos:'noun'},
+  {word:'campus', fa:'محوطه دانشگاه', en:'The land and buildings of a college.', ex:'There is a bus around the campus.', pos:'noun'},
+  {word:'tutor', fa:'معلم خصوصی', en:'A teacher who helps one student.', ex:'I meet my tutor every Tuesday.', pos:'noun'},
+  {word:'transportation', fa:'حمل‌ونقل', en:'Ways to move people or things.', ex:'Transportation on campus is easy.', pos:'noun'},
+  {word:'entertainment', fa:'سرگرمی', en:'Things people do for fun.', ex:'The city has a lot of entertainment.', pos:'noun'},
+  {word:'theater', fa:'تئاتر', en:'A place to watch plays or movies.', ex:'We went to the theater last night.', pos:'noun'},
+  {word:'art gallery', fa:'گالری هنری', en:'A place to show art.', ex:'Students visited the art gallery.', pos:'noun'},
+  {word:'shuttle', fa:'سرویس رفت‌وبرگشت', en:'A bus going back and forth.', ex:'Take the shuttle to the library.', pos:'noun'},
+  {word:'dormitory (dorm)', fa:'خوابگاه', en:'A building where students live.', ex:'My dormitory is near the cafeteria.', pos:'noun'},
+  {word:'population', fa:'جمعیت', en:'Number of people in a place.', ex:'The population of the city is growing.', pos:'noun'},
+  {word:'predict', fa:'پیش‌بینی کردن', en:'Say what you think will happen.', ex:'Scientists predict rain tomorrow.', pos:'verb'},
+  {word:'prepare', fa:'آماده کردن', en:'To get something ready.', ex:'Prepare your notes for the exam.', pos:'verb'},
+  {word:'release', fa:'آزاد/رها کردن', en:'Let something go free.', ex:'They released the bird.', pos:'verb'},
+  {word:'separate', fa:'جدا کردن', en:'Divide into parts.', ex:'Separate papers into two piles.', pos:'verb'},
+  {word:'compare', fa:'مقایسه کردن', en:'Look to see same or different.', ex:'Compare these two phones.', pos:'verb'},
+  {word:'wonderful', fa:'عالی', en:'Very good; great.', ex:'It was a wonderful day.', pos:'adj'},
+  {word:'several', fa:'چندین', en:'More than two, not many.', ex:'I have several books.', pos:'adj'},
+  {word:'similar to', fa:'شبیه به', en:'Almost the same as.', ex:'This city is similar to my town.', pos:'adj'},
+  {word:'gourmet', fa:'غذای لوکس و باکیفیت', en:'Very high-quality food.', ex:'He cooked a gourmet meal.', pos:'adj'},
+  {word:'huge', fa:'خیلی بزرگ', en:'Very, very big.', ex:'A huge stadium.', pos:'adj'},
+  {word:'common', fa:'رایج', en:'Happening often.', ex:'It’s common to drink tea.', pos:'adj'},
+  {word:'popular', fa:'محبوب', en:'Liked by many people.', ex:'Football is popular worldwide.', pos:'adj'},
+  {word:'rarely', fa:'به‌ندرت', en:'Not often; almost never.', ex:'I rarely watch TV.', pos:'adv'},
+  {word:'almost', fa:'تقریباً', en:'Very close, not completely.', ex:'It’s almost midnight.', pos:'adv'},
+  {word:'throughout', fa:'در سراسر/تمام مدت', en:'In every part or the whole time.', ex:'It rained throughout the night.', pos:'prep'},
+  {word:'during', fa:'در طول', en:'At the same time as.', ex:'No phones during class.', pos:'prep'},
+  {word:'between', fa:'بینِ', en:'In the space/time of two things.', ex:'Between the bank and library.', pos:'prep'},
+  {word:'put purchases on credit card', fa:'خرید را با کارت اعتباری حساب کردن', en:'Pay by credit card, not cash.', ex:'I put the book on my credit card.', pos:'phrase'},
+  {word:'e-commerce', fa:'تجارت الکترونیک', en:'Buying and selling online.', ex:'E-commerce is growing fast.', pos:'noun'},
+  {word:'journal', fa:'دفتر یادداشت', en:'Notebook to write ideas.', ex:'Write in your journal daily.', pos:'noun'},
+  {word:'environment', fa:'محیط زیست', en:'The natural world around us.', ex:'Protect the environment.', pos:'noun'},
+  {word:'hardships', fa:'سختی‌ها', en:'Difficult conditions in life.', ex:'They faced many hardships.', pos:'noun'},
+  {word:'homelessness', fa:'بی‌خانمانی', en:'Having no home.', ex:'Homelessness is a serious issue.', pos:'noun'},
+  {word:'mammals', fa:'پستانداران', en:'Animals that feed babies with milk.', ex:'Humans are mammals.', pos:'noun'},
+  {word:'cypress', fa:'سرو', en:'A tall, thin tree.', ex:'A row of cypress trees.', pos:'noun'},
+  {word:'elm', fa:'نارون', en:'A tree with wide leaves.', ex:'An old elm in the yard.', pos:'noun'},
+  {word:'eucalyptus', fa:'اوکالیپتوس', en:'A tall tree with strong smell.', ex:'Koalas love eucalyptus leaves.', pos:'noun'},
+  {word:'pine', fa:'کاج', en:'A tree with needles and cones.', ex:'Pine forests cover the hills.', pos:'noun'},
+  {word:'seals', fa:'فک‌های دریایی', en:'Sea animals living on land and water.', ex:'We saw seals on the rocks.', pos:'noun'},
+  {word:'sea lions', fa:'شیرهای دریایی', en:'Large sea mammals with loud voices.', ex:'Sea lions rested on the pier.', pos:'noun'},
+  {word:'sea otters', fa:'سمورهای دریایی', en:'Small sea mammals with thick fur.', ex:'Sea otters float on their backs.', pos:'noun'},
+  {word:'tough', fa:'سخت/دشوار', en:'Very difficult or strong.', ex:'A tough exam.', pos:'adj'},
+  {word:'crime', fa:'جرم/جنایت', en:'An illegal act.', ex:'Stealing is a crime.', pos:'noun'},
+  {word:'contrast', fa:'تضاد', en:'A clear difference.', ex:'Contrast between rich and poor.', pos:'noun'}
+];
 
-        const flatBullets = useMemo(() => {
-          var arr = [];
-          for (var i=0;i<chapters.length;i++){
-            var secs = chapters[i].sections || [];
-            for (var j=0;j<secs.length;j++){
-              var bs = secs[j].bullets || [];
-              for (var k=0;k<bs.length;k++) arr.push(bs[k]);
-            }
-          }
-          return arr;
-        }, [chapters]);
+// نمونه‌سوال‌ها: { q, choices:[...], answer: index(0-3), explain }
+const QUESTIONS = [
+  {
+    q: 'معنی صحیح "tutor" چیست؟',
+    choices: ['فروشگاه','معلم خصوصی','اتوبوس','خوابگاه'],
+    answer: 1, explain: 'tutor یعنی معلم خصوصی که به یک دانشجو کمک می‌کند.'
+  },
+  {
+    q: 'کدام گزینه معنی "transportation" است؟',
+    choices: ['سرگرمی','حمل‌ونقل','جمعیت','مرکز بهداشت'],
+    answer: 1, explain:'Transportation یعنی روش‌های جابه‌جایی.'
+  },
+  {
+    q: '"gourmet" بیشتر درباره‌ی چه چیزی به‌کار می‌رود؟',
+    choices: ['غذای باکیفیت و لوکس','هوای بارانی','ورزش دشوار','درخت کاج'],
+    answer: 0, explain:'gourmet برای غذاهای بسیار باکیفیت است.'
+  },
+  {
+    q: 'کدام ترجمه برای "homelessness" درست است؟',
+    choices: ['محیط زیست','بی‌خانمانی','سختی‌ها','پستانداران'],
+    answer: 1, explain:'homelessness یعنی نبودن خانه.'
+  },
+  {
+    q: 'معنی "rarely" کدام است؟',
+    choices: ['معمولاً','به‌ندرت','سریع','تقریباً'],
+    answer: 1, explain:'rarely یعنی خیلی کم/به‌ندرت.'
+  }
+];
 
-        const searchCount = useMemo(() => {
-          if (!query) return 0;
-          const regex = new RegExp(escapeRegExp(query), "gi");
-          var acc = 0;
-          for (var i=0;i<flatBullets.length;i++){
-            var t = flatBullets[i];
-            var m = t.match(regex);
-            acc += (m ? m.length : 0);
-          }
-          return acc;
-        }, [query, flatBullets]);
+/* ========= فلش‌کارت منطق ========= */
+let order = [...VOCAB.keys()];
+let i = 0;
+const card = document.getElementById('card');
+const frontWord = document.getElementById('frontWord');
+const posEl = document.getElementById('pos');
+const faEl = document.getElementById('fa');
+const enEl = document.getElementById('en');
+const exEl = document.getElementById('ex');
+const idxEl = document.getElementById('idx');
+const totalEl = document.getElementById('total');
+const mark = document.getElementById('mark');
+const learnedChip = document.getElementById('learnedChip');
+const search = document.getElementById('search');
 
-        // ویرایشگر
-        const [chapTitle, setChapTitle] = useState(currentChapter ? currentChapter.title : "");
-        const [secTitle, setSecTitle]   = useState(currentSection ? currentSection.title : "");
-        const [bulletsText, setBulletsText] = useState((currentSection && currentSection.bullets ? currentSection.bullets.join('\n') : ''));
+const learned = new Set(JSON.parse(localStorage.getItem('learned')||'[]'));
+function updateLearnedChip(){ learnedChip.textContent = `یادگرفته‌ها: ${learned.size}`; }
+updateLearnedChip();
 
-        useEffect(() => {
-          var ch = chapters[chapterIndex];
-          setChapTitle(ch ? ch.title : "");
-        }, [chapterIndex, chapters]);
+function show(k){
+  i = (k+order.length)%order.length;
+  const v = VOCAB[order[i]];
+  frontWord.textContent = v.word;
+  posEl.textContent = v.pos ? `(${v.pos})` : '';
+  faEl.textContent = v.fa;
+  enEl.textContent = v.en;
+  exEl.textContent = 'Example: ' + v.ex;
+  idxEl.textContent = i+1; totalEl.textContent = order.length;
+  card.classList.remove('flipped');
+  mark.checked = learned.has(v.word);
+}
+function shuffle(){
+  for(let j=order.length-1;j>0;j--){
+    const r = Math.floor(Math.random()*(j+1));
+    [order[j],order[r]] = [order[r],order[j]];
+  }
+  show(0);
+}
+function next(){ show(i+1); }
+function prev(){ show(i-1); }
 
-        useEffect(() => {
-          var ch = chapters[chapterIndex];
-          var sec = ch && ch.sections ? ch.sections[sectionIndex] : null;
-          setSecTitle(sec ? sec.title : "");
-          setBulletsText(sec && sec.bullets ? sec.bullets.join('\n') : '');
-        }, [chapterIndex, sectionIndex, chapters]);
+document.getElementById('flip').onclick=()=>card.classList.toggle('flipped');
+document.getElementById('next').onclick=next;
+document.getElementById('prev').onclick=prev;
+document.getElementById('shuffle').onclick=shuffle;
+document.getElementById('resetMarks').onclick=()=>{
+  learned.clear(); localStorage.removeItem('learned'); updateLearnedChip(); show(i);
+};
+mark.onchange = ()=>{
+  const w = VOCAB[order[i]].word;
+  mark.checked ? learned.add(w) : learned.delete(w);
+  localStorage.setItem('learned', JSON.stringify([...learned]));
+  updateLearnedChip();
+};
+search.addEventListener('input', e=>{
+  const q = e.target.value.trim().toLowerCase();
+  order = VOCAB.map((_,idx)=>idx).filter(idx=>{
+    const v = VOCAB[idx];
+    return [v.word,v.fa,v.en].join(' ').toLowerCase().includes(q);
+  });
+  if(order.length===0){ order=[0]; }
+  show(0);
+});
+show(0);
 
-        function applyReplace(){
-          setChapters(function(prev){
-            var next = deepClone(prev);
-            if (!next[chapterIndex]) return prev;
-            next[chapterIndex].title = chapTitle && chapTitle.trim() ? chapTitle.trim() : next[chapterIndex].title;
-            if (!next[chapterIndex].sections[sectionIndex]) return next;
-            next[chapterIndex].sections[sectionIndex].title = secTitle && secTitle.trim() ? secTitle.trim() : next[chapterIndex].sections[sectionIndex].title;
-            var lines = bulletsText.split('\n');
-            var clean = [];
-            for (var i=0;i<lines.length;i++){ var s = (lines[i]||"").trim(); if (s) clean.push(s); }
-            next[chapterIndex].sections[sectionIndex].bullets = clean;
-            return next;
-          });
-          alert('تغییرات این بخش ذخیره شد ✅');
-        }
-        function applyAppend(){
-          setChapters(function(prev){
-            var next = deepClone(prev);
-            if (!next[chapterIndex] || !next[chapterIndex].sections[sectionIndex]) return prev;
-            var lines = bulletsText.split('\n');
-            var clean = [];
-            for (var i=0;i<lines.length;i++){ var s = (lines[i]||"").trim(); if (s) clean.push(s); }
-            var base = next[chapterIndex].sections[sectionIndex].bullets || [];
-            next[chapterIndex].sections[sectionIndex].bullets = base.concat(clean);
-            return next;
-          });
-          alert('نکات جدید به این بخش افزوده شد ✅');
-        }
-        function clearSection(){
-          if (!confirm('همهٔ نکات این بخش پاک شود؟')) return;
-          setChapters(function(prev){
-            var next = deepClone(prev);
-            if (next[chapterIndex] && next[chapterIndex].sections[sectionIndex]){
-              next[chapterIndex].sections[sectionIndex].bullets = [];
-            }
-            return next;
-          });
-        }
+/* ========= آزمون ========= */
+const quizBox = document.getElementById('quizBox');
+const scoreLabel = document.getElementById('scoreLabel');
+const bar = document.getElementById('bar');
+function renderQuiz(){
+  quizBox.innerHTML = '';
+  let correct=0, total=0;
+  QUESTIONS.forEach((Q,qi)=>{
+    total++;
+    const card = document.createElement('div'); card.className='qcard';
+    const head = document.createElement('div'); head.className='qhead';
+    head.innerHTML = `<div class="qtext">سؤال ${qi+1}: ${Q.q}</div>`;
+    card.appendChild(head);
 
-        // JSON درون‌بری/برون‌بری
-        function exportJSON(){
-          try{
-            var blob = new Blob([JSON.stringify(chapters, null, 2)], { type: 'application/json' });
-            var url = URL.createObjectURL(blob);
-            var a = document.createElement('a');
-            a.href = url; a.download = 'chapters-510.json'; a.click();
-            URL.revokeObjectURL(url);
-          }catch(e){ alert('Export error: '+ e.message); }
-        }
-        const [jsonText, setJsonText] = useState('');
-        function importJSON(){
-          try{
-            var obj = JSON.parse(jsonText);
-            if (!obj || obj.constructor !== Array) throw new Error('JSON باید آرایه باشد');
-            setChapters(obj);
-            alert('درون‌بری انجام شد ✅');
-          }catch(e){ alert('خطا در درون‌بری JSON: '+ e.message); }
-        }
-        function resetDefaults(){
-          if (!confirm('بازگردانی به متن پیش‌فرض؟')) return;
-          setChapters(defaultChapters);
-        }
+    const opts = document.createElement('div'); opts.className='opts';
+    Q.choices.forEach((c,ci)=>{
+      const b = document.createElement('button'); b.type='button';
+      b.className='opt'; b.textContent=c;
+      b.onclick = ()=>{
+        [...opts.children].forEach(x=>x.disabled=true);
+        if(ci===Q.answer){ b.classList.add('correct'); correct++; }
+        else { b.classList.add('wrong'); opts.children[Q.answer].classList.add('correct'); }
+        ans.style.display='block';
+        scoreLabel.textContent = `${correct} درست از ${total}`;
+        bar.style.width = `${Math.round(correct/total*100)}%`;
+      };
+      opts.appendChild(b);
+    });
+    const ans = document.createElement('div'); ans.className='answer'; ans.style.display='none';
+    ans.textContent = 'توضیح: ' + (Q.explain||'');
+    card.appendChild(opts);
+    card.appendChild(ans);
+    quizBox.appendChild(card);
+  });
+  scoreLabel.textContent = `0 درست از ${QUESTIONS.length}`;
+  bar.style.width='0%';
+}
+renderQuiz();
 
-        return (
-          <div className={dark ? "dark" : ""}>
-            <div className="min-h-screen bg-gray-50 text-gray-900 dark:bg-neutral-900 dark:text-neutral-100 transition-colors">
-              <header className="sticky top-0 z-30 backdrop-blur bg-white/70 dark:bg-neutral-900/70 border-b border-black/5 dark:border-white/10">
-                <div className="max-w-6xl mx-auto flex flex-col gap-3 sm:flex-row items-center justify-between p-4">
-                  <div>
-                    <h1 className="text-2xl sm:text-3xl font-bold">خلاصه ۴صفحه‌ای فصل‌های ۵ تا ۱۰</h1>
-                    <p className="text-sm sm:text-base text-gray-600 dark:text-neutral-300">محمد شکری — دوره ۷۴ کارشناسی پرستاری — دانشگاه علوم پزشکی تهران</p>
-                  </div>
-                  <div className="flex items-center gap-2 w-full sm:w-auto no-print">
-                    <input value={query} onChange={function(e){ setQuery(e.target.value); }} placeholder="جستجو در متن..." className="w-full sm:w-72 px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-                    <button onClick={function(){ setDark(function(d){ return !d; }); }} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-800">{dark ? "☀️ روشن" : "🌙 تیره"}</button>
-                    <button onClick={function(){ window.print(); }} className="px-3 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-700">پرینت</button>
-                  </div>
-                </div>
-                {query ? (<div className="max-w-6xl mx-auto px-4 pb-3 text-sm text-gray-600 dark:text-neutral-300">{searchCount} نتیجه برای «{query}»</div>) : null}
-              </header>
+document.getElementById('newQuiz').onclick=renderQuiz;
 
-              <main className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 p-4">
-                <aside className="md:col-span-4 lg:col-span-3">
-                  <div className="sticky top-[92px] space-y-3">
-                    <div className="rounded-2xl p-4 shadow-sm border border-amber-300 bg-amber-50 dark:bg-amber-100/10 dark:border-amber-700 no-print">
-                      <div className="flex items-center justify-between mb-3">
-                        <h4 className="font-semibold">مدیریت محتوا / ویرایش سریع</h4>
-                        <button onClick={function(){ setShowEditor(!showEditor); }} className="text-sm px-2 py-1 rounded border border-amber-300 dark:border-amber-600">
-                          {showEditor ? 'بستن' : 'باز کردن'}
-                        </button>
-                      </div>
-                      {showEditor ? (
-                        <div className="space-y-3">
-                          <div className="grid grid-cols-2 gap-2">
-                            <select value={chapterIndex} onChange={function(e){ setChapterIndex(Number(e.target.value)); }} className="px-2 py-1 rounded border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
-                              {chapters.map(function(c, i){ return (<option key={c.id} value={i}>{c.title}</option>); })}
-                            </select>
-                            <select value={sectionIndex} onChange={function(e){ setSectionIndex(Number(e.target.value)); }} className="px-2 py-1 rounded border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
-                              {((chapters[chapterIndex] && chapters[chapterIndex].sections) ? chapters[chapterIndex].sections : []).map(function(s, i){ return (<option key={i} value={i}>بخش {i+1}: {s.title}</option>); })}
-                            </select>
-                          </div>
-                          <input value={chapTitle} onChange={function(e){ setChapTitle(e.target.value); }} placeholder="عنوان فصل" className="w-full px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800" />
-                          <input value={secTitle} onChange={function(e){ setSecTitle(e.target.value); }} placeholder="عنوان بخش" className="w-full px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800" />
-                          <textarea value={bulletsText} onChange={function(e){ setBulletsText(e.target.value); }} placeholder="هر خط = یک نکته" rows="6" className="w-full px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800"></textarea>
-                          <div className="flex flex-wrap gap-2">
-                            <button onClick={applyReplace} className="px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">جایگزینی این بخش</button>
-                            <button onClick={applyAppend} className="px-3 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-700">افزودن به این بخش</button>
-                            <button onClick={clearSection} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700">پاک‌کردن نکات</button>
-                          </div>
-                          <hr className="border-dashed dark:border-neutral-700" />
-                          <div className="space-y-2">
-                            <div className="text-sm text-gray-600 dark:text-neutral-300">درون‌بری/برون‌بری JSON</div>
-                            <textarea value={jsonText} onChange={function(e){ setJsonText(e.target.value); }} placeholder='JSON را اینجا بچسبانید یا از زیر خروجی بگیرید' rows="4" className="w-full px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800"></textarea>
-                            <div className="flex flex-wrap gap-2">
-                              <button onClick={importJSON} className="px-3 py-2 rounded-xl bg-sky-600 text-white hover:bg-sky-700">درون‌بری JSON</button>
-                              <button onClick={exportJSON} className="px-3 py-2 rounded-xl bg-slate-700 text-white hover:bg-slate-800">برون‌بری JSON</button>
-                              <button onClick={resetDefaults} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700">بازگردانی متن پیش‌فرض</button>
-                            </div>
-                          </div>
-                          <p className="text-xs text-gray-500 dark:text-neutral-400">* تغییرات به‌صورت خودکار در مرورگر شما ذخیره می‌شود.</p>
-                        </div>
-                      ) : null}
-                    </div>
-
-                    {chapters.map(function(ch, idx){ return (
-                      <div key={ch.id} className={`rounded-2xl p-4 shadow-sm border ${idx === chapterIndex ? "border-indigo-500 bg-white dark:bg-neutral-800" : "border-gray-200 dark:border-neutral-700 bg-white dark:bg-neutral-800"}`}>
-                        <button className="w-full text-right font-semibold mb-3" onClick={function(){ setChapterIndex(idx); setSectionIndex(0); }}>{ch.title}</button>
-                        <div className="grid grid-cols-4 gap-2">
-                          {(ch.sections || []).map(function(s, sidx){ return (
-                            <button key={sidx} onClick={function(){ setChapterIndex(idx); setSectionIndex(sidx); }} className={`px-2 py-1 rounded-xl text-sm border ${idx===chapterIndex && sidx===sectionIndex ? "bg-indigo-600 text-white border-indigo-600" : "border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-700"}`}>{sidx+1}</button>
-                          ); })}
-                        </div>
-                      </div>
-                    ); })}
-                  </div>
-                </aside>
-
-                <section className="md:col-span-8 lg:col-span-9">
-                  <div className="rounded-3xl bg-white dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700 p-6 shadow-sm">
-                    <h2 className="text-xl sm:text-2xl font-bold mb-2">{currentChapter ? currentChapter.title : ''}</h2>
-                    <h3 className="text-base sm:text-lg text-indigo-600 dark:text-indigo-400 mb-4">{currentSection ? currentSection.title : ''}</h3>
-                    <ul className="space-y-3 leading-8">
-                      {(currentSection && currentSection.bullets ? currentSection.bullets : []).filter(function(b){ return !query || new RegExp(escapeRegExp(query), "i").test(b); }).map(function(b, i){ return (
-                        <li key={i} className="pl-3 relative">
-                          <span className="absolute right-0 translate-y-1">•</span>
-                          <span className="pr-4">{highlight(b, query)}</span>
-                        </li>
-                      ); })}
-                    </ul>
-
-                    <div className="mt-6 flex flex-wrap gap-2 no-print">
-                      <button onClick={function(){ setSectionIndex(function(s){ return Math.max(0, s-1); }); }} disabled={sectionIndex === 0} className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 disabled:opacity-40">بخش قبلی</button>
-                      <button onClick={function(){ var max = (currentChapter && currentChapter.sections ? currentChapter.sections.length-1 : 0); setSectionIndex(function(s){ return Math.min(max, s+1); }); }} disabled={ (currentChapter && currentChapter.sections ? sectionIndex === currentChapter.sections.length-1 : true) } className="px-3 py-2 rounded-xl border border-gray-300 dark:border-neutral-700 disabled:opacity-40">بخش بعدی</button>
-                      <span className="grow" />
-                      <button onClick={function(){ var txt = [ (currentChapter?currentChapter.title:''), (currentSection?currentSection.title:''), ].concat((currentSection && currentSection.bullets ? currentSection.bullets.map(function(b){ return '• '+b; }) : [])).join('\n'); navigator.clipboard.writeText(txt); alert('متن این بخش کپی شد ✅'); }} className="px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">کپی متن این بخش</button>
-                    </div>
-                  </div>
-                </section>
-              </main>
-
-              <footer className="text-center text-sm text-gray-500 dark:text-neutral-400 py-6">
-                ساخته شده برای مرور سریع فصل‌های ۵ تا ۱۰ — طراحی: Tailwind — راست‌به‌چپ
-                <div className="mt-2">محمد شکری — دوره ۷۴ کارشناسی پرستاری — دانشگاه علوم پزشکی تهران</div>
-              </footer>
-            </div>
-          </div>
-        );
-      }
-
-      const root = ReactDOM.createRoot(document.getElementById('root'));
-      root.render(<SummaryChapters510Standalone />);
-    </script>
-  </body>
+/* ========= تب‌ها ========= */
+document.querySelectorAll('.tabbtn').forEach(btn=>{
+  btn.onclick=()=>{
+    document.querySelectorAll('.tabbtn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  };
+});
+</script>
+</body>
 </html>
