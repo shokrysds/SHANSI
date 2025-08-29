@@ -1,1236 +1,2923 @@
 {
-  "autofilled": [
+  "vocab": [
+    {
+      "word": "a loud (noise)",
+      "fa": "یک صدای بلند",
+      "en": "A strong, high‑volume noise.",
+      "ex": "We heard a loud noise.",
+      "pos": "phrase"
+    },
+    {
+      "word": "above",
+      "fa": "بالایِ",
+      "en": "In a higher place than something.",
+      "ex": "The picture is above the door.",
+      "pos": "adv"
+    },
+    {
+      "word": "academics",
+      "fa": "امور آموزشی",
+      "en": "School or university studies.",
+      "ex": "She focuses on her academics.",
+      "pos": "noun"
+    },
     {
       "word": "accoutant",
-      "fa": "معنی سادهٔ «accoutant» (نیازمند بازبینی)"
+      "fa": "حسابدار",
+      "en": "A person whose job is to keep or check financial accounts.",
+      "ex": "The company hired a new accountant.",
+      "pos": "noun"
+    },
+    {
+      "word": "across from",
+      "fa": "روبه‌روی",
+      "en": "On the other side of the street.",
+      "ex": "The café is across from the bank.",
+      "pos": "prep phrase"
+    },
+    {
+      "word": "activities",
+      "fa": "فعالیت‌ها",
+      "en": "Things people do.",
+      "ex": "Many activities happen after class.",
+      "pos": "noun"
+    },
+    {
+      "word": "adjectives",
+      "fa": "صفت‌ها",
+      "en": "Words that describe nouns.",
+      "ex": "Big and small are adjectives.",
+      "pos": "noun"
+    },
+    {
+      "word": "adulthood",
+      "fa": "بزرگسالی",
+      "en": "The life stage when you are fully grown.",
+      "ex": "Adulthood brings new duties.",
+      "pos": "noun"
     },
     {
       "word": "agriculture",
-      "fa": "معنی سادهٔ «agriculture» (نیازمند بازبینی)"
+      "fa": "کشاورزی",
+      "en": "The practice of farming crops and animals.",
+      "ex": "Agriculture is important for food supply.",
+      "pos": "noun"
+    },
+    {
+      "word": "ahead",
+      "fa": "جلو / پیش‌رو",
+      "en": "In front of you or in the future.",
+      "ex": "A long trip ahead.",
+      "pos": "adv"
     },
     {
       "word": "ailments",
-      "fa": "معنی سادهٔ «ailments» (نیازمند بازبینی)"
+      "fa": "بیماری‌ها / ناخوشی‌ها",
+      "en": "Minor illnesses or health problems.",
+      "ex": "He went to the doctor for his ailments.",
+      "pos": "noun"
+    },
+    {
+      "word": "almost",
+      "fa": "تقریباً",
+      "en": "Very close, but not completely.",
+      "ex": "It’s almost midnight.",
+      "pos": "adv"
+    },
+    {
+      "word": "aloud",
+      "fa": "بلندبلند",
+      "en": "To speak so people can hear you, not silently.",
+      "ex": "She read the story aloud.",
+      "pos": "adv"
     },
     {
       "word": "amazing",
-      "fa": "معنی سادهٔ «amazing» (نیازمند بازبینی)"
+      "fa": "شگفت‌انگیز",
+      "en": "Very surprising or wonderful.",
+      "ex": "She did an amazing job.",
+      "pos": "adj"
     },
     {
       "word": "amber",
-      "fa": "معنی سادهٔ «amber» (نیازمند بازبینی)"
+      "fa": "کهربا / زرد مایل به نارنجی",
+      "en": "A yellow-brown color or fossil resin.",
+      "ex": "The necklace was made of amber.",
+      "pos": "noun/adj"
     },
     {
       "word": "ancient",
-      "fa": "معنی سادهٔ «ancient» (نیازمند بازبینی)"
+      "fa": "باستانی / خیلی قدیمی",
+      "en": "Very old; from a long time ago.",
+      "ex": "We visited ancient ruins.",
+      "pos": "adj"
     },
     {
       "word": "antacid",
-      "fa": "معنی سادهٔ «antacid» (نیازمند بازبینی)"
+      "fa": "ضد اسید معده",
+      "en": "A medicine that reduces stomach acid.",
+      "ex": "She took an antacid for her stomach pain.",
+      "pos": "noun"
     },
     {
       "word": "any",
-      "fa": "معنی سادهٔ «any» (نیازمند بازبینی)"
+      "fa": "هر / هرکدام",
+      "en": "Used to refer to one or some of a thing, no matter which.",
+      "ex": "You can choose any book you like.",
+      "pos": "det/pronoun"
     },
     {
       "word": "appearance",
-      "fa": "معنی سادهٔ «appearance» (نیازمند بازبینی)"
+      "fa": "ظاهر / قیافه",
+      "en": "The way someone or something looks.",
+      "ex": "Her appearance changed after the trip.",
+      "pos": "noun"
     },
     {
       "word": "Appeared",
-      "fa": "معنی سادهٔ «Appeared» (نیازمند بازبینی)"
+      "fa": "ظاهر شد / پدیدار شد",
+      "en": "Past tense of appear; came into sight.",
+      "ex": "A rainbow appeared after the rain.",
+      "pos": "verb (past)"
     },
     {
       "word": "appliance",
-      "fa": "معنی سادهٔ «appliance» (نیازمند بازبینی)"
+      "fa": "لوازم خانگی / وسیله برقی",
+      "en": "A machine or tool used in the home.",
+      "ex": "The kitchen has many appliances.",
+      "pos": "noun"
+    },
+    {
+      "word": "apply",
+      "fa": "درخواست دادن / اعمال کردن",
+      "en": "To officially ask for something; or to use something.",
+      "ex": "Apply for a job; apply the rule.",
+      "pos": "verb"
     },
     {
       "word": "architect",
-      "fa": "معنی سادهٔ «architect» (نیازمند بازبینی)"
+      "fa": "معمار",
+      "en": "A person who designs buildings.",
+      "ex": "The architect designed a modern house.",
+      "pos": "noun"
     },
     {
       "word": "argue",
-      "fa": "معنی سادهٔ «argue» (نیازمند بازبینی)"
+      "fa": "جر و بحث کردن / استدلال کردن",
+      "en": "To disagree or give reasons for something.",
+      "ex": "They often argue about money.",
+      "pos": "verb"
+    },
+    {
+      "word": "art gallery",
+      "fa": "گالری هنری",
+      "en": "A place to show art.",
+      "ex": "Students visited the art gallery.",
+      "pos": "noun"
     },
     {
       "word": "article",
-      "fa": "معنی سادهٔ «article» (نیازمند بازبینی)"
+      "fa": "مقاله / نوشته",
+      "en": "A piece of writing in a newspaper or magazine.",
+      "ex": "I read an interesting article today.",
+      "pos": "noun"
     },
     {
       "word": "Aspect",
-      "fa": "معنی سادهٔ «Aspect» (نیازمند بازبینی)"
+      "fa": "جنبه / بُعد",
+      "en": "A particular part or feature of something.",
+      "ex": "We must consider every aspect of the plan.",
+      "pos": "noun"
     },
     {
       "word": "at",
-      "fa": "معنی سادهٔ «at» (نیازمند بازبینی)"
+      "fa": "در / در کنار",
+      "en": "Used to show place, time, or direction.",
+      "ex": "She is at school now.",
+      "pos": "prep"
     },
     {
       "word": "athlete",
-      "fa": "معنی سادهٔ «athlete» (نیازمند بازبینی)"
+      "fa": "ورزشکار",
+      "en": "A person who is good at sports.",
+      "ex": "The athlete won a gold medal.",
+      "pos": "noun"
     },
     {
       "word": "audition",
-      "fa": "معنی سادهٔ «audition» (نیازمند بازبینی)"
+      "fa": "آزمون بازیگری یا خوانندگی",
+      "en": "A short performance to show ability.",
+      "ex": "She went to an audition for the play.",
+      "pos": "noun"
     },
     {
       "word": "Avalanche",
-      "fa": "معنی سادهٔ «Avalanche» (نیازمند بازبینی)"
+      "fa": "بهمن",
+      "en": "A large amount of snow falling down a mountain.",
+      "ex": "The village was destroyed by an avalanche.",
+      "pos": "noun"
     },
     {
       "word": "awful",
-      "fa": "معنی سادهٔ «awful» (نیازمند بازبینی)"
+      "fa": "وحشتناک / خیلی بد",
+      "en": "Very bad or unpleasant.",
+      "ex": "The food tasted awful.",
+      "pos": "adj"
     },
     {
       "word": "bathub",
-      "fa": "معنی سادهٔ «bathub» (نیازمند بازبینی)"
+      "fa": "وان حمام",
+      "en": "A large container you fill with water to wash in.",
+      "ex": "She relaxed in the bathtub.",
+      "pos": "noun"
     },
     {
       "word": "beach",
-      "fa": "معنی سادهٔ «beach» (نیازمند بازبینی)"
+      "fa": "ساحل",
+      "en": "The area of sand next to the sea.",
+      "ex": "We spent the day at the beach.",
+      "pos": "noun"
     },
     {
       "word": "beans",
-      "fa": "معنی سادهٔ «beans» (نیازمند بازبینی)"
+      "fa": "لوبیاها",
+      "en": "Seeds that are cooked and eaten as food.",
+      "ex": "She cooked rice and beans.",
+      "pos": "noun"
     },
     {
       "word": "beef",
-      "fa": "معنی سادهٔ «beef» (نیازمند بازبینی)"
+      "fa": "گوشت گاو",
+      "en": "Meat from a cow.",
+      "ex": "We had beef for dinner.",
+      "pos": "noun"
     },
     {
       "word": "behind",
-      "fa": "معنی سادهٔ «behind» (نیازمند بازبینی)"
+      "fa": "پشتِ",
+      "en": "At or to the back of something.",
+      "ex": "The cat is behind the chair.",
+      "pos": "prep/adv"
     },
     {
       "word": "beige",
-      "fa": "معنی سادهٔ «beige» (نیازمند بازبینی)"
+      "fa": "رنگ بژ (کرم روشن)",
+      "en": "A light brown color.",
+      "ex": "She wore a beige coat.",
+      "pos": "adj"
     },
     {
       "word": "belhop",
-      "fa": "معنی سادهٔ «belhop» (نیازمند بازبینی)"
+      "fa": "پادو هتل / باربر",
+      "en": "A hotel worker who carries guests’ bags.",
+      "ex": "The bellhop took our luggage upstairs.",
+      "pos": "noun"
+    },
+    {
+      "word": "below",
+      "fa": "پایین / زیر",
+      "en": "In a lower place or level than something.",
+      "ex": "The pen is below the book.",
+      "pos": "adv"
+    },
+    {
+      "word": "between",
+      "fa": "بینِ",
+      "en": "In the space or time of two things.",
+      "ex": "Between the bank and the library.",
+      "pos": "prep"
     },
     {
       "word": "beverage",
-      "fa": "معنی سادهٔ «beverage» (نیازمند بازبینی)"
+      "fa": "نوشیدنی",
+      "en": "A drink of any type.",
+      "ex": "Tea is a popular beverage.",
+      "pos": "noun"
     },
     {
       "word": "Bigg",
-      "fa": "معنی سادهٔ «Bigg» (نیازمند بازبینی)"
+      "fa": "بزرگ (احتمالاً اشتباه تایپی big)",
+      "en": "Large in size.",
+      "ex": "It was a big house.",
+      "pos": "adj"
     },
     {
       "word": "body",
-      "fa": "معنی سادهٔ «body» (نیازمند بازبینی)"
+      "fa": "بدن",
+      "en": "The physical structure of a person or animal.",
+      "ex": "Exercise is good for your body.",
+      "pos": "noun"
+    },
+    {
+      "word": "boldfaced",
+      "fa": "پررنگ / بولد",
+      "en": "Written in darker, thicker letters to show importance.",
+      "ex": "Read the boldfaced words.",
+      "pos": "adj"
     },
     {
       "word": "boss",
-      "fa": "معنی سادهٔ «boss» (نیازمند بازبینی)"
+      "fa": "رئیس",
+      "en": "A person who manages workers.",
+      "ex": "Her boss is very strict.",
+      "pos": "noun"
     },
     {
       "word": "Bottom",
-      "fa": "معنی سادهٔ «Bottom» (نیازمند بازبینی)"
+      "fa": "کف / پایین",
+      "en": "The lowest part of something.",
+      "ex": "The keys are at the bottom of my bag.",
+      "pos": "noun"
     },
     {
       "word": "bubble",
-      "fa": "معنی سادهٔ «bubble» (نیازمند بازبینی)"
+      "fa": "حباب",
+      "en": "A ball of air in liquid.",
+      "ex": "The child blew bubbles.",
+      "pos": "noun"
     },
     {
       "word": "cabin",
-      "fa": "معنی سادهٔ «cabin» (نیازمند بازبینی)"
+      "fa": "کلبه / اتاقک",
+      "en": "A small wooden house or room on a ship.",
+      "ex": "We stayed in a cabin by the lake.",
+      "pos": "noun"
     },
     {
       "word": "canoes",
-      "fa": "معنی سادهٔ «canoes» (نیازمند بازبینی)"
+      "fa": "قایق‌های باریک",
+      "en": "Light, narrow boats moved with paddles.",
+      "ex": "They paddled the canoes down the river.",
+      "pos": "noun"
     },
     {
       "word": "carrot",
-      "fa": "معنی سادهٔ «carrot» (نیازمند بازبینی)"
+      "fa": "هویج",
+      "en": "A long orange vegetable.",
+      "ex": "Rabbits love eating carrots.",
+      "pos": "noun"
     },
     {
       "word": "cashier",
-      "fa": "معنی سادهٔ «cashier» (نیازمند بازبینی)"
+      "fa": "صندوقدار",
+      "en": "A person who takes money in a store.",
+      "ex": "The cashier gave me change.",
+      "pos": "noun"
     },
     {
       "word": "Catch",
-      "fa": "معنی سادهٔ «Catch» (نیازمند بازبینی)"
+      "fa": "گرفتن / قاپیدن",
+      "en": "To grab or take hold of something.",
+      "ex": "He can catch a ball easily.",
+      "pos": "verb"
+    },
+    {
+      "word": "categories",
+      "fa": "دسته‌بندی‌ها",
+      "en": "Groups of similar things.",
+      "ex": "Sort items into categories.",
+      "pos": "noun"
     },
     {
       "word": "celery",
-      "fa": "معنی سادهٔ «celery» (نیازمند بازبینی)"
+      "fa": "کرفس",
+      "en": "A green vegetable with long stems.",
+      "ex": "Celery is often eaten raw.",
+      "pos": "noun"
     },
     {
       "word": "cereal",
-      "fa": "معنی سادهٔ «cereal» (نیازمند بازبینی)"
+      "fa": "غلات صبحانه",
+      "en": "Food made from grains, eaten with milk.",
+      "ex": "Children like to eat cereal in the morning.",
+      "pos": "noun"
     },
     {
       "word": "chamomile",
-      "fa": "معنی سادهٔ «chamomile» (نیازمند بازبینی)"
+      "fa": "بابونه",
+      "en": "A plant used for tea and medicine.",
+      "ex": "Chamomile tea is relaxing.",
+      "pos": "noun"
     },
     {
       "word": "champion",
-      "fa": "معنی سادهٔ «champion» (نیازمند بازبینی)"
+      "fa": "قهرمان",
+      "en": "A winner of a competition.",
+      "ex": "The champion received a trophy.",
+      "pos": "noun"
+    },
+    {
+      "word": "chapter",
+      "fa": "فصل (کتاب)",
+      "en": "A numbered part of a book.",
+      "ex": "Please read chapter two tonight.",
+      "pos": "noun"
     },
     {
       "word": "chef",
-      "fa": "معنی سادهٔ «chef» (نیازمند بازبینی)"
+      "fa": "سرآشپز",
+      "en": "A professional cook.",
+      "ex": "The chef prepared a special meal.",
+      "pos": "noun"
     },
     {
       "word": "chin",
-      "fa": "معنی سادهٔ «chin» (نیازمند بازبینی)"
+      "fa": "چانه",
+      "en": "The part of the face below the mouth.",
+      "ex": "He has a small chin.",
+      "pos": "noun"
     },
     {
       "word": "Cliary",
-      "fa": "معنی سادهٔ «Cliary» (نیازمند بازبینی)"
+      "fa": "(احتمالاً اشتباه: شاید Clarity یا Library)",
+      "en": "Needs correction.",
+      "ex": "—",
+      "pos": ""
     },
     {
       "word": "climb",
-      "fa": "معنی سادهٔ «climb» (نیازمند بازبینی)"
+      "fa": "بالا رفتن",
+      "en": "To move up something using hands and feet.",
+      "ex": "We climb mountains every summer.",
+      "pos": "verb"
+    },
+    {
+      "word": "clothes",
+      "fa": "لباس‌ها",
+      "en": "Things you wear.",
+      "ex": "Wash your clothes regularly.",
+      "pos": "noun"
     },
     {
       "word": "coastline",
-      "fa": "معنی سادهٔ «coastline» (نیازمند بازبینی)"
+      "fa": "خط ساحلی",
+      "en": "The outline of a coast.",
+      "ex": "The country has a long coastline.",
+      "pos": "noun"
+    },
+    {
+      "word": "coat",
+      "fa": "کت / روکش",
+      "en": "A warm outer piece of clothing; or a covering layer on something.",
+      "ex": "The cake has a thin coat of chocolate.",
+      "pos": "noun"
     },
     {
       "word": "Cola",
-      "fa": "معنی سادهٔ «Cola» (نیازمند بازبینی)"
+      "fa": "نوشابه کولا",
+      "en": "A sweet brown fizzy drink.",
+      "ex": "She drank a glass of cola.",
+      "pos": "noun"
     },
     {
       "word": "comfortable",
-      "fa": "معنی سادهٔ «comfortable» (نیازمند بازبینی)"
+      "fa": "راحت",
+      "en": "Providing physical ease and relaxation.",
+      "ex": "This chair is very comfortable.",
+      "pos": "adj"
+    },
+    {
+      "word": "common",
+      "fa": "رایج",
+      "en": "Happening often.",
+      "ex": "It’s common to drink tea.",
+      "pos": "adj"
     },
     {
       "word": "communication",
-      "fa": "معنی سادهٔ «communication» (نیازمند بازبینی)"
+      "fa": "ارتباطات",
+      "en": "The act of sharing information.",
+      "ex": "Good communication is important in a team.",
+      "pos": "noun"
     },
     {
       "word": "compact",
-      "fa": "معنی سادهٔ «compact» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «compact»",
+      "en": "A clear English meaning of 'compact'.",
+      "ex": "This is an example sentence using 'compact'.",
+      "pos": ""
+    },
+    {
+      "word": "compare",
+      "fa": "مقایسه کردن",
+      "en": "To look to see how things are the same or different.",
+      "ex": "Compare these two phones.",
+      "pos": "verb"
+    },
+    {
+      "word": "computers",
+      "fa": "کامپیوترها",
+      "en": "Electronic machines used for work or the internet.",
+      "ex": "Computers are in the lab.",
+      "pos": "noun"
     },
     {
       "word": "Con",
-      "fa": "معنی سادهٔ «Con» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Con»",
+      "en": "A clear English meaning of 'Con'.",
+      "ex": "This is an example sentence using 'Con'.",
+      "pos": ""
     },
     {
       "word": "congratulation",
-      "fa": "معنی سادهٔ «congratulation» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «congratulation»",
+      "en": "A clear English meaning of 'congratulation'.",
+      "ex": "This is an example sentence using 'congratulation'.",
+      "pos": ""
     },
     {
       "word": "conjunction",
-      "fa": "معنی سادهٔ «conjunction» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «conjunction»",
+      "en": "A clear English meaning of 'conjunction'.",
+      "ex": "This is an example sentence using 'conjunction'.",
+      "pos": ""
     },
     {
       "word": "connect",
-      "fa": "معنی سادهٔ «connect» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «connect»",
+      "en": "A clear English meaning of 'connect'.",
+      "ex": "This is an example sentence using 'connect'.",
+      "pos": ""
     },
     {
       "word": "contact",
-      "fa": "معنی سادهٔ «contact» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «contact»",
+      "en": "A clear English meaning of 'contact'.",
+      "ex": "This is an example sentence using 'contact'.",
+      "pos": ""
     },
     {
       "word": "contest",
-      "fa": "معنی سادهٔ «contest» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «contest»",
+      "en": "A clear English meaning of 'contest'.",
+      "ex": "This is an example sentence using 'contest'.",
+      "pos": ""
+    },
+    {
+      "word": "contrast",
+      "fa": "تضاد",
+      "en": "A clear difference between two things.",
+      "ex": "There is a contrast between day and night.",
+      "pos": "noun"
+    },
+    {
+      "word": "conversation",
+      "fa": "مکالمه",
+      "en": "When two or more people talk together.",
+      "ex": "We had a short conversation.",
+      "pos": "noun"
+    },
+    {
+      "word": "cooking",
+      "fa": "آشپزی",
+      "en": "Making food with heat.",
+      "ex": "I enjoy cooking dinner.",
+      "pos": "noun"
     },
     {
       "word": "couch",
-      "fa": "معنی سادهٔ «couch» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «couch»",
+      "en": "A clear English meaning of 'couch'.",
+      "ex": "This is an example sentence using 'couch'.",
+      "pos": ""
     },
     {
       "word": "covservation",
-      "fa": "معنی سادهٔ «covservation» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «covservation»",
+      "en": "A clear English meaning of 'covservation'.",
+      "ex": "This is an example sentence using 'covservation'.",
+      "pos": ""
     },
     {
       "word": "cozy",
-      "fa": "معنی سادهٔ «cozy» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «cozy»",
+      "en": "A clear English meaning of 'cozy'.",
+      "ex": "This is an example sentence using 'cozy'.",
+      "pos": ""
     },
     {
       "word": "Crab",
-      "fa": "معنی سادهٔ «Crab» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Crab»",
+      "en": "A clear English meaning of 'Crab'.",
+      "ex": "This is an example sentence using 'Crab'.",
+      "pos": ""
     },
     {
       "word": "credit",
-      "fa": "معنی سادهٔ «credit» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «credit»",
+      "en": "A clear English meaning of 'credit'.",
+      "ex": "This is an example sentence using 'credit'.",
+      "pos": ""
+    },
+    {
+      "word": "crime",
+      "fa": "جرم / جنایت",
+      "en": "An illegal act; something against the law.",
+      "ex": "Stealing is a crime.",
+      "pos": "noun"
     },
     {
       "word": "criminal",
-      "fa": "معنی سادهٔ «criminal» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «criminal»",
+      "en": "A clear English meaning of 'criminal'.",
+      "ex": "This is an example sentence using 'criminal'.",
+      "pos": ""
     },
     {
       "word": "cupboard",
-      "fa": "معنی سادهٔ «cupboard» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «cupboard»",
+      "en": "A clear English meaning of 'cupboard'.",
+      "ex": "This is an example sentence using 'cupboard'.",
+      "pos": ""
     },
     {
       "word": "curtains",
-      "fa": "معنی سادهٔ «curtains» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «curtains»",
+      "en": "A clear English meaning of 'curtains'.",
+      "ex": "This is an example sentence using 'curtains'.",
+      "pos": ""
+    },
+    {
+      "word": "cypress",
+      "fa": "سرو",
+      "en": "A tall, thin tree.",
+      "ex": "A row of cypress trees.",
+      "pos": "noun"
     },
     {
       "word": "d",
-      "fa": "معنی سادهٔ «d» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «d»",
+      "en": "A clear English meaning of 'd'.",
+      "ex": "This is an example sentence using 'd'.",
+      "pos": ""
+    },
+    {
+      "word": "decide",
+      "fa": "تصمیم گرفتن",
+      "en": "To choose something after thinking.",
+      "ex": "Decide soon, please.",
+      "pos": "verb"
     },
     {
       "word": "decorate",
-      "fa": "معنی سادهٔ «decorate» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «decorate»",
+      "en": "A clear English meaning of 'decorate'.",
+      "ex": "This is an example sentence using 'decorate'.",
+      "pos": ""
+    },
+    {
+      "word": "definition",
+      "fa": "تعریف",
+      "en": "The meaning of a word or idea.",
+      "ex": "What is the definition of 'campus'?",
+      "pos": "noun"
     },
     {
       "word": "deprived",
-      "fa": "معنی سادهٔ «deprived» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «deprived»",
+      "en": "A clear English meaning of 'deprived'.",
+      "ex": "This is an example sentence using 'deprived'.",
+      "pos": ""
     },
     {
       "word": "describe",
-      "fa": "معنی سادهٔ «describe» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «describe»",
+      "en": "A clear English meaning of 'describe'.",
+      "ex": "This is an example sentence using 'describe'.",
+      "pos": ""
     },
     {
       "word": "dessert",
-      "fa": "معنی سادهٔ «dessert» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «dessert»",
+      "en": "A clear English meaning of 'dessert'.",
+      "ex": "This is an example sentence using 'dessert'.",
+      "pos": ""
+    },
+    {
+      "word": "dining rooms",
+      "fa": "سالن غذاخوری",
+      "en": "Rooms where people eat meals.",
+      "ex": "The dorm has two dining rooms.",
+      "pos": "noun"
+    },
+    {
+      "word": "directions",
+      "fa": "دستورالعمل‌ها",
+      "en": "Information about how to do something.",
+      "ex": "Follow the directions carefully.",
+      "pos": "noun"
     },
     {
       "word": "directly",
-      "fa": "معنی سادهٔ «directly» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «directly»",
+      "en": "A clear English meaning of 'directly'.",
+      "ex": "This is an example sentence using 'directly'.",
+      "pos": ""
     },
     {
       "word": "disaster",
-      "fa": "معنی سادهٔ «disaster» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «disaster»",
+      "en": "A clear English meaning of 'disaster'.",
+      "ex": "This is an example sentence using 'disaster'.",
+      "pos": ""
     },
     {
       "word": "discuss",
-      "fa": "معنی سادهٔ «discuss» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «discuss»",
+      "en": "A clear English meaning of 'discuss'.",
+      "ex": "This is an example sentence using 'discuss'.",
+      "pos": ""
+    },
+    {
+      "word": "discuss shopping",
+      "fa": "درباره خرید صحبت کردن",
+      "en": "To talk about buying things.",
+      "ex": "Let’s discuss shopping plans.",
+      "pos": "verb phrase"
     },
     {
       "word": "disgusting",
-      "fa": "معنی سادهٔ «disgusting» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «disgusting»",
+      "en": "A clear English meaning of 'disgusting'.",
+      "ex": "This is an example sentence using 'disgusting'.",
+      "pos": ""
+    },
+    {
+      "word": "dormitory (dorm)",
+      "fa": "خوابگاه",
+      "en": "A building where students live.",
+      "ex": "The dormitory is near the cafeteria.",
+      "pos": "noun"
+    },
+    {
+      "word": "double",
+      "fa": "دو برابر",
+      "en": "To make something two times bigger.",
+      "ex": "Double the amount of water.",
+      "pos": "verb"
     },
     {
       "word": "downtown",
-      "fa": "معنی سادهٔ «downtown» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «downtown»",
+      "en": "A clear English meaning of 'downtown'.",
+      "ex": "This is an example sentence using 'downtown'.",
+      "pos": ""
     },
     {
       "word": "drag",
-      "fa": "معنی سادهٔ «drag» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «drag»",
+      "en": "A clear English meaning of 'drag'.",
+      "ex": "This is an example sentence using 'drag'.",
+      "pos": ""
     },
     {
       "word": "dresser",
-      "fa": "معنی سادهٔ «dresser» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «dresser»",
+      "en": "A clear English meaning of 'dresser'.",
+      "ex": "This is an example sentence using 'dresser'.",
+      "pos": ""
+    },
+    {
+      "word": "drove",
+      "fa": "رانندگی کرد",
+      "en": "Past tense of drive: used a car.",
+      "ex": "He drove to school yesterday.",
+      "pos": "verb (past)"
+    },
+    {
+      "word": "drove across the country",
+      "fa": "سراسر کشور رانندگی کرد",
+      "en": "Traveled by car from one side of the country to the other.",
+      "ex": "They drove across the country in five days.",
+      "pos": "phrase"
+    },
+    {
+      "word": "during",
+      "fa": "در طولِ",
+      "en": "At the same time as something happens.",
+      "ex": "No phones during class.",
+      "pos": "prep"
     },
     {
       "word": "e",
-      "fa": "معنی سادهٔ «e» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «e»",
+      "en": "A clear English meaning of 'e'.",
+      "ex": "This is an example sentence using 'e'.",
+      "pos": ""
+    },
+    {
+      "word": "e-commerce",
+      "fa": "تجارت الکترونیک",
+      "en": "Buying and selling on the internet.",
+      "ex": "E-commerce is growing fast.",
+      "pos": "noun"
     },
     {
       "word": "education",
-      "fa": "معنی سادهٔ «education» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «education»",
+      "en": "A clear English meaning of 'education'.",
+      "ex": "This is an example sentence using 'education'.",
+      "pos": ""
     },
     {
       "word": "eg",
-      "fa": "معنی سادهٔ «eg» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «eg»",
+      "en": "A clear English meaning of 'eg'.",
+      "ex": "This is an example sentence using 'eg'.",
+      "pos": ""
     },
     {
       "word": "El",
-      "fa": "معنی سادهٔ «El» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «El»",
+      "en": "A clear English meaning of 'El'.",
+      "ex": "This is an example sentence using 'El'.",
+      "pos": ""
     },
     {
       "word": "elbow",
-      "fa": "معنی سادهٔ «elbow» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «elbow»",
+      "en": "A clear English meaning of 'elbow'.",
+      "ex": "This is an example sentence using 'elbow'.",
+      "pos": ""
     },
     {
       "word": "elevator",
-      "fa": "معنی سادهٔ «elevator» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «elevator»",
+      "en": "A clear English meaning of 'elevator'.",
+      "ex": "This is an example sentence using 'elevator'.",
+      "pos": ""
+    },
+    {
+      "word": "elm",
+      "fa": "نارون",
+      "en": "A tree with wide leaves.",
+      "ex": "An old elm in the yard.",
+      "pos": "noun"
+    },
+    {
+      "word": "emoticons",
+      "fa": "شکلک‌ها",
+      "en": "Small pictures that show feelings.",
+      "ex": "Use emoticons in messages.",
+      "pos": "noun"
     },
     {
       "word": "engineering",
-      "fa": "معنی سادهٔ «engineering» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «engineering»",
+      "en": "A clear English meaning of 'engineering'.",
+      "ex": "This is an example sentence using 'engineering'.",
+      "pos": ""
     },
     {
       "word": "enormous",
-      "fa": "معنی سادهٔ «enormous» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «enormous»",
+      "en": "A clear English meaning of 'enormous'.",
+      "ex": "This is an example sentence using 'enormous'.",
+      "pos": ""
+    },
+    {
+      "word": "entertainment",
+      "fa": "سرگرمی",
+      "en": "Things people do for fun.",
+      "ex": "The city has a lot of entertainment.",
+      "pos": "noun"
+    },
+    {
+      "word": "environment",
+      "fa": "محیط زیست",
+      "en": "The natural world around us (air, water, land).",
+      "ex": "Protect the environment.",
+      "pos": "noun"
     },
     {
       "word": "environmentalists",
-      "fa": "معنی سادهٔ «environmentalists» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «environmentalists»",
+      "en": "A clear English meaning of 'environmentalists'.",
+      "ex": "This is an example sentence using 'environmentalists'.",
+      "pos": ""
     },
     {
       "word": "equality",
-      "fa": "معنی سادهٔ «equality» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «equality»",
+      "en": "A clear English meaning of 'equality'.",
+      "ex": "This is an example sentence using 'equality'.",
+      "pos": ""
+    },
+    {
+      "word": "eucalyptus",
+      "fa": "اوکالیپتوس",
+      "en": "A tall tree with a strong smell.",
+      "ex": "Koalas love eucalyptus leaves.",
+      "pos": "noun"
     },
     {
       "word": "event",
-      "fa": "معنی سادهٔ «event» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «event»",
+      "en": "A clear English meaning of 'event'.",
+      "ex": "This is an example sentence using 'event'.",
+      "pos": ""
     },
     {
       "word": "evidence",
-      "fa": "معنی سادهٔ «evidence» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «evidence»",
+      "en": "A clear English meaning of 'evidence'.",
+      "ex": "This is an example sentence using 'evidence'.",
+      "pos": ""
     },
     {
       "word": "exciting",
-      "fa": "معنی سادهٔ «exciting» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «exciting»",
+      "en": "A clear English meaning of 'exciting'.",
+      "ex": "This is an example sentence using 'exciting'.",
+      "pos": ""
     },
     {
       "word": "exhausted",
-      "fa": "معنی سادهٔ «exhausted» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «exhausted»",
+      "en": "A clear English meaning of 'exhausted'.",
+      "ex": "This is an example sentence using 'exhausted'.",
+      "pos": ""
     },
     {
       "word": "exist",
-      "fa": "معنی سادهٔ «exist» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «exist»",
+      "en": "A clear English meaning of 'exist'.",
+      "ex": "This is an example sentence using 'exist'.",
+      "pos": ""
+    },
+    {
+      "word": "expect",
+      "fa": "انتظار داشتن",
+      "en": "To think something will happen or someone will come.",
+      "ex": "I expect good news.",
+      "pos": "verb"
+    },
+    {
+      "word": "experience",
+      "fa": "تجربه",
+      "en": "Something you do or feel in real life.",
+      "ex": "Work experience is important.",
+      "pos": "noun"
     },
     {
       "word": "Expert",
-      "fa": "معنی سادهٔ «Expert» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Expert»",
+      "en": "A clear English meaning of 'Expert'.",
+      "ex": "This is an example sentence using 'Expert'.",
+      "pos": ""
     },
     {
       "word": "experts",
-      "fa": "معنی سادهٔ «experts» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «experts»",
+      "en": "A clear English meaning of 'experts'.",
+      "ex": "This is an example sentence using 'experts'.",
+      "pos": ""
     },
     {
       "word": "expressions",
-      "fa": "معنی سادهٔ «expressions» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «expressions»",
+      "en": "A clear English meaning of 'expressions'.",
+      "ex": "This is an example sentence using 'expressions'.",
+      "pos": ""
     },
     {
       "word": "extinct",
-      "fa": "معنی سادهٔ «extinct» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «extinct»",
+      "en": "A clear English meaning of 'extinct'.",
+      "ex": "This is an example sentence using 'extinct'.",
+      "pos": ""
     },
     {
       "word": "Eye",
-      "fa": "معنی سادهٔ «Eye» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Eye»",
+      "en": "A clear English meaning of 'Eye'.",
+      "ex": "This is an example sentence using 'Eye'.",
+      "pos": ""
     },
     {
       "word": "eyebrow",
-      "fa": "معنی سادهٔ «eyebrow» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «eyebrow»",
+      "en": "A clear English meaning of 'eyebrow'.",
+      "ex": "This is an example sentence using 'eyebrow'.",
+      "pos": ""
     },
     {
       "word": "fancy",
-      "fa": "معنی سادهٔ «fancy» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «fancy»",
+      "en": "A clear English meaning of 'fancy'.",
+      "ex": "This is an example sentence using 'fancy'.",
+      "pos": ""
     },
     {
       "word": "fashion",
-      "fa": "معنی سادهٔ «fashion» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «fashion»",
+      "en": "A clear English meaning of 'fashion'.",
+      "ex": "This is an example sentence using 'fashion'.",
+      "pos": ""
     },
     {
       "word": "females",
-      "fa": "معنی سادهٔ «females» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «females»",
+      "en": "A clear English meaning of 'females'.",
+      "ex": "This is an example sentence using 'females'.",
+      "pos": ""
     },
     {
       "word": "fields",
-      "fa": "معنی سادهٔ «fields» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «fields»",
+      "en": "A clear English meaning of 'fields'.",
+      "ex": "This is an example sentence using 'fields'.",
+      "pos": ""
     },
     {
       "word": "fighting",
-      "fa": "معنی سادهٔ «fighting» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «fighting»",
+      "en": "A clear English meaning of 'fighting'.",
+      "ex": "This is an example sentence using 'fighting'.",
+      "pos": ""
     },
     {
       "word": "flavors",
-      "fa": "معنی سادهٔ «flavors» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «flavors»",
+      "en": "A clear English meaning of 'flavors'.",
+      "ex": "This is an example sentence using 'flavors'.",
+      "pos": ""
     },
     {
       "word": "front",
-      "fa": "معنی سادهٔ «front» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «front»",
+      "en": "A clear English meaning of 'front'.",
+      "ex": "This is an example sentence using 'front'.",
+      "pos": ""
     },
     {
       "word": "funny",
-      "fa": "معنی سادهٔ «funny» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «funny»",
+      "en": "A clear English meaning of 'funny'.",
+      "ex": "This is an example sentence using 'funny'.",
+      "pos": ""
     },
     {
       "word": "furniture",
-      "fa": "معنی سادهٔ «furniture» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «furniture»",
+      "en": "A clear English meaning of 'furniture'.",
+      "ex": "This is an example sentence using 'furniture'.",
+      "pos": ""
     },
     {
       "word": "genders",
-      "fa": "معنی سادهٔ «genders» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «genders»",
+      "en": "A clear English meaning of 'genders'.",
+      "ex": "This is an example sentence using 'genders'.",
+      "pos": ""
     },
     {
       "word": "glacier",
-      "fa": "معنی سادهٔ «glacier» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «glacier»",
+      "en": "A clear English meaning of 'glacier'.",
+      "ex": "This is an example sentence using 'glacier'.",
+      "pos": ""
     },
     {
       "word": "glad",
-      "fa": "معنی سادهٔ «glad» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «glad»",
+      "en": "A clear English meaning of 'glad'.",
+      "ex": "This is an example sentence using 'glad'.",
+      "pos": ""
     },
     {
       "word": "good",
-      "fa": "معنی سادهٔ «good» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «good»",
+      "en": "A clear English meaning of 'good'.",
+      "ex": "This is an example sentence using 'good'.",
+      "pos": ""
+    },
+    {
+      "word": "gourmet",
+      "fa": "غذای لوکس و باکیفیت",
+      "en": "Very high‑quality, special food.",
+      "ex": "They served a gourmet dinner.",
+      "pos": "adj"
     },
     {
       "word": "grass",
-      "fa": "معنی سادهٔ «grass» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «grass»",
+      "en": "A clear English meaning of 'grass'.",
+      "ex": "This is an example sentence using 'grass'.",
+      "pos": ""
+    },
+    {
+      "word": "growing",
+      "fa": "در حال رشد",
+      "en": "Becoming bigger; increasing.",
+      "ex": "A growing number of users.",
+      "pos": "adj"
     },
     {
       "word": "guilty",
-      "fa": "معنی سادهٔ «guilty» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «guilty»",
+      "en": "A clear English meaning of 'guilty'.",
+      "ex": "This is an example sentence using 'guilty'.",
+      "pos": ""
     },
     {
       "word": "gure",
-      "fa": "معنی سادهٔ «gure» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «gure»",
+      "en": "A clear English meaning of 'gure'.",
+      "ex": "This is an example sentence using 'gure'.",
+      "pos": ""
     },
     {
       "word": "hairbrush",
-      "fa": "معنی سادهٔ «hairbrush» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «hairbrush»",
+      "en": "A clear English meaning of 'hairbrush'.",
+      "ex": "This is an example sentence using 'hairbrush'.",
+      "pos": ""
     },
     {
       "word": "hairstylist",
-      "fa": "معنی سادهٔ «hairstylist» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «hairstylist»",
+      "en": "A clear English meaning of 'hairstylist'.",
+      "ex": "This is an example sentence using 'hairstylist'.",
+      "pos": ""
     },
     {
       "word": "handsome",
-      "fa": "معنی سادهٔ «handsome» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «handsome»",
+      "en": "A clear English meaning of 'handsome'.",
+      "ex": "This is an example sentence using 'handsome'.",
+      "pos": ""
+    },
+    {
+      "word": "hardships",
+      "fa": "سختی‌ها",
+      "en": "Difficult conditions or problems in life.",
+      "ex": "They faced many hardships.",
+      "pos": "noun"
+    },
+    {
+      "word": "health center",
+      "fa": "مرکز بهداشت",
+      "en": "A place with doctors and nurses.",
+      "ex": "Go to the health center if you are sick.",
+      "pos": "noun"
     },
     {
       "word": "heavy",
-      "fa": "معنی سادهٔ «heavy» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «heavy»",
+      "en": "A clear English meaning of 'heavy'.",
+      "ex": "This is an example sentence using 'heavy'.",
+      "pos": ""
     },
     {
       "word": "hidden",
-      "fa": "معنی سادهٔ «hidden» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «hidden»",
+      "en": "A clear English meaning of 'hidden'.",
+      "ex": "This is an example sentence using 'hidden'.",
+      "pos": ""
     },
     {
       "word": "hierarchy",
-      "fa": "معنی سادهٔ «hierarchy» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «hierarchy»",
+      "en": "A clear English meaning of 'hierarchy'.",
+      "ex": "This is an example sentence using 'hierarchy'.",
+      "pos": ""
     },
     {
       "word": "high",
-      "fa": "معنی سادهٔ «high» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «high»",
+      "en": "A clear English meaning of 'high'.",
+      "ex": "This is an example sentence using 'high'.",
+      "pos": ""
     },
     {
       "word": "Hike",
-      "fa": "معنی سادهٔ «Hike» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Hike»",
+      "en": "A clear English meaning of 'Hike'.",
+      "ex": "This is an example sentence using 'Hike'.",
+      "pos": ""
     },
     {
       "word": "Hiker",
-      "fa": "معنی سادهٔ «Hiker» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Hiker»",
+      "en": "A clear English meaning of 'Hiker'.",
+      "ex": "This is an example sentence using 'Hiker'.",
+      "pos": ""
     },
     {
       "word": "hip",
-      "fa": "معنی سادهٔ «hip» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «hip»",
+      "en": "A clear English meaning of 'hip'.",
+      "ex": "This is an example sentence using 'hip'.",
+      "pos": ""
+    },
+    {
+      "word": "home improvement",
+      "fa": "بهسازی خانه",
+      "en": "Work to make a house better.",
+      "ex": "He does home improvement on weekends.",
+      "pos": "noun"
+    },
+    {
+      "word": "homelessness",
+      "fa": "بی‌خانمانی",
+      "en": "The state of having no home to live in.",
+      "ex": "Homelessness is a serious issue.",
+      "pos": "noun"
     },
     {
       "word": "horrible",
-      "fa": "معنی سادهٔ «horrible» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «horrible»",
+      "en": "A clear English meaning of 'horrible'.",
+      "ex": "This is an example sentence using 'horrible'.",
+      "pos": ""
     },
     {
       "word": "host",
-      "fa": "معنی سادهٔ «host» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «host»",
+      "en": "A clear English meaning of 'host'.",
+      "ex": "This is an example sentence using 'host'.",
+      "pos": ""
+    },
+    {
+      "word": "housing",
+      "fa": "مسکن",
+      "en": "Places where people live.",
+      "ex": "Student housing is near campus.",
+      "pos": "noun"
     },
     {
       "word": "How",
-      "fa": "معنی سادهٔ «How» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «How»",
+      "en": "A clear English meaning of 'How'.",
+      "ex": "This is an example sentence using 'How'.",
+      "pos": ""
     },
     {
       "word": "How's",
-      "fa": "معنی سادهٔ «How's» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «How's»",
+      "en": "A clear English meaning of 'How's'.",
+      "ex": "This is an example sentence using 'How's'.",
+      "pos": ""
+    },
+    {
+      "word": "huge",
+      "fa": "خیلی بزرگ",
+      "en": "Very, very big.",
+      "ex": "A huge stadium.",
+      "pos": "adj"
     },
     {
       "word": "i",
-      "fa": "معنی سادهٔ «i» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «i»",
+      "en": "A clear English meaning of 'i'.",
+      "ex": "This is an example sentence using 'i'.",
+      "pos": ""
     },
     {
       "word": "I-e",
-      "fa": "معنی سادهٔ «I-e» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «I-e»",
+      "en": "A clear English meaning of 'I-e'.",
+      "ex": "This is an example sentence using 'I-e'.",
+      "pos": ""
     },
     {
       "word": "identify",
-      "fa": "معنی سادهٔ «identify» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «identify»",
+      "en": "A clear English meaning of 'identify'.",
+      "ex": "This is an example sentence using 'identify'.",
+      "pos": ""
     },
     {
       "word": "Identity",
-      "fa": "معنی سادهٔ «Identity» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Identity»",
+      "en": "A clear English meaning of 'Identity'.",
+      "ex": "This is an example sentence using 'Identity'.",
+      "pos": ""
     },
     {
       "word": "igosy",
-      "fa": "معنی سادهٔ «igosy» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «igosy»",
+      "en": "A clear English meaning of 'igosy'.",
+      "ex": "This is an example sentence using 'igosy'.",
+      "pos": ""
     },
     {
       "word": "independence",
-      "fa": "معنی سادهٔ «independence» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «independence»",
+      "en": "A clear English meaning of 'independence'.",
+      "ex": "This is an example sentence using 'independence'.",
+      "pos": ""
     },
     {
       "word": "individual",
-      "fa": "معنی سادهٔ «individual» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «individual»",
+      "en": "A clear English meaning of 'individual'.",
+      "ex": "This is an example sentence using 'individual'.",
+      "pos": ""
     },
     {
       "word": "industry",
-      "fa": "معنی سادهٔ «industry» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «industry»",
+      "en": "A clear English meaning of 'industry'.",
+      "ex": "This is an example sentence using 'industry'.",
+      "pos": ""
     },
     {
       "word": "inferences",
-      "fa": "معنی سادهٔ «inferences» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «inferences»",
+      "en": "A clear English meaning of 'inferences'.",
+      "ex": "This is an example sentence using 'inferences'.",
+      "pos": ""
     },
     {
       "word": "infront",
-      "fa": "معنی سادهٔ «infront» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «infront»",
+      "en": "A clear English meaning of 'infront'.",
+      "ex": "This is an example sentence using 'infront'.",
+      "pos": ""
     },
     {
       "word": "instructor",
-      "fa": "معنی سادهٔ «instructor» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «instructor»",
+      "en": "A clear English meaning of 'instructor'.",
+      "ex": "This is an example sentence using 'instructor'.",
+      "pos": ""
     },
     {
       "word": "Interaction",
-      "fa": "معنی سادهٔ «Interaction» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Interaction»",
+      "en": "A clear English meaning of 'Interaction'.",
+      "ex": "This is an example sentence using 'Interaction'.",
+      "pos": ""
     },
     {
       "word": "interview",
-      "fa": "معنی سادهٔ «interview» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «interview»",
+      "en": "A clear English meaning of 'interview'.",
+      "ex": "This is an example sentence using 'interview'.",
+      "pos": ""
     },
     {
       "word": "intination",
-      "fa": "معنی سادهٔ «intination» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «intination»",
+      "en": "A clear English meaning of 'intination'.",
+      "ex": "This is an example sentence using 'intination'.",
+      "pos": ""
     },
     {
       "word": "intonation",
-      "fa": "معنی سادهٔ «intonation» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «intonation»",
+      "en": "A clear English meaning of 'intonation'.",
+      "ex": "This is an example sentence using 'intonation'.",
+      "pos": ""
     },
     {
       "word": "Isi",
-      "fa": "معنی سادهٔ «Isi» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Isi»",
+      "en": "A clear English meaning of 'Isi'.",
+      "ex": "This is an example sentence using 'Isi'.",
+      "pos": ""
+    },
+    {
+      "word": "it over once",
+      "fa": "یک بار تا کن",
+      "en": "Fold it one time.",
+      "ex": "Please fold it over once.",
+      "pos": "phrase"
     },
     {
       "word": "Itaf/",
-      "fa": "معنی سادهٔ «Itaf/» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Itaf/»",
+      "en": "A clear English meaning of 'Itaf/'.",
+      "ex": "This is an example sentence using 'Itaf/'.",
+      "pos": ""
+    },
+    {
+      "word": "I’m doing well!",
+      "fa": "حالم خوب است!",
+      "en": "I feel fine; everything is OK.",
+      "ex": "Hi, I’m doing well!",
+      "pos": "expression"
     },
     {
       "word": "J",
-      "fa": "معنی سادهٔ «J» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «J»",
+      "en": "A clear English meaning of 'J'.",
+      "ex": "This is an example sentence using 'J'.",
+      "pos": ""
     },
     {
       "word": "Ja",
-      "fa": "معنی سادهٔ «Ja» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Ja»",
+      "en": "A clear English meaning of 'Ja'.",
+      "ex": "This is an example sentence using 'Ja'.",
+      "pos": ""
     },
     {
       "word": "jars",
-      "fa": "معنی سادهٔ «jars» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «jars»",
+      "en": "A clear English meaning of 'jars'.",
+      "ex": "This is an example sentence using 'jars'.",
+      "pos": ""
     },
     {
       "word": "Jets",
-      "fa": "معنی سادهٔ «Jets» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Jets»",
+      "en": "A clear English meaning of 'Jets'.",
+      "ex": "This is an example sentence using 'Jets'.",
+      "pos": ""
     },
     {
       "word": "jig",
-      "fa": "معنی سادهٔ «jig» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «jig»",
+      "en": "A clear English meaning of 'jig'.",
+      "ex": "This is an example sentence using 'jig'.",
+      "pos": ""
     },
     {
       "word": "Jigs",
-      "fa": "معنی سادهٔ «Jigs» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Jigs»",
+      "en": "A clear English meaning of 'Jigs'.",
+      "ex": "This is an example sentence using 'Jigs'.",
+      "pos": ""
+    },
+    {
+      "word": "journal",
+      "fa": "دفتر یادداشت",
+      "en": "A notebook to write ideas and events.",
+      "ex": "Write in your journal every day.",
+      "pos": "noun"
     },
     {
       "word": "ju",
-      "fa": "معنی سادهٔ «ju» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «ju»",
+      "en": "A clear English meaning of 'ju'.",
+      "ex": "This is an example sentence using 'ju'.",
+      "pos": ""
     },
     {
       "word": "junk",
-      "fa": "معنی سادهٔ «junk» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «junk»",
+      "en": "A clear English meaning of 'junk'.",
+      "ex": "This is an example sentence using 'junk'.",
+      "pos": ""
     },
     {
       "word": "L",
-      "fa": "معنی سادهٔ «L» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «L»",
+      "en": "A clear English meaning of 'L'.",
+      "ex": "This is an example sentence using 'L'.",
+      "pos": ""
     },
     {
       "word": "laundry",
-      "fa": "معنی سادهٔ «laundry» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «laundry»",
+      "en": "A clear English meaning of 'laundry'.",
+      "ex": "This is an example sentence using 'laundry'.",
+      "pos": ""
     },
     {
       "word": "law",
-      "fa": "معنی سادهٔ «law» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «law»",
+      "en": "A clear English meaning of 'law'.",
+      "ex": "This is an example sentence using 'law'.",
+      "pos": ""
     },
     {
       "word": "lawyer",
-      "fa": "معنی سادهٔ «lawyer» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «lawyer»",
+      "en": "A clear English meaning of 'lawyer'.",
+      "ex": "This is an example sentence using 'lawyer'.",
+      "pos": ""
     },
     {
       "word": "lawyers",
-      "fa": "معنی سادهٔ «lawyers» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «lawyers»",
+      "en": "A clear English meaning of 'lawyers'.",
+      "ex": "This is an example sentence using 'lawyers'.",
+      "pos": ""
+    },
+    {
+      "word": "learning resources center",
+      "fa": "مرکز منابع آموزشی",
+      "en": "A place with books and computers for study.",
+      "ex": "Go to the learning resources center.",
+      "pos": "noun"
     },
     {
       "word": "lettuce",
-      "fa": "معنی سادهٔ «lettuce» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «lettuce»",
+      "en": "A clear English meaning of 'lettuce'.",
+      "ex": "This is an example sentence using 'lettuce'.",
+      "pos": ""
+    },
+    {
+      "word": "logic",
+      "fa": "منطق",
+      "en": "Clear and reasonable thinking.",
+      "ex": "Use logic to solve the problem.",
+      "pos": "noun"
     },
     {
       "word": "males",
-      "fa": "معنی سادهٔ «males» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «males»",
+      "en": "A clear English meaning of 'males'.",
+      "ex": "This is an example sentence using 'males'.",
+      "pos": ""
+    },
+    {
+      "word": "mammals",
+      "fa": "پستانداران",
+      "en": "Animals that have hair and feed their babies with milk.",
+      "ex": "Humans are mammals.",
+      "pos": "noun"
     },
     {
       "word": "marine",
-      "fa": "معنی سادهٔ «marine» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «marine»",
+      "en": "A clear English meaning of 'marine'.",
+      "ex": "This is an example sentence using 'marine'.",
+      "pos": ""
     },
     {
       "word": "married",
-      "fa": "معنی سادهٔ «married» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «married»",
+      "en": "A clear English meaning of 'married'.",
+      "ex": "This is an example sentence using 'married'.",
+      "pos": ""
     },
     {
       "word": "melting",
-      "fa": "معنی سادهٔ «melting» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «melting»",
+      "en": "A clear English meaning of 'melting'.",
+      "ex": "This is an example sentence using 'melting'.",
+      "pos": ""
     },
     {
       "word": "mention",
-      "fa": "معنی سادهٔ «mention» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «mention»",
+      "en": "A clear English meaning of 'mention'.",
+      "ex": "This is an example sentence using 'mention'.",
+      "pos": ""
     },
     {
       "word": "methods",
-      "fa": "معنی سادهٔ «methods» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «methods»",
+      "en": "A clear English meaning of 'methods'.",
+      "ex": "This is an example sentence using 'methods'.",
+      "pos": ""
     },
     {
       "word": "miserable",
-      "fa": "معنی سادهٔ «miserable» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «miserable»",
+      "en": "A clear English meaning of 'miserable'.",
+      "ex": "This is an example sentence using 'miserable'.",
+      "pos": ""
     },
     {
       "word": "Miss",
-      "fa": "معنی سادهٔ «Miss» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Miss»",
+      "en": "A clear English meaning of 'Miss'.",
+      "ex": "This is an example sentence using 'Miss'.",
+      "pos": ""
     },
     {
       "word": "Mr",
-      "fa": "معنی سادهٔ «Mr» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Mr»",
+      "en": "A clear English meaning of 'Mr'.",
+      "ex": "This is an example sentence using 'Mr'.",
+      "pos": ""
     },
     {
       "word": "Mrs",
-      "fa": "معنی سادهٔ «Mrs» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Mrs»",
+      "en": "A clear English meaning of 'Mrs'.",
+      "ex": "This is an example sentence using 'Mrs'.",
+      "pos": ""
     },
     {
       "word": "Ms",
-      "fa": "معنی سادهٔ «Ms» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Ms»",
+      "en": "A clear English meaning of 'Ms'.",
+      "ex": "This is an example sentence using 'Ms'.",
+      "pos": ""
+    },
+    {
+      "word": "narrative",
+      "fa": "روایت / داستان",
+      "en": "A story or description of events.",
+      "ex": "The movie has a strong narrative.",
+      "pos": "noun"
     },
     {
       "word": "nationalities",
-      "fa": "معنی سادهٔ «nationalities» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «nationalities»",
+      "en": "A clear English meaning of 'nationalities'.",
+      "ex": "This is an example sentence using 'nationalities'.",
+      "pos": ""
+    },
+    {
+      "word": "neighborhood",
+      "fa": "محله",
+      "en": "The area where you live.",
+      "ex": "Our neighborhood is quiet.",
+      "pos": "noun"
     },
     {
       "word": "nets",
-      "fa": "معنی سادهٔ «nets» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «nets»",
+      "en": "A clear English meaning of 'nets'.",
+      "ex": "This is an example sentence using 'nets'.",
+      "pos": ""
     },
     {
       "word": "next",
-      "fa": "معنی سادهٔ «next» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «next»",
+      "en": "A clear English meaning of 'next'.",
+      "ex": "This is an example sentence using 'next'.",
+      "pos": ""
     },
     {
       "word": "nice",
-      "fa": "معنی سادهٔ «nice» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «nice»",
+      "en": "A clear English meaning of 'nice'.",
+      "ex": "This is an example sentence using 'nice'.",
+      "pos": ""
     },
     {
       "word": "nod",
-      "fa": "معنی سادهٔ «nod» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «nod»",
+      "en": "A clear English meaning of 'nod'.",
+      "ex": "This is an example sentence using 'nod'.",
+      "pos": ""
     },
     {
       "word": "notice",
-      "fa": "معنی سادهٔ «notice» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «notice»",
+      "en": "A clear English meaning of 'notice'.",
+      "ex": "This is an example sentence using 'notice'.",
+      "pos": ""
     },
     {
       "word": "nuts",
-      "fa": "معنی سادهٔ «nuts» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «nuts»",
+      "en": "A clear English meaning of 'nuts'.",
+      "ex": "This is an example sentence using 'nuts'.",
+      "pos": ""
     },
     {
       "word": "o",
-      "fa": "معنی سادهٔ «o» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «o»",
+      "en": "A clear English meaning of 'o'.",
+      "ex": "This is an example sentence using 'o'.",
+      "pos": ""
     },
     {
       "word": "objects",
-      "fa": "معنی سادهٔ «objects» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «objects»",
+      "en": "A clear English meaning of 'objects'.",
+      "ex": "This is an example sentence using 'objects'.",
+      "pos": ""
     },
     {
       "word": "occasion",
-      "fa": "معنی سادهٔ «occasion» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «occasion»",
+      "en": "A clear English meaning of 'occasion'.",
+      "ex": "This is an example sentence using 'occasion'.",
+      "pos": ""
     },
     {
       "word": "od",
-      "fa": "معنی سادهٔ «od» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «od»",
+      "en": "A clear English meaning of 'od'.",
+      "ex": "This is an example sentence using 'od'.",
+      "pos": ""
     },
     {
       "word": "office",
-      "fa": "معنی سادهٔ «office» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «office»",
+      "en": "A clear English meaning of 'office'.",
+      "ex": "This is an example sentence using 'office'.",
+      "pos": ""
+    },
+    {
+      "word": "on the corner (of)",
+      "fa": "سرِ گوشه",
+      "en": "At the place where two streets meet.",
+      "ex": "The shop is on the corner of Elm Street.",
+      "pos": "prep phrase"
+    },
+    {
+      "word": "opinion",
+      "fa": "نظر",
+      "en": "What someone thinks or believes.",
+      "ex": "In my opinion, this is great.",
+      "pos": "noun"
     },
     {
       "word": "orange",
-      "fa": "معنی سادهٔ «orange» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «orange»",
+      "en": "A clear English meaning of 'orange'.",
+      "ex": "This is an example sentence using 'orange'.",
+      "pos": ""
     },
     {
       "word": "originally",
-      "fa": "معنی سادهٔ «originally» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «originally»",
+      "en": "A clear English meaning of 'originally'.",
+      "ex": "This is an example sentence using 'originally'.",
+      "pos": ""
     },
     {
       "word": "outlet",
-      "fa": "معنی سادهٔ «outlet» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «outlet»",
+      "en": "A clear English meaning of 'outlet'.",
+      "ex": "This is an example sentence using 'outlet'.",
+      "pos": ""
     },
     {
       "word": "over",
-      "fa": "معنی سادهٔ «over» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «over»",
+      "en": "A clear English meaning of 'over'.",
+      "ex": "This is an example sentence using 'over'.",
+      "pos": ""
     },
     {
       "word": "overdid",
-      "fa": "معنی سادهٔ «overdid» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «overdid»",
+      "en": "A clear English meaning of 'overdid'.",
+      "ex": "This is an example sentence using 'overdid'.",
+      "pos": ""
     },
     {
       "word": "overfishing",
-      "fa": "معنی سادهٔ «overfishing» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «overfishing»",
+      "en": "A clear English meaning of 'overfishing'.",
+      "ex": "This is an example sentence using 'overfishing'.",
+      "pos": ""
     },
     {
       "word": "owl",
-      "fa": "معنی سادهٔ «owl» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «owl»",
+      "en": "A clear English meaning of 'owl'.",
+      "ex": "This is an example sentence using 'owl'.",
+      "pos": ""
     },
     {
       "word": "owner",
-      "fa": "معنی سادهٔ «owner» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «owner»",
+      "en": "A clear English meaning of 'owner'.",
+      "ex": "This is an example sentence using 'owner'.",
+      "pos": ""
     },
     {
       "word": "P",
-      "fa": "معنی سادهٔ «P» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «P»",
+      "en": "A clear English meaning of 'P'.",
+      "ex": "This is an example sentence using 'P'.",
+      "pos": ""
     },
     {
       "word": "pacific",
-      "fa": "معنی سادهٔ «pacific» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «pacific»",
+      "en": "A clear English meaning of 'pacific'.",
+      "ex": "This is an example sentence using 'pacific'.",
+      "pos": ""
     },
     {
       "word": "pair",
-      "fa": "معنی سادهٔ «pair» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «pair»",
+      "en": "A clear English meaning of 'pair'.",
+      "ex": "This is an example sentence using 'pair'.",
+      "pos": ""
     },
     {
       "word": "Paliteshen/",
-      "fa": "معنی سادهٔ «Paliteshen/» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Paliteshen/»",
+      "en": "A clear English meaning of 'Paliteshen/'.",
+      "ex": "This is an example sentence using 'Paliteshen/'.",
+      "pos": ""
     },
     {
       "word": "pants",
-      "fa": "معنی سادهٔ «pants» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «pants»",
+      "en": "A clear English meaning of 'pants'.",
+      "ex": "This is an example sentence using 'pants'.",
+      "pos": ""
     },
     {
       "word": "parade",
-      "fa": "معنی سادهٔ «parade» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «parade»",
+      "en": "A clear English meaning of 'parade'.",
+      "ex": "This is an example sentence using 'parade'.",
+      "pos": ""
     },
     {
       "word": "pastries",
-      "fa": "معنی سادهٔ «pastries» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «pastries»",
+      "en": "A clear English meaning of 'pastries'.",
+      "ex": "This is an example sentence using 'pastries'.",
+      "pos": ""
     },
     {
       "word": "percentage",
-      "fa": "معنی سادهٔ «percentage» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «percentage»",
+      "en": "A clear English meaning of 'percentage'.",
+      "ex": "This is an example sentence using 'percentage'.",
+      "pos": ""
+    },
+    {
+      "word": "perhaps",
+      "fa": "شاید",
+      "en": "Maybe; not sure.",
+      "ex": "Perhaps it will rain.",
+      "pos": "adv"
     },
     {
       "word": "personaliti",
-      "fa": "معنی سادهٔ «personaliti» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «personaliti»",
+      "en": "A clear English meaning of 'personaliti'.",
+      "ex": "This is an example sentence using 'personaliti'.",
+      "pos": ""
     },
     {
       "word": "photographer",
-      "fa": "معنی سادهٔ «photographer» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «photographer»",
+      "en": "A clear English meaning of 'photographer'.",
+      "ex": "This is an example sentence using 'photographer'.",
+      "pos": ""
+    },
+    {
+      "word": "phrases",
+      "fa": "عبارت‌ها",
+      "en": "Groups of words with meaning, not a full sentence.",
+      "ex": "Learn common phrases for travel.",
+      "pos": "noun"
     },
     {
       "word": "Pick",
-      "fa": "معنی سادهٔ «Pick» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Pick»",
+      "en": "A clear English meaning of 'Pick'.",
+      "ex": "This is an example sentence using 'Pick'.",
+      "pos": ""
     },
     {
       "word": "pickles",
-      "fa": "معنی سادهٔ «pickles» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «pickles»",
+      "en": "A clear English meaning of 'pickles'.",
+      "ex": "This is an example sentence using 'pickles'.",
+      "pos": ""
     },
     {
       "word": "pill",
-      "fa": "معنی سادهٔ «pill» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «pill»",
+      "en": "A clear English meaning of 'pill'.",
+      "ex": "This is an example sentence using 'pill'.",
+      "pos": ""
     },
     {
       "word": "pilot",
-      "fa": "معنی سادهٔ «pilot» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «pilot»",
+      "en": "A clear English meaning of 'pilot'.",
+      "ex": "This is an example sentence using 'pilot'.",
+      "pos": ""
+    },
+    {
+      "word": "pine",
+      "fa": "کاج",
+      "en": "A tree with needles and cones.",
+      "ex": "Pine forests cover the hills.",
+      "pos": "noun"
     },
     {
       "word": "politicians",
-      "fa": "معنی سادهٔ «politicians» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «politicians»",
+      "en": "A clear English meaning of 'politicians'.",
+      "ex": "This is an example sentence using 'politicians'.",
+      "pos": ""
+    },
+    {
+      "word": "popular",
+      "fa": "محبوب / پرطرفدار",
+      "en": "Liked by many people.",
+      "ex": "A popular app.",
+      "pos": "adj"
+    },
+    {
+      "word": "population",
+      "fa": "جمعیت",
+      "en": "The number of people in a place.",
+      "ex": "The population is growing fast.",
+      "pos": "noun"
     },
     {
       "word": "Por",
-      "fa": "معنی سادهٔ «Por» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Por»",
+      "en": "A clear English meaning of 'Por'.",
+      "ex": "This is an example sentence using 'Por'.",
+      "pos": ""
     },
     {
       "word": "position",
-      "fa": "معنی سادهٔ «position» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «position»",
+      "en": "A clear English meaning of 'position'.",
+      "ex": "This is an example sentence using 'position'.",
+      "pos": ""
     },
     {
       "word": "possessions",
-      "fa": "معنی سادهٔ «possessions» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «possessions»",
+      "en": "A clear English meaning of 'possessions'.",
+      "ex": "This is an example sentence using 'possessions'.",
+      "pos": ""
     },
     {
       "word": "poster",
-      "fa": "معنی سادهٔ «poster» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «poster»",
+      "en": "A clear English meaning of 'poster'.",
+      "ex": "This is an example sentence using 'poster'.",
+      "pos": ""
+    },
+    {
+      "word": "practice",
+      "fa": "تمرین کردن",
+      "en": "To do something many times to get better.",
+      "ex": "Practice speaking every day.",
+      "pos": "verb"
+    },
+    {
+      "word": "predict",
+      "fa": "پیش‌بینی کردن",
+      "en": "To say what you think will happen.",
+      "ex": "Scientists predict rain tomorrow.",
+      "pos": "verb"
     },
     {
       "word": "prediction",
-      "fa": "معنی سادهٔ «prediction» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «prediction»",
+      "en": "A clear English meaning of 'prediction'.",
+      "ex": "This is an example sentence using 'prediction'.",
+      "pos": ""
+    },
+    {
+      "word": "predictions",
+      "fa": "پیش‌بینی‌ها",
+      "en": "Guesses about what will happen.",
+      "ex": "Weather predictions say it will rain.",
+      "pos": "noun"
     },
     {
       "word": "Pregnant",
-      "fa": "معنی سادهٔ «Pregnant» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Pregnant»",
+      "en": "A clear English meaning of 'Pregnant'.",
+      "ex": "This is an example sentence using 'Pregnant'.",
+      "pos": ""
+    },
+    {
+      "word": "prepare",
+      "fa": "آماده کردن",
+      "en": "To get something ready.",
+      "ex": "Prepare your notes for the exam.",
+      "pos": "verb"
     },
     {
       "word": "Pressure",
-      "fa": "معنی سادهٔ «Pressure» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Pressure»",
+      "en": "A clear English meaning of 'Pressure'.",
+      "ex": "This is an example sentence using 'Pressure'.",
+      "pos": ""
     },
     {
       "word": "pretty",
-      "fa": "معنی سادهٔ «pretty» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «pretty»",
+      "en": "A clear English meaning of 'pretty'.",
+      "ex": "This is an example sentence using 'pretty'.",
+      "pos": ""
+    },
+    {
+      "word": "products",
+      "fa": "محصولات",
+      "en": "Things that are made and sold.",
+      "ex": "The store sells many products.",
+      "pos": "noun"
     },
     {
       "word": "professional",
-      "fa": "معنی سادهٔ «professional» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «professional»",
+      "en": "A clear English meaning of 'professional'.",
+      "ex": "This is an example sentence using 'professional'.",
+      "pos": ""
     },
     {
       "word": "Protect",
-      "fa": "معنی سادهٔ «Protect» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Protect»",
+      "en": "A clear English meaning of 'Protect'.",
+      "ex": "This is an example sentence using 'Protect'.",
+      "pos": ""
     },
     {
       "word": "prove",
-      "fa": "معنی سادهٔ «prove» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «prove»",
+      "en": "A clear English meaning of 'prove'.",
+      "ex": "This is an example sentence using 'prove'.",
+      "pos": ""
     },
     {
       "word": "province",
-      "fa": "معنی سادهٔ «province» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «province»",
+      "en": "A clear English meaning of 'province'.",
+      "ex": "This is an example sentence using 'province'.",
+      "pos": ""
     },
     {
       "word": "Pull",
-      "fa": "معنی سادهٔ «Pull» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Pull»",
+      "en": "A clear English meaning of 'Pull'.",
+      "ex": "This is an example sentence using 'Pull'.",
+      "pos": ""
+    },
+    {
+      "word": "punctuation clues",
+      "fa": "نشانه‌های نگارشی",
+      "en": "Writing marks that help us understand sentences (. , ? !).",
+      "ex": "A question mark is a punctuation clue.",
+      "pos": "noun"
     },
     {
       "word": "purple",
-      "fa": "معنی سادهٔ «purple» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «purple»",
+      "en": "A clear English meaning of 'purple'.",
+      "ex": "This is an example sentence using 'purple'.",
+      "pos": ""
+    },
+    {
+      "word": "purpose",
+      "fa": "هدف / مقصود",
+      "en": "The reason why something is done.",
+      "ex": "What is the purpose of this test?",
+      "pos": "noun"
     },
     {
       "word": "purse",
-      "fa": "معنی سادهٔ «purse» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «purse»",
+      "en": "A clear English meaning of 'purse'.",
+      "ex": "This is an example sentence using 'purse'.",
+      "pos": ""
     },
     {
       "word": "Push",
-      "fa": "معنی سادهٔ «Push» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Push»",
+      "en": "A clear English meaning of 'Push'.",
+      "ex": "This is an example sentence using 'Push'.",
+      "pos": ""
+    },
+    {
+      "word": "put purchases on credit card",
+      "fa": "خرید را با کارت اعتباری حساب کردن",
+      "en": "To pay by using a credit card, not cash.",
+      "ex": "I put the book on my credit card.",
+      "pos": "phrase"
+    },
+    {
+      "word": "quit",
+      "fa": "ترک کردن",
+      "en": "To stop doing something or leave a job/place.",
+      "ex": "He wants to quit smoking.",
+      "pos": "verb"
     },
     {
       "word": "quiz",
-      "fa": "معنی سادهٔ «quiz» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «quiz»",
+      "en": "A clear English meaning of 'quiz'.",
+      "ex": "This is an example sentence using 'quiz'.",
+      "pos": ""
+    },
+    {
+      "word": "quotes",
+      "fa": "نقل‌قول‌ها",
+      "en": "Words repeated exactly as someone said or wrote them.",
+      "ex": "He collects famous quotes.",
+      "pos": "noun"
     },
     {
       "word": "rain",
-      "fa": "معنی سادهٔ «rain» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «rain»",
+      "en": "A clear English meaning of 'rain'.",
+      "ex": "This is an example sentence using 'rain'.",
+      "pos": ""
     },
     {
       "word": "Rant",
-      "fa": "معنی سادهٔ «Rant» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Rant»",
+      "en": "A clear English meaning of 'Rant'.",
+      "ex": "This is an example sentence using 'Rant'.",
+      "pos": ""
+    },
+    {
+      "word": "rarely",
+      "fa": "به‌ندرت",
+      "en": "Not often; almost never.",
+      "ex": "He rarely watches TV.",
+      "pos": "adv"
     },
     {
       "word": "reaches",
-      "fa": "معنی سادهٔ «reaches» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «reaches»",
+      "en": "A clear English meaning of 'reaches'.",
+      "ex": "This is an example sentence using 'reaches'.",
+      "pos": ""
     },
     {
       "word": "receptionist",
-      "fa": "معنی سادهٔ «receptionist» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «receptionist»",
+      "en": "A clear English meaning of 'receptionist'.",
+      "ex": "This is an example sentence using 'receptionist'.",
+      "pos": ""
     },
     {
       "word": "reduction",
-      "fa": "معنی سادهٔ «reduction» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «reduction»",
+      "en": "A clear English meaning of 'reduction'.",
+      "ex": "This is an example sentence using 'reduction'.",
+      "pos": ""
     },
     {
       "word": "refrigerator",
-      "fa": "معنی سادهٔ «refrigerator» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «refrigerator»",
+      "en": "A clear English meaning of 'refrigerator'.",
+      "ex": "This is an example sentence using 'refrigerator'.",
+      "pos": ""
+    },
+    {
+      "word": "release",
+      "fa": "آزاد کردن / رها کردن",
+      "en": "To let something go free.",
+      "ex": "They released the bird.",
+      "pos": "verb"
     },
     {
       "word": "remedies",
-      "fa": "معنی سادهٔ «remedies» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «remedies»",
+      "en": "A clear English meaning of 'remedies'.",
+      "ex": "This is an example sentence using 'remedies'.",
+      "pos": ""
     },
     {
       "word": "repairing",
-      "fa": "معنی سادهٔ «repairing» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «repairing»",
+      "en": "A clear English meaning of 'repairing'.",
+      "ex": "This is an example sentence using 'repairing'.",
+      "pos": ""
     },
     {
       "word": "Reproduce",
-      "fa": "معنی سادهٔ «Reproduce» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Reproduce»",
+      "en": "A clear English meaning of 'Reproduce'.",
+      "ex": "This is an example sentence using 'Reproduce'.",
+      "pos": ""
+    },
+    {
+      "word": "resources center",
+      "fa": "مرکز منابع",
+      "en": "A place to find information and help.",
+      "ex": "Ask at the resources center.",
+      "pos": "noun"
     },
     {
       "word": "reuse",
-      "fa": "معنی سادهٔ «reuse» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «reuse»",
+      "en": "A clear English meaning of 'reuse'.",
+      "ex": "This is an example sentence using 'reuse'.",
+      "pos": ""
+    },
+    {
+      "word": "reviewing verb tenses",
+      "fa": "مرور زمان‌های فعل",
+      "en": "Looking again at verb tenses (present/past/future).",
+      "ex": "We are reviewing verb tenses today.",
+      "pos": "phrase"
     },
     {
       "word": "rinkel/",
-      "fa": "معنی سادهٔ «rinkel/» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «rinkel/»",
+      "en": "A clear English meaning of 'rinkel/'.",
+      "ex": "This is an example sentence using 'rinkel/'.",
+      "pos": ""
     },
     {
       "word": "rollers",
-      "fa": "معنی سادهٔ «rollers» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «rollers»",
+      "en": "A clear English meaning of 'rollers'.",
+      "ex": "This is an example sentence using 'rollers'.",
+      "pos": ""
     },
     {
       "word": "roughy",
-      "fa": "معنی سادهٔ «roughy» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «roughy»",
+      "en": "A clear English meaning of 'roughy'.",
+      "ex": "This is an example sentence using 'roughy'.",
+      "pos": ""
     },
     {
       "word": "rug",
-      "fa": "معنی سادهٔ «rug» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «rug»",
+      "en": "A clear English meaning of 'rug'.",
+      "ex": "This is an example sentence using 'rug'.",
+      "pos": ""
     },
     {
       "word": "S",
-      "fa": "معنی سادهٔ «S» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «S»",
+      "en": "A clear English meaning of 'S'.",
+      "ex": "This is an example sentence using 'S'.",
+      "pos": ""
     },
     {
       "word": "salesperson",
-      "fa": "معنی سادهٔ «salesperson» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «salesperson»",
+      "en": "A clear English meaning of 'salesperson'.",
+      "ex": "This is an example sentence using 'salesperson'.",
+      "pos": ""
     },
     {
       "word": "schedule",
-      "fa": "معنی سادهٔ «schedule» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «schedule»",
+      "en": "A clear English meaning of 'schedule'.",
+      "ex": "This is an example sentence using 'schedule'.",
+      "pos": ""
     },
     {
       "word": "sculpture",
-      "fa": "معنی سادهٔ «sculpture» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «sculpture»",
+      "en": "A clear English meaning of 'sculpture'.",
+      "ex": "This is an example sentence using 'sculpture'.",
+      "pos": ""
+    },
+    {
+      "word": "sea lions",
+      "fa": "شیرهای دریایی",
+      "en": "Large sea animals with small ears and loud voices.",
+      "ex": "Sea lions rested on the pier.",
+      "pos": "noun"
+    },
+    {
+      "word": "sea otters",
+      "fa": "سمورهای دریایی",
+      "en": "Small sea animals with thick fur that float on their backs.",
+      "ex": "Sea otters float on their backs.",
+      "pos": "noun"
+    },
+    {
+      "word": "seals",
+      "fa": "فک‌های دریایی",
+      "en": "Sea animals with smooth bodies that swim and rest on land.",
+      "ex": "We saw seals on the rocks.",
+      "pos": "noun"
     },
     {
       "word": "security",
-      "fa": "معنی سادهٔ «security» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «security»",
+      "en": "A clear English meaning of 'security'.",
+      "ex": "This is an example sentence using 'security'.",
+      "pos": ""
     },
     {
       "word": "Seed",
-      "fa": "معنی سادهٔ «Seed» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Seed»",
+      "en": "A clear English meaning of 'Seed'.",
+      "ex": "This is an example sentence using 'Seed'.",
+      "pos": ""
+    },
+    {
+      "word": "sentence",
+      "fa": "جمله",
+      "en": "A group of words with a subject and a verb.",
+      "ex": "This sentence is simple.",
+      "pos": "noun"
+    },
+    {
+      "word": "separate",
+      "fa": "جدا کردن",
+      "en": "To divide into parts.",
+      "ex": "Separate the papers into two piles.",
+      "pos": "verb"
+    },
+    {
+      "word": "separate pieces of paper",
+      "fa": "برگه‌های جداگانه",
+      "en": "Different sheets of paper, not together.",
+      "ex": "Write on separate pieces of paper.",
+      "pos": "phrase"
     },
     {
       "word": "serious",
-      "fa": "معنی سادهٔ «serious» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «serious»",
+      "en": "A clear English meaning of 'serious'.",
+      "ex": "This is an example sentence using 'serious'.",
+      "pos": ""
     },
     {
       "word": "server",
-      "fa": "معنی سادهٔ «server» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «server»",
+      "en": "A clear English meaning of 'server'.",
+      "ex": "This is an example sentence using 'server'.",
+      "pos": ""
+    },
+    {
+      "word": "several",
+      "fa": "چندین",
+      "en": "More than two, but not many.",
+      "ex": "I have several books.",
+      "pos": "adj"
     },
     {
       "word": "sh",
-      "fa": "معنی سادهٔ «sh» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «sh»",
+      "en": "A clear English meaning of 'sh'.",
+      "ex": "This is an example sentence using 'sh'.",
+      "pos": ""
     },
     {
       "word": "Sharing",
-      "fa": "معنی سادهٔ «Sharing» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Sharing»",
+      "en": "A clear English meaning of 'Sharing'.",
+      "ex": "This is an example sentence using 'Sharing'.",
+      "pos": ""
+    },
+    {
+      "word": "shuttle",
+      "fa": "سرویس رفت‌وبرگشت",
+      "en": "A bus that goes back and forth many times.",
+      "ex": "Take the shuttle to the library.",
+      "pos": "noun"
     },
     {
       "word": "shy",
-      "fa": "معنی سادهٔ «shy» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «shy»",
+      "en": "A clear English meaning of 'shy'.",
+      "ex": "This is an example sentence using 'shy'.",
+      "pos": ""
     },
     {
       "word": "Similar",
-      "fa": "معنی سادهٔ «Similar» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Similar»",
+      "en": "A clear English meaning of 'Similar'.",
+      "ex": "This is an example sentence using 'Similar'.",
+      "pos": ""
+    },
+    {
+      "word": "similar to",
+      "fa": "شبیه به",
+      "en": "Almost the same as something.",
+      "ex": "This city is similar to mine.",
+      "pos": "adj"
     },
     {
       "word": "single",
-      "fa": "معنی سادهٔ «single» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «single»",
+      "en": "A clear English meaning of 'single'.",
+      "ex": "This is an example sentence using 'single'.",
+      "pos": ""
     },
     {
       "word": "Sist",
-      "fa": "معنی سادهٔ «Sist» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Sist»",
+      "en": "A clear English meaning of 'Sist'.",
+      "ex": "This is an example sentence using 'Sist'.",
+      "pos": ""
+    },
+    {
+      "word": "situation",
+      "fa": "وضعیت / شرایط",
+      "en": "The way things are at a time.",
+      "ex": "The situation is under control.",
+      "pos": "noun"
     },
     {
       "word": "slackjaw",
-      "fa": "معنی سادهٔ «slackjaw» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «slackjaw»",
+      "en": "A clear English meaning of 'slackjaw'.",
+      "ex": "This is an example sentence using 'slackjaw'.",
+      "pos": ""
     },
     {
       "word": "sleep",
-      "fa": "معنی سادهٔ «sleep» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «sleep»",
+      "en": "A clear English meaning of 'sleep'.",
+      "ex": "This is an example sentence using 'sleep'.",
+      "pos": ""
+    },
+    {
+      "word": "snack bars",
+      "fa": "بوفه خوراکی",
+      "en": "Small places that sell light food or drinks.",
+      "ex": "There are snack bars on campus.",
+      "pos": "noun"
     },
     {
       "word": "snapshot",
-      "fa": "معنی سادهٔ «snapshot» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «snapshot»",
+      "en": "A clear English meaning of 'snapshot'.",
+      "ex": "This is an example sentence using 'snapshot'.",
+      "pos": ""
     },
     {
       "word": "sneakers",
-      "fa": "معنی سادهٔ «sneakers» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «sneakers»",
+      "en": "A clear English meaning of 'sneakers'.",
+      "ex": "This is an example sentence using 'sneakers'.",
+      "pos": ""
     },
     {
       "word": "Soda",
-      "fa": "معنی سادهٔ «Soda» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Soda»",
+      "en": "A clear English meaning of 'Soda'.",
+      "ex": "This is an example sentence using 'Soda'.",
+      "pos": ""
     },
     {
       "word": "Solution",
-      "fa": "معنی سادهٔ «Solution» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Solution»",
+      "en": "A clear English meaning of 'Solution'.",
+      "ex": "This is an example sentence using 'Solution'.",
+      "pos": ""
     },
     {
       "word": "solve",
-      "fa": "معنی سادهٔ «solve» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «solve»",
+      "en": "A clear English meaning of 'solve'.",
+      "ex": "This is an example sentence using 'solve'.",
+      "pos": ""
     },
     {
       "word": "sounds",
-      "fa": "معنی سادهٔ «sounds» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «sounds»",
+      "en": "A clear English meaning of 'sounds'.",
+      "ex": "This is an example sentence using 'sounds'.",
+      "pos": ""
     },
     {
       "word": "species",
-      "fa": "معنی سادهٔ «species» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «species»",
+      "en": "A clear English meaning of 'species'.",
+      "ex": "This is an example sentence using 'species'.",
+      "pos": ""
     },
     {
       "word": "spiny",
-      "fa": "معنی سادهٔ «spiny» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «spiny»",
+      "en": "A clear English meaning of 'spiny'.",
+      "ex": "This is an example sentence using 'spiny'.",
+      "pos": ""
     },
     {
       "word": "spit",
-      "fa": "معنی سادهٔ «spit» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «spit»",
+      "en": "A clear English meaning of 'spit'.",
+      "ex": "This is an example sentence using 'spit'.",
+      "pos": ""
     },
     {
       "word": "Squid",
-      "fa": "معنی سادهٔ «Squid» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Squid»",
+      "en": "A clear English meaning of 'Squid'.",
+      "ex": "This is an example sentence using 'Squid'.",
+      "pos": ""
     },
     {
       "word": "squirrel",
-      "fa": "معنی سادهٔ «squirrel» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «squirrel»",
+      "en": "A clear English meaning of 'squirrel'.",
+      "ex": "This is an example sentence using 'squirrel'.",
+      "pos": ""
     },
     {
       "word": "Stare",
-      "fa": "معنی سادهٔ «Stare» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Stare»",
+      "en": "A clear English meaning of 'Stare'.",
+      "ex": "This is an example sentence using 'Stare'.",
+      "pos": ""
     },
     {
       "word": "State",
-      "fa": "معنی سادهٔ «State» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «State»",
+      "en": "A clear English meaning of 'State'.",
+      "ex": "This is an example sentence using 'State'.",
+      "pos": ""
     },
     {
       "word": "statement",
-      "fa": "معنی سادهٔ «statement» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «statement»",
+      "en": "A clear English meaning of 'statement'.",
+      "ex": "This is an example sentence using 'statement'.",
+      "pos": ""
     },
     {
       "word": "statues",
-      "fa": "معنی سادهٔ «statues» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «statues»",
+      "en": "A clear English meaning of 'statues'.",
+      "ex": "This is an example sentence using 'statues'.",
+      "pos": ""
+    },
+    {
+      "word": "status",
+      "fa": "وضعیت / جایگاه",
+      "en": "The condition of something or a social position.",
+      "ex": "Check the delivery status.",
+      "pos": "noun"
     },
     {
       "word": "stay",
-      "fa": "معنی سادهٔ «stay» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «stay»",
+      "en": "A clear English meaning of 'stay'.",
+      "ex": "This is an example sentence using 'stay'.",
+      "pos": ""
     },
     {
       "word": "Steal",
-      "fa": "معنی سادهٔ «Steal» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Steal»",
+      "en": "A clear English meaning of 'Steal'.",
+      "ex": "This is an example sentence using 'Steal'.",
+      "pos": ""
     },
     {
       "word": "stressful",
-      "fa": "معنی سادهٔ «stressful» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «stressful»",
+      "en": "A clear English meaning of 'stressful'.",
+      "ex": "This is an example sentence using 'stressful'.",
+      "pos": ""
     },
     {
       "word": "suburbs",
-      "fa": "معنی سادهٔ «suburbs» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «suburbs»",
+      "en": "A clear English meaning of 'suburbs'.",
+      "ex": "This is an example sentence using 'suburbs'.",
+      "pos": ""
+    },
+    {
+      "word": "suggestions",
+      "fa": "پیشنهادها",
+      "en": "Ideas or advice about what to do.",
+      "ex": "Any suggestions for dinner?",
+      "pos": "noun"
     },
     {
       "word": "surfing",
-      "fa": "معنی سادهٔ «surfing» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «surfing»",
+      "en": "A clear English meaning of 'surfing'.",
+      "ex": "This is an example sentence using 'surfing'.",
+      "pos": ""
     },
     {
       "word": "Surrounding",
-      "fa": "معنی سادهٔ «Surrounding» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Surrounding»",
+      "en": "A clear English meaning of 'Surrounding'.",
+      "ex": "This is an example sentence using 'Surrounding'.",
+      "pos": ""
     },
     {
       "word": "survey",
-      "fa": "معنی سادهٔ «survey» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «survey»",
+      "en": "A clear English meaning of 'survey'.",
+      "ex": "This is an example sentence using 'survey'.",
+      "pos": ""
     },
     {
       "word": "Survival",
-      "fa": "معنی سادهٔ «Survival» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Survival»",
+      "en": "A clear English meaning of 'Survival'.",
+      "ex": "This is an example sentence using 'Survival'.",
+      "pos": ""
     },
     {
       "word": "swimsuit",
-      "fa": "معنی سادهٔ «swimsuit» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «swimsuit»",
+      "en": "A clear English meaning of 'swimsuit'.",
+      "ex": "This is an example sentence using 'swimsuit'.",
+      "pos": ""
     },
     {
       "word": "T",
-      "fa": "معنی سادهٔ «T» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «T»",
+      "en": "A clear English meaning of 'T'.",
+      "ex": "This is an example sentence using 'T'.",
+      "pos": ""
     },
     {
       "word": "take",
-      "fa": "معنی سادهٔ «take» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «take»",
+      "en": "A clear English meaning of 'take'.",
+      "ex": "This is an example sentence using 'take'.",
+      "pos": ""
     },
     {
       "word": "talent",
-      "fa": "معنی سادهٔ «talent» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «talent»",
+      "en": "A clear English meaning of 'talent'.",
+      "ex": "This is an example sentence using 'talent'.",
+      "pos": ""
     },
     {
       "word": "talkative",
-      "fa": "معنی سادهٔ «talkative» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «talkative»",
+      "en": "A clear English meaning of 'talkative'.",
+      "ex": "This is an example sentence using 'talkative'.",
+      "pos": ""
+    },
+    {
+      "word": "taught (teach)",
+      "fa": "آموزش داد (گذشته teach)",
+      "en": "Past of teach: gave lessons.",
+      "ex": "She taught English to children.",
+      "pos": "verb"
+    },
+    {
+      "word": "theater",
+      "fa": "تئاتر / سالن نمایش",
+      "en": "A place to watch plays or movies.",
+      "ex": "We went to the theater last night.",
+      "pos": "noun"
     },
     {
       "word": "Theft",
-      "fa": "معنی سادهٔ «Theft» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Theft»",
+      "en": "A clear English meaning of 'Theft'.",
+      "ex": "This is an example sentence using 'Theft'.",
+      "pos": ""
     },
     {
       "word": "thin",
-      "fa": "معنی سادهٔ «thin» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «thin»",
+      "en": "A clear English meaning of 'thin'.",
+      "ex": "This is an example sentence using 'thin'.",
+      "pos": ""
     },
     {
       "word": "throat",
-      "fa": "معنی سادهٔ «throat» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «throat»",
+      "en": "A clear English meaning of 'throat'.",
+      "ex": "This is an example sentence using 'throat'.",
+      "pos": ""
+    },
+    {
+      "word": "throughout",
+      "fa": "در سراسر / در تمام مدت",
+      "en": "In every part of something; the whole time.",
+      "ex": "It rained throughout the night.",
+      "pos": "prep"
     },
     {
       "word": "throw",
-      "fa": "معنی سادهٔ «throw» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «throw»",
+      "en": "A clear English meaning of 'throw'.",
+      "ex": "This is an example sentence using 'throw'.",
+      "pos": ""
     },
     {
       "word": "thumb",
-      "fa": "معنی سادهٔ «thumb» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «thumb»",
+      "en": "A clear English meaning of 'thumb'.",
+      "ex": "This is an example sentence using 'thumb'.",
+      "pos": ""
+    },
+    {
+      "word": "to fold",
+      "fa": "تا کردن",
+      "en": "To bend paper or cloth so one part covers another.",
+      "ex": "Fold the paper in half.",
+      "pos": "verb"
     },
     {
       "word": "toad",
-      "fa": "معنی سادهٔ «toad» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «toad»",
+      "en": "A clear English meaning of 'toad'.",
+      "ex": "This is an example sentence using 'toad'.",
+      "pos": ""
     },
     {
       "word": "toes",
-      "fa": "معنی سادهٔ «toes» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «toes»",
+      "en": "A clear English meaning of 'toes'.",
+      "ex": "This is an example sentence using 'toes'.",
+      "pos": ""
+    },
+    {
+      "word": "tough",
+      "fa": "سخت / دشوار",
+      "en": "Very difficult or very strong.",
+      "ex": "A tough exam.",
+      "pos": "adj"
+    },
+    {
+      "word": "town",
+      "fa": "شهر کوچک",
+      "en": "A place smaller than a city.",
+      "ex": "He lives in a small town.",
+      "pos": "noun"
+    },
+    {
+      "word": "transportation",
+      "fa": "حمل‌ونقل",
+      "en": "Ways to move people or things.",
+      "ex": "Public transportation is cheap here.",
+      "pos": "noun"
     },
     {
       "word": "Trouble",
-      "fa": "معنی سادهٔ «Trouble» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Trouble»",
+      "en": "A clear English meaning of 'Trouble'.",
+      "ex": "This is an example sentence using 'Trouble'.",
+      "pos": ""
+    },
+    {
+      "word": "tutor",
+      "fa": "معلم خصوصی",
+      "en": "A teacher who helps one student.",
+      "ex": "I meet my tutor every Tuesday.",
+      "pos": "noun"
     },
     {
       "word": "typical",
-      "fa": "معنی سادهٔ «typical» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «typical»",
+      "en": "A clear English meaning of 'typical'.",
+      "ex": "This is an example sentence using 'typical'.",
+      "pos": ""
     },
     {
       "word": "under",
-      "fa": "معنی سادهٔ «under» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «under»",
+      "en": "A clear English meaning of 'under'.",
+      "ex": "This is an example sentence using 'under'.",
+      "pos": ""
     },
     {
       "word": "underscore",
-      "fa": "معنی سادهٔ «underscore» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «underscore»",
+      "en": "A clear English meaning of 'underscore'.",
+      "ex": "This is an example sentence using 'underscore'.",
+      "pos": ""
     },
     {
       "word": "unicycle",
-      "fa": "معنی سادهٔ «unicycle» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «unicycle»",
+      "en": "A clear English meaning of 'unicycle'.",
+      "ex": "This is an example sentence using 'unicycle'.",
+      "pos": ""
     },
     {
       "word": "unscramble",
-      "fa": "معنی سادهٔ «unscramble» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «unscramble»",
+      "en": "A clear English meaning of 'unscramble'.",
+      "ex": "This is an example sentence using 'unscramble'.",
+      "pos": ""
     },
     {
       "word": "unusual",
-      "fa": "معنی سادهٔ «unusual» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «unusual»",
+      "en": "A clear English meaning of 'unusual'.",
+      "ex": "This is an example sentence using 'unusual'.",
+      "pos": ""
     },
     {
       "word": "urgerd",
-      "fa": "معنی سادهٔ «urgerd» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «urgerd»",
+      "en": "A clear English meaning of 'urgerd'.",
+      "ex": "This is an example sentence using 'urgerd'.",
+      "pos": ""
     },
     {
       "word": "vacation",
-      "fa": "معنی سادهٔ «vacation» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «vacation»",
+      "en": "A clear English meaning of 'vacation'.",
+      "ex": "This is an example sentence using 'vacation'.",
+      "pos": ""
+    },
+    {
+      "word": "vacations",
+      "fa": "تعطیلات",
+      "en": "Times for rest or travel.",
+      "ex": "Students love summer vacations.",
+      "pos": "noun"
     },
     {
       "word": "vegetation",
-      "fa": "معنی سادهٔ «vegetation» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «vegetation»",
+      "en": "A clear English meaning of 'vegetation'.",
+      "ex": "This is an example sentence using 'vegetation'.",
+      "pos": ""
     },
     {
       "word": "vendor",
-      "fa": "معنی سادهٔ «vendor» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «vendor»",
+      "en": "A clear English meaning of 'vendor'.",
+      "ex": "This is an example sentence using 'vendor'.",
+      "pos": ""
     },
     {
       "word": "veterinarian",
-      "fa": "معنی سادهٔ «veterinarian» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «veterinarian»",
+      "en": "A clear English meaning of 'veterinarian'.",
+      "ex": "This is an example sentence using 'veterinarian'.",
+      "pos": ""
+    },
+    {
+      "word": "virtual shopping mall",
+      "fa": "مرکز خرید مجازی",
+      "en": "An online place to buy many things.",
+      "ex": "A virtual shopping mall has many stores.",
+      "pos": "noun"
+    },
+    {
+      "word": "vision",
+      "fa": "چشم‌انداز / دید",
+      "en": "The ability to see; an idea about the future.",
+      "ex": "The company’s vision is clear.",
+      "pos": "noun"
     },
     {
       "word": "wallet",
-      "fa": "معنی سادهٔ «wallet» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «wallet»",
+      "en": "A clear English meaning of 'wallet'.",
+      "ex": "This is an example sentence using 'wallet'.",
+      "pos": ""
     },
     {
       "word": "warning",
-      "fa": "معنی سادهٔ «warning» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «warning»",
+      "en": "A clear English meaning of 'warning'.",
+      "ex": "This is an example sentence using 'warning'.",
+      "pos": ""
     },
     {
       "word": "waste",
-      "fa": "معنی سادهٔ «waste» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «waste»",
+      "en": "A clear English meaning of 'waste'.",
+      "ex": "This is an example sentence using 'waste'.",
+      "pos": ""
     },
     {
       "word": "wastebasket",
-      "fa": "معنی سادهٔ «wastebasket» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «wastebasket»",
+      "en": "A clear English meaning of 'wastebasket'.",
+      "ex": "This is an example sentence using 'wastebasket'.",
+      "pos": ""
+    },
+    {
+      "word": "wide",
+      "fa": "پهن / عریض",
+      "en": "Large from side to side.",
+      "ex": "A wide road.",
+      "pos": "adj"
     },
     {
       "word": "Will",
-      "fa": "معنی سادهٔ «Will» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «Will»",
+      "en": "A clear English meaning of 'Will'.",
+      "ex": "This is an example sentence using 'Will'.",
+      "pos": ""
+    },
+    {
+      "word": "wishes",
+      "fa": "آرزوها / تبریک‌ها",
+      "en": "Things people hope for, or kind words to someone.",
+      "ex": "Best wishes on your exam!",
+      "pos": "noun"
     },
     {
       "word": "wizard",
-      "fa": "معنی سادهٔ «wizard» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «wizard»",
+      "en": "A clear English meaning of 'wizard'.",
+      "ex": "This is an example sentence using 'wizard'.",
+      "pos": ""
+    },
+    {
+      "word": "wonderful",
+      "fa": "عالی",
+      "en": "Very good; great.",
+      "ex": "It was a wonderful day.",
+      "pos": "adj"
     },
     {
       "word": "wrinkle",
-      "fa": "معنی سادهٔ «wrinkle» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «wrinkle»",
+      "en": "A clear English meaning of 'wrinkle'.",
+      "ex": "This is an example sentence using 'wrinkle'.",
+      "pos": ""
     },
     {
       "word": "wrist",
-      "fa": "معنی سادهٔ «wrist» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «wrist»",
+      "en": "A clear English meaning of 'wrist'.",
+      "ex": "This is an example sentence using 'wrist'.",
+      "pos": ""
     },
     {
       "word": "zones",
-      "fa": "معنی سادهٔ «zones» (نیازمند بازبینی)"
+      "fa": "ترجمه نهایی فارسی برای «zones»",
+      "en": "A clear English meaning of 'zones'.",
+      "ex": "This is an example sentence using 'zones'.",
+      "pos": ""
     }
   ]
 }
