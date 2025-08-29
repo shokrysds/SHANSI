@@ -1,0 +1,2216 @@
+{
+  "vocab": [
+    {
+      "word": "Interaction",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Aspect",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Eye",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Con",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Por",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Expert",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Identity",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Theft",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Stare",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Steal",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Avalanche",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Hike",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Hiker",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Pregnant",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Cola",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Rant",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "sleep",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "deprived",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "beverage",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "wrinkle",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "rinkel/",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "body",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "equality",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "fields",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "genders",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "hierarchy",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "position",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "suggestions",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "communication",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "connect",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "nod",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "comfortable",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Similar",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "engineering",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "education",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "experts",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "climb",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "directly",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "solve",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Itaf/",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "od",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Bigg",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Cliary",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Survival",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Sharing",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "discuss",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "coastline",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "overfishing",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "zones",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "urgerd",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "warning",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "drag",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "extinct",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "disgusting",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "species",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Pull",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Push",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Trouble",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "agriculture",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "any",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "nets",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Bottom",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Pick",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Catch",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "marine",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Squid",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Crab",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "slackjaw",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "spiny",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "roughy",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "orange",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Appeared",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Reproduce",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "methods",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "politicians",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "covservation",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "exist",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Protect",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "industry",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "argue",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "evidence",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "environmentalists",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "prove",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Pressure",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Solution",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "gure",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "overdid",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "province",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "prediction",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "State",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "statues",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "canoes",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "vegetation",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "melting",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "amazing",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "ancient",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Surrounding",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "repairing",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "mention",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "situation",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "individual",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "reuse",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "throw",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "compact",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "waste",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "jars",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Soda",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "percentage",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "grass",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "L",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "rollers",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "fighting",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "junk",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "lawyers",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "criminal",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "guilty",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "pacific",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "sculpture",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "instructor",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "inferences",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Seed",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "glacier",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Paliteshen/",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "eg",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "i",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "S",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "igosy",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Will",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Jigs",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "sh",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "d",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "o",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "J",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "e",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "I-e",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Jets",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "P",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "T",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Ja",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "El",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Isi",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Sist",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "jig",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "ju",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Miss",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "single",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Mrs",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "married",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Ms",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "females",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "Mr",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "males",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "How's",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "How",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "pretty",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "nice",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "over",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "at",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "underscore",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "identify",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "objects",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "wallet",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "hairbrush",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "poster",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "outlet",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "wastebasket",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "purse",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "credit",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "infront",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "next",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "behind",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "under",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "contact",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "possessions",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "nationalities",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "appearance",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "personaliti",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "snapshot",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "population",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "originally",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "statement",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "pair",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "handsome",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "good",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "talkative",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "shy",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "heavy",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "thin",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "funny",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "serious",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "describe",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "pants",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "high",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "rain",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "sneakers",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "swimsuit",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "beige",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "purple",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "disaster",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "owner",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "conjunction",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "fashion",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "amber",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "town",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "event",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "vacation",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "congratulation",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "intonation",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "notice",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "take",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "couch",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "boss",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "transportation",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "suburbs",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "expressions",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "survey",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "interview",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "unusual",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "professional",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "schedule",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "article",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "compare",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "owl",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "furniture",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "hidden",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "surfing",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "champion",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "unicycle",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "popular",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "athlete",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "occasion",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "independence",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "sounds",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "fancy",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "decorate",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "parade",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "audition",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "contest",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "laundry",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "elevator",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "downtown",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "appliance",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "refrigerator",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "rug",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "dresser",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "cupboard",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "curtains",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "beach",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "cabin",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "dessert",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "bubble",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "wizard",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "bathub",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "cozy",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "enormous",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "squirrel",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "accoutant",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "belhop",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "cashier",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "chef",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "front",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "host",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "office",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "receptionist",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "salesperson",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "security",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "vendor",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "server",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "reduction",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "lawyer",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "law",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "stressful",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "photographer",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "pilot",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "exciting",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "toad",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "spit",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "flavors",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "hairstylist",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "architect",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "veterinarian",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "lettuce",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "carrot",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "nuts",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "beans",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "beef",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "cereal",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "celery",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "pickles",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "pastries",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "typical",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "unscramble",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "talent",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "hip",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "throat",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "eyebrow",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "chin",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "ailments",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "remedies",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "common",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "reaches",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "horrible",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "awful",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "miserable",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "elbow",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "thumb",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "toes",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "glad",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "antacid",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "chamomile",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "pill",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "exhausted",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "intination",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "stay",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "wrist",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    },
+    {
+      "word": "quiz",
+      "fa": "",
+      "en": "",
+      "ex": "",
+      "pos": ""
+    }
+  ]
+}
