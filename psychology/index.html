@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>درس روان‌شناسی - محمد شکری</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: sans-serif; }
+    summary::-webkit-details-marker { display: none; }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-white shadow p-6 text-center">
+    <h1 class="text-3xl font-bold mb-2">بازنویسی کامل روان‌شناسی</h1>
+    <p class="text-sm text-gray-600">تهیه‌شده توسط <strong>محمد شکری</strong> - دانشجوی پرستاری</p>
+    <input type="text" id="searchInput" placeholder="جست‌وجو در متن..."
+      class="mt-4 w-full max-w-md px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring">
+  </header>
+
+  <main class="max-w-4xl mx-auto py-6 px-4 space-y-6" id="content">
+
+    <!-- فصل اول -->
+    <details open class="bg-white shadow rounded-xl p-4">
+      <summary class="text-xl font-bold cursor-pointer select-none">📘 فصل اول: هوش</summary>
+
+      <!-- صفحه ۱ -->
+      <section class="mt-4 border-t border-gray-200 pt-4">
+        <h3 class="text-lg font-semibold mb-2">صفحه ۱</h3>
+        <p class="text-justify text-gray-800">
+          در کتاب <strong>هوش انسانی</strong> نوشته‌ی رابرت استرنبرگ و ویلیام استلر آمده است که اکثر کارشناسان، هوش را یک ظرفیت فردی برای رفتارهای انطباقی و هدفمند می‌دانند. رفتار هوشمندانه یعنی توانایی انطباق از طریق یادگیری، تجربه، حل مسئله و تفکر.
+        </p>
+        <p class="mt-2 text-justify text-gray-800">
+          روان‌شناسان، تعاریف مختلفی از هوش ارائه داده‌اند:
+          برخی آن را توانایی عمومی ذهن در حل مسئله می‌دانند؛ برخی دیگر، آن را توان قضاوت صحیح و درک موقعیت؛ و گروهی نیز آن را مجموعه‌ای از رفتارهای هدفمند می‌دانند.
+        </p>
+        <p class="mt-2 text-justify text-gray-800">
+          <strong>گالتون (1822–1911)</strong> معتقد بود که هوش یک ویژگی ارثی است و پایه‌ی آن را در مهارت‌های حسی-حرکتی می‌دید. افراد باهوش از نظر او کسانی‌اند که محرک‌های محیطی را بهتر و سریع‌تر درک می‌کنند.
+        </p>
+        <audio controls class="mt-4 w-full">
+          <source src="assets/audio/page1.mp3" type="audio/mpeg">
+          مرور صوتی در دسترس نیست.
+        </audio>
+      </section>
+
+      <!-- صفحه‌های بعدی فصل ۱ نیز به همین صورت اضافه می‌شوند -->
+
+    </details>
+
+    <!-- فصل‌های بعدی را همینجا اضافه کن -->
+
+  </main>
+
+  <footer class="bg-white shadow p-4 text-center text-sm text-gray-500">
+    تمامی حقوق متعلق به محمد شکری است – ۱۴۰۴
+  </footer>
+
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const content = document.getElementById("content");
+
+    searchInput.addEventListener("input", function () {
+      const keyword = this.value.toLowerCase();
+      const sections = content.querySelectorAll("section");
+
+      sections.forEach(section => {
+        const text = section.innerText.toLowerCase();
+        section.style.display = text.includes(keyword) ? "block" : "none";
+      });
+    });
+  </script>
+</body>
+</html>
