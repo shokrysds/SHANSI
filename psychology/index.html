@@ -3,174 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>روان‌شناسی | بازنویسی دروس — محمد شکری</title>
+  <title>فصل اول: هوش | بازنویسی روان‌شناسی — محمد شکری</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    @font-face{font-family:"Vazirmatn";src:url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn[wght].woff2") format("woff2");font-display:swap}
-    html{scroll-behavior:smooth}
-    body{font-family:"Vazirmatn",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,sans-serif}
-    summary::-webkit-details-marker{display:none}
-    .prose p{line-height:2}
-    .glass{backdrop-filter:blur(10px);background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.08)}
+    @font-face {
+      font-family: "Vazirmatn";
+      src: url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn[wght].woff2") format("woff2");
+      font-display: swap;
+    }
+    body {
+      font-family: "Vazirmatn", system-ui, sans-serif;
+    }
+    summary::-webkit-details-marker {
+      display: none;
+    }
+    html { scroll-behavior: smooth; }
   </style>
 </head>
 <body class="bg-slate-900 text-slate-100">
+
   <!-- Header -->
-  <header class="sticky top-0 z-40 bg-gradient-to-b from-slate-900/95 to-slate-900/70 backdrop-blur border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="size-9 rounded-2xl bg-indigo-600 shadow shadow-indigo-900/50 grid place-items-center">
-          <span class="text-white font-black">Ψ</span>
-        </div>
-        <div>
-          <h1 class="text-lg md:text-xl font-bold">روان‌شناسی — بازنویسی کامل</h1>
-          <p class="text-xs text-slate-300">تهیه‌شده توسط <span class="font-semibold">محمد شکری</span> | نسخهٔ مطالعهٔ تیره</p>
-        </div>
-      </div>
-      <div class="flex items-center gap-2">
-        <button id="toggleTheme" class="px-3 py-1.5 rounded-xl glass text-sm hover:bg-white/5">روشن/تیره</button>
-        <button id="expandAll" class="px-3 py-1.5 rounded-xl glass text-sm hover:bg-white/5">باز کردن همه</button>
-        <button id="collapseAll" class="px-3 py-1.5 rounded-xl glass text-sm hover:bg-white/5">بستن همه</button>
-      </div>
+  <header class="bg-gradient-to-b from-slate-900/95 to-slate-900/70 backdrop-blur border-b border-slate-800 sticky top-0 z-40">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+      <h1 class="text-lg md:text-xl font-bold">📘 بازنویسی روان‌شناسی – فصل اول: هوش</h1>
+      <span class="text-sm text-slate-400">تهیه‌شده توسط <strong>محمد شکری</strong></span>
     </div>
   </header>
 
-  <!-- Layout -->
-  <div class="max-w-7xl mx-auto px-4 py-6 grid grid-cols-1 lg:grid-cols-12 gap-6">
+  <!-- Content -->
+  <main class="max-w-5xl mx-auto px-4 py-8 space-y-6">
 
-    <!-- Sidebar (Right) -->
-    <aside class="order-1 lg:order-2 lg:col-span-4 xl:col-span-3">
-      <div class="sticky top-20 space-y-4">
-        <div class="glass rounded-2xl p-4">
-          <h2 class="text-sm font-bold text-slate-200 mb-3">جست‌وجو در متن</h2>
-          <input id="searchInput" type="text" placeholder="مثلاً: گالتون، حافظه..." class="w-full px-3 py-2 rounded-xl bg-slate-800/70 border border-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-600" />
-          <p id="searchCount" class="mt-2 text-xs text-slate-400">—</p>
-        </div>
+    <section id="ch1" class="bg-slate-800/50 rounded-2xl shadow p-6">
+      <h2 class="text-xl font-bold mb-4">فصل اول: هوش – صفحه ۱</h2>
 
-        <div class="glass rounded-2xl p-4">
-          <h2 class="text-sm font-bold text-slate-200 mb-3">فهرست فصل‌ها</h2>
-          <nav id="toc" class="space-y-2 text-sm">
-            <a href="#ch1" class="block px-3 py-2 rounded-xl hover:bg-white/5">فصل ۱: هوش</a>
-            <!-- لینک‌های فصل‌های بعدی را اینجا اضافه کنید -->
-          </nav>
-        </div>
+      <details open class="rounded-xl border border-slate-700 overflow-hidden">
+        <summary class="cursor-pointer select-none px-4 py-3 bg-slate-900/60 hover:bg-slate-900/40 flex items-center justify-between">
+          <span class="font-semibold">صفحه ۱</span>
+          <span class="text-xs text-slate-400">مقدمه، تعاریف، دیدگاه گالتون</span>
+        </summary>
+        <div class="p-4 bg-slate-900/30 prose prose-invert max-w-none">
 
-        <div class="glass rounded-2xl p-4">
-          <h2 class="text-sm font-bold text-slate-200 mb-3">ابزار مطالعه</h2>
-          <div class="flex items-center justify-between text-xs mb-2">
-            <span>اندازه متن</span>
-            <div class="flex gap-2">
-              <button id="fontDec" class="px-2 py-1 rounded-lg bg-slate-800 border border-slate-700">A−</button>
-              <button id="fontInc" class="px-2 py-1 rounded-lg bg-slate-800 border border-slate-700">A+</button>
-            </div>
-          </div>
-          <div class="flex items-center justify-between text-xs">
-            <span>حالت مطالعهٔ بدون حواس‌پرتی</span>
-            <button id="focusMode" class="px-3 py-1 rounded-lg bg-slate-800 border border-slate-700">فعال‌سازی</button>
-          </div>
-        </div>
+          <h3 class="text-lg font-bold mb-2">🔹 مقدمه</h3>
+          <p>
+            در کتاب <strong>هوش انسانی</strong> نوشتهٔ <em>رابرت استرنبرگ</em> و <em>ویلیام استلر</em> آمده است که
+            بیشتر متخصصان، <strong>هوش</strong> را نوعی <strong>ظرفیت فردی برای رفتارهای انطباقی و هدفمند</strong> می‌دانند.
+            به عبارت دیگر، هوش مجموعه‌ای از توانایی‌هاست که به فرد کمک می‌کند با محیط خود سازگار شود و
+            رفتارهایش را در جهت اهداف مشخص سامان دهد.
+          </p>
+          <ul class="list-disc mr-6">
+            <li>توانایی <strong>یادگیری</strong> از تجربه‌ها</li>
+            <li>استفاده از <strong>دانش قبلی</strong> در موقعیت‌های جدید</li>
+            <li><strong>حل مسائل</strong> پیچیده</li>
+            <li>به‌کارگیری <strong>تفکر و استدلال منطقی</strong> برای تصمیم‌گیری</li>
+          </ul>
 
-        <div class="glass rounded-2xl p-4">
-          <h2 class="text-sm font-bold text-slate-200 mb-2">راهنمای اضافه‌کردن صفحات</h2>
-          <ol class="list-decimal mr-5 text-xs text-slate-300 space-y-1">
-            <li>برای هر صفحه، یک <code>&lt;section&gt;</code> جدید زیر همان فصل بساز.</li>
-            <li>عنوان صفحه را با <code>h3</code> بنویس و متن را داخل <code>div.prose</code> قرار بده.</li>
-            <li>در صورت نیاز، پلیر صوتی همان صفحه را در انتهای سکشن اضافه کن.</li>
+          <h3 class="text-lg font-bold mt-6 mb-2">🔹 تعریف‌های گوناگون هوش</h3>
+          <ol class="list-decimal mr-6 space-y-2">
+            <li><strong>هوش به‌عنوان قابلیت عمومی ذهنی:</strong> توانایی درک، استدلال، تفکر منطقی و پاسخ‌گویی مؤثر به موقعیت‌های تازه.</li>
+            <li><strong>هوش به‌عنوان نیروی قضاوت و تفکر انتزاعی:</strong> نیرویی که فرد را قادر می‌سازد در زندگی روزمره <strong>تصمیم‌های درست</strong> بگیرد، در شرایط پیچیده <strong>ابتکار</strong> نشان دهد و خود را وفق دهد.</li>
+            <li><strong>هوش به‌عنوان رفتار هدفمند:</strong> مجموعه‌ای از کارکردهای شناختی که فرد را قادر می‌سازد <strong>مسائل را حل کند</strong>، <strong>خلاقانه بیندیشد</strong> و در شرایط نو <strong>تصمیم‌گیری مؤثر</strong> داشته باشد.</li>
           </ol>
+
+          <h3 class="text-lg font-bold mt-6 mb-2">🔹 دیدگاه گالتون (1822–1911)</h3>
+          <p>
+            <strong>فرانسیس گالتون</strong>، دانشمند انگلیسی، از نخستین افرادی بود که تلاش کرد هوش را به صورت علمی بررسی کند.
+            او بر چند نکته تأکید داشت:
+          </p>
+          <ul class="list-disc mr-6 space-y-1">
+            <li>هوش یک <strong>ویژگی ارثی</strong> است که از والدین به فرزندان منتقل می‌شود.</li>
+            <li>اساس هوش در <strong>توانایی‌های حسی و حرکتی (حسی ـ ادراکی)</strong> نهفته است.</li>
+            <li>افراد باهوش کسانی هستند که محرک‌های محیطی را <strong>سریع‌تر و دقیق‌تر</strong> دریافت می‌کنند و واکنش نشان می‌دهند.</li>
+            <li>تفاوت‌های فردی در هوش ریشه در عوامل <strong>زیستی و ژنتیکی</strong> دارد.</li>
+          </ul>
+
+          <h3 class="text-lg font-bold mt-6 mb-2 text-green-400">✅ جمع‌بندی نکات کلیدی صفحه ۱</h3>
+          <ul class="list-disc mr-6 space-y-1">
+            <li><strong>هوش</strong> = ظرفیت ذهنی برای <strong>انطباق، یادگیری، حل مسئله و تفکر منطقی</strong>.</li>
+            <li>همه تعاریف، بر <strong>سازگاری و تصمیم‌گیری درست</strong> تأکید دارند.</li>
+            <li><strong>گالتون:</strong> هوش <strong>ارثی</strong> است، به <strong>مهارت‌های حسی ـ حرکتی</strong> وابسته است، و افراد باهوش محرک‌ها را <strong>سریع‌تر و دقیق‌تر</strong> درک می‌کنند.</li>
+          </ul>
+
         </div>
-      </div>
-    </aside>
+      </details>
+    </section>
 
-    <!-- Content -->
-    <main class="order-2 lg:order-1 lg:col-span-8 xl:col-span-9 space-y-6" id="contentRoot">
+  </main>
 
-      <!-- Chapter 1 -->
-      <section id="ch1" class="glass rounded-2xl p-5">
-        <h2 class="text-xl font-bold mb-3 flex items-center gap-2"><span>📘</span>فصل ۱: هوش</h2>
+  <!-- Footer -->
+  <footer class="text-center text-sm text-slate-400 py-4 border-t border-slate-800">
+    تمامی حقوق متعلق به <strong>محمد شکری</strong> است — ۱۴۰۴
+  </footer>
 
-        <details open class="rounded-xl border border-slate-800 overflow-hidden">
-          <summary class="cursor-pointer select-none px-4 py-3 bg-slate-900/60 hover:bg-slate-900/40 flex items-center justify-between">
-            <span class="font-semibold">صفحه ۱</span>
-            <span class="text-xs text-slate-400">مقدمه، تعاریف، دیدگاه گالتون</span>
-          </summary>
-          <div class="p-4 bg-slate-900/30 prose prose-invert max-w-none">
-            <p><strong>مقدمه:</strong> در کتاب <strong>هوش انسانی</strong> نوشتهٔ رابرت استرنبرگ و ویلیام استلر، بیان می‌شود که بیشتر کارشناسان هوش را <strong>ظرفیت فردی برای رفتارهای انطباقی و مبتنی بر هدف</strong> می‌دانند؛ یعنی توانایی سازگاری که از مسیر <strong>یادگیری، تجربه، حل مسئله و تفکر</strong> شکل می‌گیرد.</p>
-            <p><strong>تعاریف:</strong> برخی روان‌شناسان هوش را <strong>قابلیت کلی ذهن</strong> در درک و استدلال می‌دانند؛ برخی دیگر آن را <strong>قوهٔ قضاوت درست و تفکر انتزاعی</strong> و گروهی نیز <strong>مجموعه‌ای از رفتارهای هدفمند</strong> برای حل مسئله و انطباق با شرایط نو می‌دانند.</p>
-            <p><strong>دیدگاه گالتون (۱۸۲۲–۱۹۱۱):</strong> هوش را <strong>ویژگی ارثی</strong> و ریشه‌دار در <strong>توانایی‌های حسی‌ـ‌حرکتی</strong> می‌دانست و معتقد بود افراد باهوش محرک‌های محیطی را <strong>سریع‌تر و دقیق‌تر</strong> دریافت و پاسخ‌دهی می‌کنند.</p>
-          </div>
-        </details>
-
-        <!-- الگو: برای هر صفحهٔ جدید، یک details تازه مانند بالا کپی و پر کن -->
-      </section>
-
-      <!-- بخش‌های فصل‌های بعدی را با همین ساختار اضافه کنید -->
-
-    </main>
-  </div>
-
-  <!-- Scroll to top -->
-  <button id="toTop" class="fixed left-4 bottom-4 px-3 py-2 rounded-xl glass text-sm shadow-lg hidden">بالا</button>
-
-  <script>
-    // Theme toggle
-    const htmlEl = document.documentElement;
-    document.getElementById('toggleTheme').addEventListener('click',()=>{
-      htmlEl.classList.toggle('dark');
-      document.body.classList.toggle('bg-white');
-      document.body.classList.toggle('text-slate-900');
-    });
-
-    // Expand / Collapse all
-    const expandAllBtn = document.getElementById('expandAll');
-    const collapseAllBtn = document.getElementById('collapseAll');
-    expandAllBtn.addEventListener('click',()=>{
-      document.querySelectorAll('details').forEach(d=>d.open=true);
-    });
-    collapseAllBtn.addEventListener('click',()=>{
-      document.querySelectorAll('details').forEach(d=>d.open=false);
-    });
-
-    // Search across sections
-    const searchInput = document.getElementById('searchInput');
-    const searchCount = document.getElementById('searchCount');
-    const sections = [...document.querySelectorAll('#contentRoot details')];
-    searchInput.addEventListener('input',()=>{
-      const q = searchInput.value.trim().toLowerCase();
-      let matches = 0;
-      sections.forEach(d=>{
-        const txt = d.innerText.toLowerCase();
-        const ok = txt.includes(q);
-        d.parentElement.style.display = q? (ok? 'block':'none') : 'block';
-        if(ok) matches++;
-      });
-      searchCount.textContent = q? `نتیجه: ${matches} بخش` : '—';
-    });
-
-    // Font size controls
-    const contentRoot = document.getElementById('contentRoot');
-    let base = 1.0;
-    document.getElementById('fontInc').addEventListener('click',()=>{
-      base = Math.min(1.4, base+0.05); contentRoot.style.fontSize = base+'rem';
-    });
-    document.getElementById('fontDec').addEventListener('click',()=>{
-      base = Math.max(0.9, base-0.05); contentRoot.style.fontSize = base+'rem';
-    });
-
-    // Focus mode
-    const focusBtn = document.getElementById('focusMode');
-    let focused = false;
-    focusBtn.addEventListener('click',()=>{
-      focused = !focused;
-      document.querySelector('aside').style.display = focused? 'none':'block';
-      focusBtn.textContent = focused? 'غیرفعال‌سازی' : 'فعال‌سازی';
-    });
-
-    // Scroll to top
-    const toTop = document.getElementById('toTop');
-    window.addEventListener('scroll',()=>{
-      toTop.classList.toggle('hidden', window.scrollY < 400);
-    });
-    toTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-  </script>
 </body>
 </html>
