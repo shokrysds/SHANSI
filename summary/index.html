@@ -1,312 +1,91 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>فلش‌کارت لغات + آزمون | محمد شکری</title>
-<meta name="color-scheme" content="light dark">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مسابقات خوابگاه</title>
+
 <style>
-:root{
-  --bg:#f6f7fb; --card:#ffffff; --ink:#0f172a; --muted:#6b7280;
-  --primary:#6366f1; --primary2:#8b5cf6; --ok:#16a34a; --bad:#ef4444;
-  --ring:#e5e7eb; --shadow:0 12px 24px rgba(0,0,0,.08);
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --bg:#0b1220; --card:#0f172a; --ink:#e5e7eb; --muted:#9aa2b2;
-    --ring:#1f2a44; --shadow:0 12px 24px rgba(0,0,0,.45);
-  }
-}
-*{box-sizing:border-box}
 body{
-  margin:0;
-  background:
-    radial-gradient(1200px 600px at 100% -20%, #dbeafe40 0%, transparent 60%),
-    radial-gradient(900px 500px at -10% 0%, #ede9fe40 0%, transparent 60%),
-    var(--bg);
-  color:var(--ink);
-  font:16px/1.8 Vazirmatn,IRANSansX,Segoe UI,Arial
+    font-family:tahoma;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    margin:0;
+    padding:20px;
 }
-.wrap{max-width:1100px;margin:auto;padding:22px}
 
-/* Header / Profile */
-.hero{background:linear-gradient(135deg,#6366f120,#8b5cf620);
-  border:1px solid var(--ring); border-radius:24px; padding:22px; box-shadow:var(--shadow)}
-.badge{display:inline-flex;gap:8px;align-items:center;color:#fff;
-  background:linear-gradient(135deg,#6366f1,#8b5cf6);
-  padding:8px 14px;border-radius:999px;font-weight:800;font-size:13px}
-.hero-inner{display:flex;gap:16px;align-items:center;margin-top:14px;flex-wrap:wrap}
-.avatar{width:64px;height:64px;border-radius:16px;
-  background:linear-gradient(135deg,#a78bfa,#60a5fa);display:grid;place-items:center;
-  color:#fff;font-weight:900;font-size:22px;box-shadow:0 8px 24px rgba(99,102,241,.35)}
-.title{margin:0;font-size:22px;font-weight:900}
-.sub{color:var(--muted);margin-top:4px}
-.chips{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
-.chip{background:#eef2ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:12px}
+h1{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:28px;
+}
 
-/* Tabs */
-.tabs{display:flex;gap:8px;margin:18px 0 22px;flex-wrap:wrap}
-.tabbtn{background:var(--card);border:1px solid var(--ring);border-radius:12px;padding:10px 14px;cursor:pointer}
-.tabbtn.active{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border-color:transparent}
-.panel{display:none} .panel.active{display:block}
+.section{
+    margin-bottom:60px;
+}
 
-/* Controls + card */
-.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
-input[type="search"]{flex:1;min-width:240px;padding:12px;border-radius:12px;border:1px solid var(--ring);background:var(--card);color:inherit}
-.btn{border:1px solid var(--ring);background:var(--card);padding:10px 14px;border-radius:12px;cursor:pointer;transition:.2s}
-.btn:hover{transform:translateY(-1px);box-shadow:0 8px 16px rgba(0,0,0,.08)}
-.btn.primary{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border-color:transparent}
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 30px rgba(0,0,0,0.4);
+    margin-bottom:25px;
+    transition:0.3s;
+}
 
-.card{background:var(--card);border:1px solid var(--ring);border-radius:18px;padding:28px;min-height:230px;
-  display:grid;place-items:center;text-align:center;position:relative;perspective:1000px;box-shadow:var(--shadow)}
-.face{position:absolute;inset:0;display:grid;place-items:center;padding:28px;backface-visibility:hidden;transition:transform .55s}
-.front{transform:rotateY(0)} .back{transform:rotateY(180deg)}
-.card.flipped .front{transform:rotateY(180deg)}
-.card.flipped .back{transform:rotateY(360deg)}
-.word{font-size:30px;font-weight:900}
-.pos{color:var(--muted);margin-top:6px}
-.fa{font-size:18px;margin-top:10px}
-.def{font-size:15px;margin-top:6px;color:var(--muted)}
-.ex{margin-top:12px;background:#6366f115;border:1px dashed var(--ring);padding:10px;border-radius:12px}
-.toolbar{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:8px;flex-wrap:wrap}
-.progress{font-size:13px;color:var(--muted)}
+.card:hover{
+    transform:scale(1.01);
+}
 
-/* Quiz */
-.qcard{background:var(--card);border:1px solid var(--ring);border-radius:16px;box-shadow:var(--shadow);padding:18px}
-.qhead{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}
-.qtext{font-weight:800}
-.opts{display:grid;gap:8px;margin-top:8px}
-.opt{border:1px solid var(--ring);border-radius:12px;padding:10px 12px;background:var(--card);cursor:pointer}
-.opt.correct{border-color:var(--ok);background:#16a34a12}
-.opt.wrong{border-color:var(--bad);background:#ef444412}
-.answer{margin-top:8px;font-size:14px;color:var(--muted)}
-.bar{height:8px;background:var(--ring);border-radius:999px;overflow:hidden}
-.bar>span{display:block;height:100%;background:linear-gradient(90deg,#6366f1,#8b5cf6);width:0%}
+iframe{
+    width:100%;
+    height:650px;
+    border:none;
+    border-radius:10px;
+}
 
-footer{margin:26px 0 6px;color:var(--muted);font-size:13px;text-align:center}
+.button{
+    display:inline-block;
+    padding:10px 20px;
+    background:#22c55e;
+    color:black;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+.button:hover{
+    background:#16a34a;
+}
 </style>
 </head>
+
 <body>
-<div class="wrap">
 
-  <!-- Header -->
-  <section class="hero">
-    <span class="badge">📚 فلش‌کارت لغات + آزمون چهارگزینه‌ای</span>
-    <div class="hero-inner">
-      <div class="avatar">م‌ش</div>
-      <div>
-        <h1 class="title">محمد شکری — دوره ۷۴ کارشناسی پرستاری</h1>
-        <div class="sub">دانشگاه علوم پزشکی تهران</div>
-        <div class="chips">
-          <span class="chip">پرستاری</span>
-          <span class="chip">یادگیری زبان</span>
-          <span class="chip">Flashcards + Quiz</span>
-        </div>
-      </div>
+<h1>🎮 مسابقات FIFA & PES خوابگاه</h1>
+
+<div class="section">
+    <div class="card">
+        <h2>⚽ جدول مسابقات FIFA</h2>
+        <iframe src="https://docs.google.com/spreadsheets/d/1TaW7HboyCbmq8uywcL5yRd5n4Oivh9j2/preview"></iframe>
+        <br>
+        <a class="button" href="https://docs.google.com/spreadsheets/d/1TaW7HboyCbmq8uywcL5yRd5n4Oivh9j2" target="_blank">
+        مشاهده در گوگل شیت
+        </a>
     </div>
-  </section>
-
-  <!-- Tabs -->
-  <div class="tabs">
-    <button class="tabbtn active" data-tab="flash">فلش‌کارت‌ها</button>
-    <button class="tabbtn" data-tab="quiz">آزمون</button>
-  </div>
-
-  <!-- Flashcards Panel -->
-  <section id="flash" class="panel active">
-    <div class="controls">
-      <input id="search" type="search" placeholder="جستجوی لغت، ترجمه یا تعریف..." />
-      <button id="shuffle" class="btn">🔀 شافل</button>
-      <button id="prev" class="btn">⬅ قبلی</button>
-      <button id="flip" class="btn primary">🔁 برگردان کارت</button>
-      <button id="next" class="btn">بعدی ➡</button>
-      <span id="learnedChip" class="chip">یادگرفته‌ها: 0</span>
-    </div>
-
-    <div class="card" id="card">
-      <div class="face front"><div><div id="frontWord" class="word">word</div><div id="pos" class="pos"></div></div></div>
-      <div class="face back"><div><div id="fa" class="fa">ترجمه فارسی</div><div id="en" class="def">تعریف ساده انگلیسی</div><div id="ex" class="ex">Example: ...</div></div></div>
-    </div>
-
-    <div class="toolbar">
-      <div class="progress"><span id="idx">1</span>/<span id="total">-</span></div>
-      <label><input id="mark" type="checkbox"> این کارت را «یاد گرفتم»</label>
-      <button id="resetMarks" class="btn">حذف علامت‌ها</button>
-    </div>
-  </section>
-
-  <!-- Quiz Panel -->
-  <section id="quiz" class="panel">
-    <div class="controls"><button id="newQuiz" class="btn primary">📝 آزمون جدید</button></div>
-    <div id="quizBox"></div>
-    <div class="qcard" style="margin-top:14px">
-      <div class="qhead"><div>پیشرفت آزمون</div><div id="scoreLabel">0 درست از 0</div></div>
-      <div class="bar"><span id="bar"></span></div>
-    </div>
-  </section>
-
-  <footer>طراحی و پیاده‌سازی توسط <b>محمد شکری</b> — دوره ۷۴ کارشناسی پرستاری، دانشگاه علوم پزشکی تهران</footer>
 </div>
-<script>
-// ===== Load all vocab from external JSON =====
-let VOCAB = []; // will be filled after fetch
-async function loadVocab(){
-  try{
-    const res = await fetch('vocab_extracted.json', {cache:'no-store'});
-    const data = await res.json();
-    // Normalize to expected structure
-    VOCAB = (data.vocab || []).map(item => ({
-      word: item.word || '',
-      fa: item.fa || '',
-      en: item.en || `Simple meaning of "${item.word||''}".`,
-      ex: item.ex || `Use "${item.word||''}" in a sentence.`,
-      pos: item.pos || ''
-    })).filter(v=>v.word);
-  }catch(e){
-    console.error('Vocab load failed', e);
-    VOCAB = [];
-  }
-}
-</script>
-<script>
-// ===== Load all questions from external JSON =====
-let QUESTIONS = []; // will be filled after fetch
-async function loadQuestions(){
-  try{
-    const res = await fetch('questions_extracted.json', {cache:'no-store'});
-    const data = await res.json();
-    QUESTIONS = (data.questions || []).map(q => ({
-      q: q.q || '',
-      choices: Array.isArray(q.choices) ? q.choices.slice(0,4) : [],
-      answer: typeof q.answer === 'number' ? q.answer : null,
-      explain: q.explain || ''
-    })).filter(q=>q.q && q.choices.length===4);
-  }catch(e){
-    console.error('Questions load failed', e);
-    QUESTIONS = [];
-  }
-}
-</script>
-<script>
-// ===== Core logic (runs after data load) =====
-let order=[], i=0;
-const el = {
-  card: null, frontWord:null, pos:null, fa:null, en:null, ex:null,
-  idx:null, total:null, mark:null, learnedChip:null, search:null,
-  quizBox:null, scoreLabel:null, bar:null
-};
-const learned = new Set(JSON.parse(localStorage.getItem('learned')||'[]'));
 
-function qs(id){ return document.getElementById(id); }
-function setChip(){ el.learnedChip.textContent = `یادگرفته‌ها: ${learned.size}`; }
+<div class="section">
+    <div class="card">
+        <h2>🎮 جدول مسابقات PES</h2>
+        <iframe src="https://docs.google.com/spreadsheets/d/1u6Ve4WY4xaJgR6b1gRHrixuM5SqPg8er/preview"></iframe>
+        <br>
+        <a class="button" href="https://docs.google.com/spreadsheets/d/1u6Ve4WY4xaJgR6b1gRHrixuM5SqPg8er" target="_blank">
+        مشاهده در گوگل شیت
+        </a>
+    </div>
+</div>
 
-function buildRefs(){
-  el.card = qs('card'); el.frontWord=qs('frontWord'); el.pos=qs('pos');
-  el.fa=qs('fa'); el.en=qs('en'); el.ex=qs('ex');
-  el.idx=qs('idx'); el.total=qs('total'); el.mark=qs('mark');
-  el.learnedChip=qs('learnedChip'); el.search=qs('search');
-  el.quizBox=qs('quizBox'); el.scoreLabel=qs('scoreLabel'); el.bar=qs('bar');
-}
-
-function show(k){
-  if(!order.length){ el.frontWord.textContent='لیستی وجود ندارد'; el.pos.textContent=''; el.fa.textContent=''; el.en.textContent=''; el.ex.textContent=''; el.idx.textContent='0'; el.total.textContent='0'; return; }
-  i = (k+order.length)%order.length;
-  const v = VOCAB[order[i]];
-  el.frontWord.textContent = v.word;
-  el.pos.textContent = v.pos ? `(${v.pos})` : '';
-  el.fa.textContent  = v.fa || '—';
-  el.en.textContent  = v.en || '—';
-  el.ex.textContent  = 'Example: ' + (v.ex || '—');
-  el.idx.textContent = i+1; el.total.textContent = order.length;
-  el.card.classList.remove('flipped');
-  el.mark.checked = learned.has(v.word);
-}
-
-function shuffle(){
-  for(let j=order.length-1;j>0;j--){
-    const r = Math.floor(Math.random()*(j+1));
-    [order[j],order[r]] = [order[r],order[j]];
-  }
-  show(0);
-}
-function next(){ show(i+1); }
-function prev(){ show(i-1); }
-
-function bindUI(){
-  qs('flip').onclick = ()=> el.card.classList.toggle('flipped');
-  qs('next').onclick = next;
-  qs('prev').onclick = prev;
-  qs('shuffle').onclick = shuffle;
-  qs('resetMarks').onclick = ()=>{ learned.clear(); localStorage.setItem('learned','[]'); setChip(); show(i); };
-  el.mark.onchange = ()=>{
-    const w = VOCAB[order[i]].word;
-    el.mark.checked ? learned.add(w) : learned.delete(w);
-    localStorage.setItem('learned', JSON.stringify([...learned]));
-    setChip();
-  };
-  el.search.addEventListener('input', e=>{
-    const q = e.target.value.trim().toLowerCase();
-    order = VOCAB.map((_,idx)=>idx).filter(idx=>{
-      const v = VOCAB[idx];
-      return [v.word,v.fa,v.en,(v.pos||''),(v.ex||'')].join(' ').toLowerCase().includes(q);
-    });
-    if(!order.length) order=[0];
-    show(0);
-  });
-
-  // tabs
-  document.querySelectorAll('.tabbtn').forEach(btn=>{
-    btn.onclick=()=>{
-      document.querySelectorAll('.tabbtn').forEach(b=>b.classList.remove('active'));
-      document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-      btn.classList.add('active'); document.getElementById(btn.dataset.tab).classList.add('active');
-      scroll({top:0,behavior:'smooth'});
-    };
-  });
-}
-
-function renderQuiz(){
-  el.quizBox.innerHTML = '';
-  let correct=0, total=0;
-  QUESTIONS.forEach((Q,qi)=>{
-    total++;
-    const card = document.createElement('div'); card.className='qcard';
-    const head = document.createElement('div'); head.className='qhead';
-    head.innerHTML = `<div class="qtext">سؤال ${qi+1}: ${Q.q}</div>`;
-    card.appendChild(head);
-
-    const opts = document.createElement('div'); opts.className='opts';
-    Q.choices.forEach((c,ci)=>{
-      const b = document.createElement('button'); b.type='button'; b.className='opt'; b.textContent=c;
-      b.onclick = ()=>{
-        [...opts.children].forEach(x=>x.disabled=true);
-        if(ci===Q.answer){ b.classList.add('correct'); correct++; }
-        else { b.classList.add('wrong'); if(opts.children[Q.answer]) opts.children[Q.answer].classList.add('correct'); }
-        ans.style.display='block';
-        el.scoreLabel.textContent = `${correct} درست از ${total}`;
-        el.bar.style.width = `${Math.round(correct/total*100)}%`;
-      };
-      opts.appendChild(b);
-    });
-    const ans = document.createElement('div'); ans.className='answer'; ans.style.display='none';
-    ans.textContent = 'توضیح: ' + (Q.explain||'');
-    card.appendChild(opts); card.appendChild(ans); el.quizBox.appendChild(card);
-  });
-  el.scoreLabel.textContent = `0 درست از ${QUESTIONS.length}`;
-  el.bar.style.width='0%';
-}
-qs('newQuiz').onclick = renderQuiz;
-
-// boot
-(async function init(){
-  buildRefs(); setChip();
-  await loadVocab();
-  await loadQuestions();
-  order = VOCAB.map((_,idx)=>idx);
-  show(0);
-  bindUI();
-  renderQuiz();
-})();
-</script>
 </body>
 </html>
