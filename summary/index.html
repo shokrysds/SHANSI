@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🏆 جدول مسابقات</title>
+<title>🏆 جدول مسابقات خوابگاه</title>
 
 <style>
 body {
@@ -13,7 +13,9 @@ body {
     padding: 20px;
 }
 
-h1 { text-align: center; }
+h1 {
+    text-align: center;
+}
 
 #search {
     width: 100%;
@@ -53,7 +55,7 @@ tr:nth-child(even) {
 
 <body>
 
-<h1>🏆 جدول مسابقات خوابگاه</h1>
+<h1>🏆 جدول مسابقات</h1>
 
 <input type="text" id="search" placeholder="🔎 جستجو..." onkeyup="filterTable()">
 
@@ -66,13 +68,11 @@ tr:nth-child(even) {
 
 <script>
 const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSlfWWQQW0rd_MWKaHyx1Ao8erF0xICqVmj7dgMUTi7eTZ4vY1lnV2zFnCIqZUSH_0_fzwiMIlgFpxh/pub?output=csv";
-
-// استفاده از proxy برای دور زدن CORS
-const proxyUrl = "https://corsproxy.io/?";
+const proxy = "https://corsproxy.io/?";
 
 async function loadCSV() {
     try {
-        const response = await fetch(proxyUrl + encodeURIComponent(csvUrl));
+        const response = await fetch(proxy + encodeURIComponent(csvUrl));
         const data = await response.text();
 
         const rows = data.trim().split("\n").map(row => row.split(","));
