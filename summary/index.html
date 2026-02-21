@@ -1,197 +1,44 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🏆 لیگ مسابقات خوابگاه</title>
+/* Drag Scroll حرفه‌ای */
+document.querySelectorAll('.table-wrapper').forEach(wrapper => {
 
-<style>
-*{
-    box-sizing: border-box;
-}
+    let isDown = false;
+    let startX;
+    let scrollLeft;
 
-body {
-    margin: 0;
-    padding: 20px;
-    font-family: Tahoma, sans-serif;
-    background: linear-gradient(135deg,#0f172a,#1e293b);
-    color: white;
-    overflow-x: hidden;
-}
+    wrapper.addEventListener('mousedown', (e) => {
+        isDown = true;
+        startX = e.pageX - wrapper.offsetLeft;
+        scrollLeft = wrapper.scrollLeft;
+    });
 
-h1{
-    text-align:center;
-    color:#22c55e;
-    margin-bottom:25px;
-}
+    wrapper.addEventListener('mouseleave', () => {
+        isDown = false;
+    });
 
-/* اطلاعات بالا */
-.info-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 12px;
-    margin-bottom: 25px;
-}
+    wrapper.addEventListener('mouseup', () => {
+        isDown = false;
+    });
 
-.info-card {
-    background: #1e293b;
-    padding: 14px;
-    border-radius: 12px;
-    text-align: center;
-    font-weight: bold;
-}
+    wrapper.addEventListener('mousemove', (e) => {
+        if(!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - wrapper.offsetLeft;
+        const walk = (x - startX) * 1.5;
+        wrapper.scrollLeft = scrollLeft - walk;
+    });
 
-/* تب‌ها */
-.tabs {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-}
+    wrapper.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].pageX;
+        scrollLeft = wrapper.scrollLeft;
+    });
 
-.tab {
-    padding: 12px 28px;
-    background: #1e293b;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.3s;
-}
+    wrapper.addEventListener('touchmove', (e) => {
+        const x = e.touches[0].pageX;
+        const walk = (x - startX) * 1.5;
+        wrapper.scrollLeft = scrollLeft - walk;
+    });
 
-.tab:hover{
-    background:#334155;
-}
-
-.tab.active {
-    background: #22c55e;
-    color: black;
-}
-
-/* کارت جدول */
-.card {
-    background: #1e293b;
-    border-radius: 18px;
-    padding: 12px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.4);
-}
-
-/* کانتینر اسکرول حرفه‌ای */
-.table-wrapper{
-    width:100%;
-    overflow-x:auto;
-    overflow-y:hidden;
-    border-radius:12px;
-    direction:ltr; /* حل مشکل اسکرول برعکس */
-}
-
-/* بزرگ کردن اسکرول بار */
-.table-wrapper::-webkit-scrollbar {
-    height: 14px;
-}
-
-.table-wrapper::-webkit-scrollbar-track {
-    background: #0f172a;
-    border-radius: 10px;
-}
-
-.table-wrapper::-webkit-scrollbar-thumb {
-    background: #22c55e;
-    border-radius: 10px;
-}
-
-/* iframe */
-iframe {
-    width: 1200px;
-    min-width:100%;
-    height: 88vh;
-    min-height: 950px;
-    border: none;
-    border-radius: 12px;
-}
-
-/* مخفی */
-.hidden {
-    display: none;
-}
-
-/* فوتر */
-.footer {
-    position: fixed;
-    bottom: 10px;
-    left: 15px;
-    font-size: 12px;
-    color: #94a3b8;
-}
-
-.footer a {
-    color: #22c55e;
-    text-decoration: none;
-}
-
-/* موبایل */
-@media(max-width:768px){
-
-    iframe{
-        width:1100px;
-        height:92vh;
-        min-height:1100px;
-    }
-
-    .footer{
-        position: static;
-        text-align:center;
-        margin-top:30px;
-    }
-}
-</style>
-</head>
-
-<body>
-
-<h1>🏆 لیگ مسابقات خوابگاه</h1>
-
-<div class="info-grid">
-    <div class="info-card">⚽ FIFA: ۷ گروه</div>
-    <div class="info-card">🎮 PES: ۶ گروه</div>
-    <div class="info-card">👥 هر گروه ۶ نفر</div>
-    <div class="info-card">📊 جدول لیگ</div>
-</div>
-
-<div class="tabs">
-    <div class="tab active" onclick="showTab('fifa', this)">⚽ FIFA</div>
-    <div class="tab" onclick="showTab('pes', this)">🎮 PES</div>
-</div>
-
-<div id="fifa" class="card">
-    <div class="table-wrapper">
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vShUN6WBkYMisxdlJg7uZt9HQPKs_-RHwfF5C36S9eGNq8ew9651x8pUTYlrY_T2GicZJwa5g-qbfoe/pubhtml?widget=true&headers=false"></iframe>
-    </div>
-</div>
-
-<div id="pes" class="card hidden">
-    <div class="table-wrapper">
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSlfWWQQW0rd_MWKaHyx1Ao8erF0xICqVmj7dgMUTi7eTZ4vY1lnV2zFnCIqZUSH_0_fzwiMIlgFpxh/pubhtml?widget=true&headers=false"></iframe>
-    </div>
-</div>
-
-<div class="footer">
-    طراحی سایت: <strong>محمد شکری</strong> |
-    دانشجوی پرستاری دانشگاه علوم پزشکی تهران<br>
-    📞 <a href="tel:+989185858816">+98 918 585 8816</a> |
-    ✈️ <a href="https://t.me/Mshokrytums" target="_blank">t.me/Mshokrytums</a>
-</div>
-
-<script>
-function showTab(tab, btn){
-    document.getElementById('fifa').classList.add('hidden');
-    document.getElementById('pes').classList.add('hidden');
-
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-
-    btn.classList.add('active');
-    document.getElementById(tab).classList.remove('hidden');
-}
+});
 </script>
 
 </body>
