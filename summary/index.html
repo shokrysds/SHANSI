@@ -59,14 +59,20 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
+/* iframe (اسکرول و نمایش کامل) */
 iframe {
     width: 100%;
-    height: 650px;
+    height: 700px;
     border: none;
     border-radius: 10px;
 }
 
-/* فوتر (طراح سایت) */
+/* مخفی/نمایش */
+.hidden {
+    display: none;
+}
+
+/* فوتر */
 .footer {
     margin-top: 30px;
     text-align: center;
@@ -92,24 +98,27 @@ iframe {
     <div class="info-card">📊 جدول لیگ</div>
 </div>
 
+<!-- تب‌ها -->
 <div class="tabs">
     <div class="tab active" onclick="show('fifa', this)">⚽ FIFA</div>
     <div class="tab" onclick="show('pes', this)">🎮 PES</div>
 </div>
 
+<!-- جدول FIFA -->
 <div id="fifa" class="card">
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vShUN6WBkYMisxdlJg7uZt9HQPKs_-RHwfF5C36S9eGNq8ew9651x8pUTYlrY_T2GicZJwa5g-qbfoe/pubhtml?widget=true&headers=false"></iframe>
 </div>
 
+<!-- جدول PES -->
 <div id="pes" class="card hidden">
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSlfWWQQW0rd_MWKaHyx1Ao8erF0xICqVmj7dgMUTi7eTZ4vY1lnV2zFnCIqZUSH_0_fzwiMIlgFpxh/pubhtml?widget=true&headers=false"></iframe>
 </div>
 
-<!-- فوتر (طراح سایت) -->
+<!-- فوتر -->
 <div class="footer">
     <p>طراح سایت: <strong>محمد شکری</strong></p>
     <p>دانشجوی پرستاری - دانشگاه علوم پزشکی تهران</p>
-    <p>📞 <a href="tel:+989185858816">+989185858816</a></p>
+    <p>📞 <a href="tel:+989185858816">+98 918 585 8816</a></p>
     <p>✈️ <a href="https://t.me/Mshokrytums" target="_blank">تلگرام</a></p>
 </div>
 
