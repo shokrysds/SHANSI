@@ -14,20 +14,10 @@ body {
     color: white;
 }
 
-/* اطلاعات لیگ */
-.info-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 12px;
-    margin-bottom: 20px;
-}
-
-.info-card {
-    background: #1e293b;
-    padding: 12px;
-    border-radius: 10px;
+/* عنوان */
+h1 {
     text-align: center;
-    font-weight: bold;
+    color: #22c55e;
 }
 
 /* تب‌ها */
@@ -51,88 +41,319 @@ body {
     color: black;
 }
 
-/* کارت جدول */
-.card {
+/* جدول */
+.table-container {
+    overflow-x: auto;
     background: #1e293b;
-    border-radius: 15px;
+    border-radius: 12px;
     padding: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin-bottom: 25px;
 }
 
-/* iframe (اسکرول و نمایش کامل) */
-iframe {
+table {
     width: 100%;
-    height: 700px;
-    border: none;
-    border-radius: 10px;
+    border-collapse: collapse;
 }
 
-/* مخفی/نمایش */
-.hidden {
-    display: none;
-}
-
-/* فوتر */
-.footer {
-    margin-top: 30px;
+th, td {
+    padding: 10px;
+    border: 1px solid #334155;
     text-align: center;
-    font-size: 14px;
-    color: #94a3b8;
 }
 
-.footer a {
-    color: #22c55e;
-    text-decoration: none;
+th {
+    background: #0f172a;
 }
+
+/* خلاصه گروه */
+.summary-container {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.summary-title {
+    text-align: center;
+    color: #22c55e;
+    margin-bottom: 10px;
+}
+
+.hidden { display: none; }
 </style>
 </head>
 
 <body>
 
-<h1 style="text-align:center;color:#22c55e;">🏆 لیگ مسابقات خوابگاه</h1>
+<h1>🏆 لیگ مسابقات خوابگاه</h1>
 
-<div class="info-grid">
-    <div class="info-card">⚽ FIFA: ۷ گروه</div>
-    <div class="info-card">🎮 PES: ۶ گروه</div>
-    <div class="info-card">👥 هر گروه ۶ نفر</div>
-    <div class="info-card">📊 جدول لیگ</div>
-</div>
-
-<!-- تب‌ها -->
 <div class="tabs">
-    <div class="tab active" onclick="show('fifa', this)">⚽ FIFA</div>
-    <div class="tab" onclick="show('pes', this)">🎮 PES</div>
+    <div class="tab active" onclick="load('fifa', this)">⚽ FIFA</div>
+    <div class="tab" onclick="load('pes', this)">🎮 PES</div>
 </div>
 
-<!-- جدول FIFA -->
-<div id="fifa" class="card">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vShUN6WBkYMisxdlJg7uZt9HQPKs_-RHwfF5C36S9eGNq8ew9651x8pUTYlrY_T2GicZJwa5g-qbfoe/pubhtml?widget=true&headers=false"></iframe>
+<!-- جدول اصلی -->
+<div class="table-container">
+    <table id="table">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
 </div>
 
-<!-- جدول PES -->
-<div id="pes" class="card hidden">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSlfWWQQW0rd_MWKaHyx1Ao8erF0xICqVmj7dgMUTi7eTZ4vY1lnV2zFnCIqZUSH_0_fzwiMIlgFpxh/pubhtml?widget=true&headers=false"></iframe>
-</div>
-
-<!-- فوتر -->
-<div class="footer">
-    <p>طراح سایت: <strong>محمد شکری</strong></p>
-    <p>دانشجوی پرستاری - دانشگاه علوم پزشکی تهران</p>
-    <p>📞 <a href="tel:+989185858816">+98 918 585 8816</a></p>
-    <p>✈️ <a href="https://t.me/Mshokrytums" target="_blank">تلگرام</a></p>
+<!-- جدول خلاصه گروه -->
+<div class="summary-container">
+    <h3 class="summary-title">📊 خلاصه گروه‌ها</h3>
+    <table id="summary">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
 </div>
 
 <script>
-function show(tab, btn){
-    document.getElementById('fifa').classList.add('hidden');
-    document.getElementById('pes').classList.add('hidden');
+const BASE_URL = "https://script.googleusercontent.com/macros/echo?user_content_key=AY5xjrSYYw6J6txfDAYPTbgVKFEequDPqxFH7NK-Q1_BxxVxsITJFw2eSPIrTCpgX3ysZJjyY38Rbsrez26JB6JlNAXuX322GCW6AM2GoaEkSS8n5AnoWAg34N2miDiCJi6L2nQB1vyzPKc-lbtig2vK1igwP4qIa03qgV3lHc3gYG5OAGggEMGCmWj1YQudFkqTtQ5FEj4nmmxgcwd3svrh2fKS0ptSy04cQFRkcmfUJvc6h-b4hgC6KwdKngdPFZZb3ZR7-B5DjJEJkVQb_0pssLVNEzx6fA&lib=Mig0a9Nliy9vWIkpUn2HTypisBMFTIqfn";
 
+async function load(type, btn){
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     btn.classList.add('active');
 
-    document.getElementById(tab).classList.remove('hidden');
-}
-</script>
+    try {
+        const res = await fetch(BASE_URL + "?type=" + type);
+        const json = await res.json();
 
-</body>
-</html>
+        if (!json || json.status === "error") {
+            console.error(json?.message || "خطا");
+            return;
+        }
+
+        renderTable(json.data);
+        renderSummary(json.data);
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+/* ===== جدول اصلی ===== */
+function renderTable(data){
+    const table = document.getElementById("table");
+    const thead = table.querySelector("thead");
+    const tbody = table.querySelector("tbody");
+
+    thead.innerHTML = "";
+    tbody.innerHTML = "";
+
+    if (!data || data.length === 0) return;
+
+    const headers = Object.keys(data[0]);
+
+    // header
+    const tr = document.createElement("tr");
+    headers.forEach(h => {
+        const th = document.createElement("th");
+        th.textContent = h;
+        tr.appendChild(th);
+    });
+    thead.appendChild(tr);
+
+    // rows
+    data.forEach(row => {
+        const tr = document.createElement("tr");
+        headers.forEach(col => {
+            const td = document.createElement("td");
+            td.textContent = row[col] ?? "";
+            tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+    });
+}
+
+/* ===== خلاصه گروه ===== */
+function renderSummary(data){
+    const summary = document.getElementById("summary");
+    const thead = summary.querySelector("thead");
+    const tbody = summary.querySelector("tbody");
+
+    thead.innerHTML = "";
+    tbody.innerHTML = "";
+
+    if (!data || data.length === 0) return;
+
+    // گروه‌بندی
+    const groups = {};<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🏆 لیگ مسابقات خوابگاه</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Tahoma, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* عنوان */
+h1 {
+    text-align: center;
+    color: #22c55e;
+}
+
+/* تب‌ها */
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tab {
+    padding: 12px 24px;
+    background: #1e293b;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tab.active {
+    background: #22c55e;
+    color: black;
+}
+
+/* جدول */
+.table-container {
+    overflow-x: auto;
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #334155;
+    text-align: center;
+}
+
+th {
+    background: #0f172a;
+}
+
+/* خلاصه گروه */
+.summary-container {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.summary-title {
+    text-align: center;
+    color: #22c55e;
+    margin-bottom: 10px;
+}
+
+.hidden { display: none; }
+</style>
+</head>
+
+<body>
+
+<h1>🏆 لیگ مسابقات خوابگاه</h1>
+
+<div class="tabs">
+    <div class="tab active" onclick="load('fifa', this)">⚽ FIFA</div>
+    <div class="tab" onclick="load('pes', this)">🎮 PES</div>
+</div>
+
+<!-- جدول اصلی -->
+<div class="table-container">
+    <table id="table">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<!-- جدول خلاصه گروه -->
+<div class="summary-container">
+    <h3 class="summary-title">📊 خلاصه گروه‌ها</h3>
+    <table id="summary">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script>
+const BASE_URL = "https://script.googleusercontent.com/macros/echo?user_content_key=AY5xjrSYYw6J6txfDAYPTbgVKFEequDPqxFH7NK-Q1_BxxVxsITJFw2eSPIrTCpgX3ysZJjyY38Rbsrez26JB6JlNAXuX322GCW6AM2GoaEkSS8n5AnoWAg34N2miDiCJi6L2nQB1vyzPKc-lbtig2vK1igwP4qIa03qgV3lHc3gYG5OAGggEMGCmWj1YQudFkqTtQ5FEj4nmmxgcwd3svrh2fKS0ptSy04cQFRkcmfUJvc6h-b4hgC6KwdKngdPFZZb3ZR7-B5DjJEJkVQb_0pssLVNEzx6fA&lib=Mig0a9Nliy9vWIkpUn2HTypisBMFTIqfn";
+
+async function load(type, btn){
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+
+    try {
+        const res = await fetch(BASE_URL + "?type=" + type);
+        const json = await res.json();
+
+        if (!json || json.status === "error") {
+            console.error(json?.message || "خطا");
+            return;
+        }
+
+        renderTable(json.data);
+        renderSummary(json.data);
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+/* ===== جدول اصلی ===== */
+function renderTable(data){
+    const table = document.getElementById("table");
+    const thead = table.querySelector("thead");
+    const tbody = table.querySelector("tbody");
+
+    thead.innerHTML = "";
+    tbody.innerHTML = "";
+
+    if (!data || data.length === 0) return;
+
+    const headers = Object.keys(data[0]);
+
+    // header
+    const tr = document.createElement("tr");
+    headers.forEach(h => {
+        const th = document.createElement("th");
+        th.textContent = h;
+        tr.appendChild(th);
+    });
+    thead.appendChild(tr);
+
+    // rows
+    data.forEach(row => {
+        const tr = document.createElement("tr");
+        headers.forEach(col => {
+            const td = document.createElement("td");
+            td.textContent = row[col] ?? "";
+            tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+    });
+}
+
+/* ===== خلاصه گروه ===== */
+function renderSummary(data){
+    const summary = document.getElementById("summary");
+    const thead = summary.querySelector("thead");
+    const tbody = summary.querySelector("tbody");
+
+    thead.innerHTML = "";
+    tbody.innerHTML = "";
+
+    if (!data || data.length === 0) return;
+
+    // گروه‌بندی
+    const groups = {};
