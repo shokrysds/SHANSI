@@ -17,18 +17,25 @@ h1 {
     text-align: center;
 }
 
+#search {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+}
+
 .table-container {
-    margin-top: 20px;
     background: #1e293b;
-    padding: 15px;
+    padding: 10px;
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    overflow-x: auto;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
 }
 
 th, td {
@@ -44,14 +51,6 @@ th {
 tr:nth-child(even) {
     background: #1e293b;
 }
-
-.search-box {
-    width: 100%;
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
-    margin-bottom: 10px;
-}
 </style>
 </head>
 
@@ -59,7 +58,7 @@ tr:nth-child(even) {
 
 <h1>🏆 جدول مسابقات خوابگاه</h1>
 
-<input type="text" id="search" class="search-box" placeholder="🔎 جستجو..." onkeyup="filterTable()">
+<input type="text" id="search" placeholder="🔎 جستجو..." onkeyup="filterTable()">
 
 <div class="table-container">
     <table id="table">
@@ -72,39 +71,42 @@ tr:nth-child(even) {
 const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSlfWWQQW0rd_MWKaHyx1Ao8erF0xICqVmj7dgMUTi7eTZ4vY1lnV2zFnCIqZUSH_0_fzwiMIlgFpxh/pub?output=csv";
 
 async function loadCSV() {
-    const response = await fetch(csvUrl);
-    const data = await response.text();
-    const rows = data.split("\n").map(row => row.split(","));
+    try {
+        const response = await fetch(csvUrl);
+        const data = await response.text();
 
-    const table = document.getElementById("table");
-    const thead = table.querySelector("thead");
-    const tbody = table.querySelector("tbody");
+        const rows = data.trim().split("\n").map(row => row.split(","));
+        if (rows.length === 0) return;
 
-    thead.innerHTML = "";
-    tbody.innerHTML = "";
+        const table = document.getElementById("table");
+        const thead = table.querySelector("thead");
+        const tbody = table.querySelector("tbody");
 
-    if (rows.length === 0) return;
+        thead.innerHTML = "";
+        tbody.innerHTML = "";
 
-    // Header
-    const headerRow = document.createElement("tr");
-    rows[0].forEach(cell => {
-        const th = document.createElement("th");
-        th.textContent = cell;
-        headerRow.appendChild(th);
-    });
-    thead.appendChild(headerRow);
-
-    // Body
-    rows.slice(1).forEach(row => {
-        if (row.length === 0) return;
-        const tr = document.createElement("tr");
-        row.forEach(cell => {
-            const td = document.createElement("td");
-            td.textContent = cell;
-            tr.appendChild(td);
+        // Header
+        const headerRow = document.createElement("tr");
+        rows[0].forEach(cell => {
+            const th = document.createElement("th");
+            th.textContent = cell;
+            headerRow.appendChild(th);
         });
-        tbody.appendChild(tr);
-    });
+        thead.appendChild(headerRow);
+
+        // Body
+        rows.slice(1).forEach(row => {
+            const tr = document.createElement("tr");
+            row.forEach(cell => {
+                const td = document.createElement("td");
+                td.textContent = cell;
+                tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+        });
+    } catch (err) {
+        console.error("خطا در دریافت CSV:", err);
+    }
 }
 
 function filterTable() {
