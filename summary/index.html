@@ -25,13 +25,13 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .tab {
-    padding: 10px 24px;
+    padding: 12px 24px;
     background: #1e293b;
-    border-radius: 10px;
+    border-radius: 12px;
     cursor: pointer;
     font-weight: bold;
     transition: 0.2s;
@@ -42,7 +42,7 @@ h1 {
     color: black;
 }
 
-/* کارت */
+/* کارت جدول */
 .card {
     background: #1e293b;
     border-radius: 15px;
@@ -61,12 +61,35 @@ iframe {
 .hidden {
     display: none;
 }
+
+/* اطلاعات بالای جدول */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.info-card {
+    background: #1e293b;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
 </style>
 </head>
 
 <body>
 
-<h1>🏆 جدول مسابقات لیگ خوابگاه</h1>
+<h1>🏆 لیگ مسابقات خوابگاه</h1>
+
+<div class="info-grid">
+    <div class="info-card">⚽ FIFA: ۷ گروه</div>
+    <div class="info-card">🎮 PES: ۶ گروه</div>
+    <div class="info-card">👥 هر گروه ۶ نفر</div>
+    <div class="info-card">📊 جدول لیگ</div>
+</div>
 
 <div class="tabs">
     <div class="tab active" onclick="show('fifa', this)">⚽ FIFA</div>
@@ -74,7 +97,7 @@ iframe {
 </div>
 
 <div id="fifa" class="card">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSwUcveo_Wl7EjBGiLZI7EX8nRg7PW8q-ZpOLGyJ9EeZnR23EuT0X-ldvYCA2jbiQ/pubhtml?widget=true&headers=false"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSwUcveo_Wl7EjBGiLZI7EX8nRg7PW8q-YPUT_LINK/pubhtml?widget=true&headers=false"></iframe>
 </div>
 
 <div id="pes" class="card hidden">
@@ -91,156 +114,6 @@ function show(tab, btn){
 
     document.getElementById(tab).classList.remove('hidden');
 }
-</script>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🏆 جدول مسابقات خوابگاه</title>
-
-<style>
-body {
-    margin: 0;
-    padding: 20px;
-    font-family: Tahoma, sans-serif;
-    background: #0f172a;
-    color: white;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 25px;
-    color: #22c55e;
-}
-
-/* تب */
-.tabs {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.tab {
-    padding: 10px 24px;
-    background: #1e293b;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.tab.active {
-    background: #22c55e;
-    color: black;
-}
-
-/* جدول */
-.table-container {
-    background: #1e293b;
-    padding: 15px;
-    border-radius: 12px;
-    overflow-x: auto;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-
-th, td {
-    padding: 10px;
-    border: 1px solid #334155;
-    text-align: center;
-}
-
-th {
-    background: #0f172a;
-    font-size: 16px;
-}
-
-tr:nth-child(even) {
-    background: #1e293b;
-}
-</style>
-</head>
-
-<body>
-
-<h1>🏆 جدول مسابقات لیگ خوابگاه</h1>
-
-<div class="tabs">
-    <div class="tab active" onclick="loadTable('fifa', this)">⚽ FIFA</div>
-    <div class="tab" onclick="loadTable('pes', this)">🎮 PES</div>
-</div>
-
-<div class="table-container">
-    <table id="table">
-        <thead></thead>
-        <tbody></tbody>
-    </table>
-</div>
-
-<script>
-const BASE_URL = "https://script.googleusercontent.com/macros/echo?user_content_key=AY5xjrSYYw6J6txfDAYPTbgVKFEequDPqxFH7NK-Q1_BxxVxsITJFw2eSPIrTCpgX3ysZJjyY38Rbsrez26JB6JlNAXuX322GCW6AM2GoaEkSS8n5AnoWAg34N2miDiCJi6L2nQB1vyzPKc-lbtig2vK1igwP4qIa03qgV3lHc3gYG5OAGggEMGCmWj1YQudFkqTtQ5FEj4nmmxgcwd3svrh2fKS0ptSy04cQFRkcmfUJvc6h-b4hgC6KwdKngdPFZZb3ZR7-B5DjJEJkVQb_0pssLVNEzx6fA&lib=Mig0a9Nliy9vWIkpUn2HTypisBMFTIqfn";
-
-async function loadTable(type, btn) {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    btn.classList.add('active');
-
-    try {
-        const url = ${BASE_URL}&type=${type};
-        const res = await fetch(url);
-        const json = await res.json();
-
-        if (!json || !Array.isArray(json)) {
-            console.error("داده معتبر نیست:", json);
-            return;
-        }
-
-        renderTable(json);
-    } catch (err) {
-        console.error("خطا در خواندن جدول:", err);
-    }
-}
-
-function renderTable(data) {
-    const table = document.getElementById("table");
-    const thead = table.querySelector("thead");
-    const tbody = table.querySelector("tbody");
-
-    thead.innerHTML = "";
-    tbody.innerHTML = "";
-
-    if (data.length === 0) return;
-
-    // ستون‌ها (از اولین سطر)
-    const headers = Object.keys(data[0]);
-    const trh = document.createElement("tr");
-    headers.forEach(h => {
-        const th = document.createElement("th");
-        th.textContent = h;
-        trh.appendChild(th);
-    });
-    thead.appendChild(trh);
-
-    // سطرها
-    data.forEach(row => {
-        const tr = document.createElement("tr");
-        headers.forEach(col => {
-            const td = document.createElement("td");
-            td.textContent = row[col] ?? "";
-            tr.appendChild(td);
-        });
-        tbody.appendChild(tr);
-    });
-}
-
-// بارگذاری اولیه
-loadTable('fifa', document.querySelector('.tab'));
 </script>
 
 </body>
