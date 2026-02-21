@@ -16,7 +16,7 @@ body {
     font-family: Tahoma, sans-serif;
     background: linear-gradient(135deg,#0f172a,#1e293b);
     color: white;
-    overflow-x: hidden; /* جلوگیری از اسکرول افقی کل صفحه */
+    overflow-x: hidden;
 }
 
 h1{
@@ -79,15 +79,31 @@ h1{
 /* کانتینر اسکرول حرفه‌ای */
 .table-wrapper{
     width:100%;
-    overflow-x:auto;      /* اسکرول افقی فقط داخل جدول */
+    overflow-x:auto;
     overflow-y:hidden;
     border-radius:12px;
+    direction:ltr; /* حل مشکل اسکرول برعکس */
 }
 
-/* iframe تنظیم شده */
+/* بزرگ کردن اسکرول بار */
+.table-wrapper::-webkit-scrollbar {
+    height: 14px;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+    background: #0f172a;
+    border-radius: 10px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #22c55e;
+    border-radius: 10px;
+}
+
+/* iframe */
 iframe {
-    width: 1200px;        /* عرض واقعی جدول */
-    min-width:100%;       /* حداقل اندازه */
+    width: 1200px;
+    min-width:100%;
     height: 88vh;
     min-height: 950px;
     border: none;
@@ -117,7 +133,7 @@ iframe {
 @media(max-width:768px){
 
     iframe{
-        width:1100px;  /* اجازه اسکرول نرم روی موبایل */
+        width:1100px;
         height:92vh;
         min-height:1100px;
     }
