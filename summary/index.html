@@ -7,15 +7,13 @@
 
 <style>
 body {
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma;
     background: #0f172a;
     color: white;
     padding: 20px;
 }
 
-h1 {
-    text-align: center;
-}
+h1 { text-align: center; }
 
 #search {
     width: 100%;
@@ -29,7 +27,6 @@ h1 {
     background: #1e293b;
     padding: 10px;
     border-radius: 12px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.4);
     overflow-x: auto;
 }
 
@@ -70,9 +67,12 @@ tr:nth-child(even) {
 <script>
 const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSlfWWQQW0rd_MWKaHyx1Ao8erF0xICqVmj7dgMUTi7eTZ4vY1lnV2zFnCIqZUSH_0_fzwiMIlgFpxh/pub?output=csv";
 
+// استفاده از proxy برای دور زدن CORS
+const proxyUrl = "https://corsproxy.io/?";
+
 async function loadCSV() {
     try {
-        const response = await fetch(csvUrl);
+        const response = await fetch(proxyUrl + encodeURIComponent(csvUrl));
         const data = await response.text();
 
         const rows = data.trim().split("\n").map(row => row.split(","));
