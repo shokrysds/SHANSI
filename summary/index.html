@@ -6,7 +6,7 @@
 <title>🏆 لیگ مسابقات خوابگاه</title>
 
 <style>
-/* ======= پایه صفحه ======= */
+/* ======= پایه ======= */
 body {
     margin: 0;
     padding: 20px;
@@ -15,11 +15,21 @@ body {
     color: white;
 }
 
-/* عنوان */
-h1 {
-    text-align: center;
-    color: #22c55e;
+/* مشخصات شخصی */
+.profile {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
     margin-bottom: 20px;
+}
+
+.profile h2 {
+    margin: 0 0 8px 0;
+    color: #22c55e;
+}
+
+.profile p {
+    margin: 4px 0;
 }
 
 /* کارت اطلاعات */
@@ -85,8 +95,19 @@ iframe {
 
 <body>
 
-<h1>🏆 لیگ مسابقات خوابگاه</h1>
+<!-- مشخصات تو -->
+<div class="profile">
+    <h2>👤 مشخصات بازیکن</h2>
+    <p>نام: <strong>محمد شکری</strong></p>
+    <p>رشته: پرستاری</p>
+    <p>دوره: ۷۴</p>
+    <p>دانشگاه: 
+        <strong>دانشگاه علوم پزشکی تهران</strong>
+        (University of Medical Sciences)
+    </p>
+</div>
 
+<!-- اطلاعات لیگ -->
 <div class="info-grid">
     <div class="info-card">⚽ FIFA: ۷ گروه</div>
     <div class="info-card">🎮 PES: ۶ گروه</div>
@@ -94,6 +115,7 @@ iframe {
     <div class="info-card">📊 جدول لیگ</div>
 </div>
 
+<!-- تب‌ها -->
 <div class="tabs">
     <div class="tab active" onclick="show('fifa', this)">⚽ FIFA</div>
     <div class="tab" onclick="show('pes', this)">🎮 PES</div>
